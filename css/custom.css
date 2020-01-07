@@ -1,6 +1,9 @@
 
 /* ||||||||- GLOBAL STYLES - |||||||||| */
-.sectionTitle { padding: 2rem 0rem 1rem 1.25rem; }
+.sectionTitle { padding: 15% 0 5% 2%; }
+/* adjusting space for top of My Process Section sm devices*/
+#myProcess {padding-top: 0;}
+
 .showcaseQuote {font-weight: 600; font-size: 48px;}
 p { font-family: 'Lato', sans-serif; font-weight: 300;}
 h1 {
@@ -22,6 +25,7 @@ h1 {
 .btn {border-radius: 2px !important; }
 .jumbotron {
     padding-top: 7rem !important;
+    padding-bottom: 0 !important;
     background-color: #FFFFFF;}
 
 /* Text - hero section styling */
@@ -36,7 +40,10 @@ h1 {
     max-width: 80%;
     height: 60%;
 }
-
+.heroImageBlock {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 /************ MY PROCESS ********************************************************** */
 
 
@@ -137,7 +144,10 @@ h1 {
 /* aligning connnect/showcaseQuote Block with images */
 #connect {margin: 40px auto;}
 
-
+/************ TOOLS ********************************************************** */
+/* Icon color change - change color to black and white */
+.toolIcon {filter: grayscale(100%);}
+.toolIconblock {display: inline-block; width: 24%}
 
 /************ CONTACT ********************************************************** */
 /* background - change background to #023246 */
@@ -160,8 +170,10 @@ textarea, input {
 .footer { 
     height: 100px;
     padding-top: 24px;
+    background-color: #F6F6F6;
 }
 .socialBlock a {padding-right: 16px;}
+.footer p { margin-left: -12%;}
 
 
 
@@ -219,6 +231,9 @@ textarea, input {
         padding-top: 0 !important;
         margin-top: 0 !important;
         background-color: #FFFFFF;}
+
+    /* adjusting space for top of My Process Section md lg devices*/
+    #myProcess {padding-top: 15%;}
     /* styling logoblock - overriding the nav to fit my theme */
     .logoBlock {
         display: inline-block;
@@ -238,9 +253,11 @@ textarea, input {
         background-color: #F0F0F0;    
         margin-left: -12%;
         margin-top: -4%;
-        padding-left: 20%;
-        padding-right: 10%;
-        padding-bottom: 20%;
+        /* padding-left: 20%; */
+        /* padding-right: 10%; */
+        /* padding-top: 15%;
+        padding-bottom: 10%; */
+        align-content: center;
         justify-content: center;
         max-width:67%;
         height:55%;
@@ -279,6 +296,10 @@ textarea, input {
 
     /* aligning cover text for travel app - staggered */
     .projectChoiceBlock {margin-top: 10%;}
+
+    /* Tools Icons */
+    .toolIconblock {display: inline-block; width: 12%}
+
 
     /* aligning connnect/showcaseQuote Block with images */
     #connect {margin-top: 20px;}

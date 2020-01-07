@@ -23,6 +23,15 @@ $(document).scroll(function(){
  
 });
 
+// Smooth JS Anchor Scroll for normal # (make sure to include id="" in your links and not just a name="")
+//Anchor Animation
+jQuery('a').click(function(){
+    jQuery('html, body').animate({
+        scrollTop: jQuery( jQuery(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+}); 
+
 // Trying to change the logo to dark version on screen size <768px
 // $(document).ready(function(){
 //     if( $(window).width() <= 768 ){
