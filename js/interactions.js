@@ -9,8 +9,6 @@
 
 //when window scrolls do this function
 $(document).scroll(function(){
-
-   
     var scroll = $(window).scrollTop();
     if(scroll>45) {
         $(".navbar-custom").css("background", "rgba(2, 50, 70, 0.85)");
@@ -20,17 +18,16 @@ $(document).scroll(function(){
         $(".navbar-custom").css("background", "transparent");
         $(".navbar-nav a").css("color", "#023246");
     }
- 
 });
 
 // Smooth JS Anchor Scroll for normal # (make sure to include id="" in your links and not just a name="")
 //Anchor Animation
-jQuery('a').click(function(){
-    jQuery('html, body').animate({
-        scrollTop: jQuery( jQuery(this).attr('href') ).offset().top
-    }, 500);
-    return false;
-}); 
+// jQuery('a').click(function(){
+//     jQuery('html, body').animate({
+//         scrollTop: jQuery( jQuery(this).attr('href') ).offset().top
+//     }, 500);
+//     return false;
+// }); 
 
 // Trying to change the logo to dark version on screen size <768px
 // $(document).ready(function(){
