@@ -20,6 +20,20 @@ $(document).scroll(function(){
     }
 });
 
+
+$(document).ready(function() {
+    $('.navbar-nav a').click(function(e) {
+  
+      var targetHref = $(this).attr('href');
+  
+      $('html, body').animate({
+        scrollTop: $(targetHref).offset().top
+      }, 1000);
+  
+      e.preventDefault();
+    });
+  });
+
 // Smooth JS Anchor Scroll for normal # (make sure to include id="" in your links and not just a name="")
 //Anchor Animation
 // jQuery('a').click(function(){
