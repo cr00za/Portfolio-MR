@@ -10,13 +10,12 @@
         <!-- Font styles -->
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,600,700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Spirax&display=swap" rel="stylesheet">
        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
         <!-- Custom -->
         <link rel="stylesheet" href="css/nav-styles.css">
         <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/test.scss">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     </head>
@@ -27,13 +26,14 @@
 
 
               <nav class="navbar navbar-expand-md navbar-custom fixed-top navbar-light" id="nav">
-                
+                <div class="navSpacer">
                     <a class="navbar-brand" href="#"><img id="logo" src="images/Logo-light.svg" alt="Logo"></a>
+                </div>   
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                    
-                <div class="collapse navbar-collapse w-100 justify-content-end stroke" id="navbarNavAltMarkup">
+                
+                <div class="collapse navbar-collapse w-100  stroke" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link js-anchor-link" href="#myProcess">My Process</a>
@@ -51,11 +51,12 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6 heroBlock">
                         <div>
+                        <h4 id="welcome">Welcome, I'm</h4>
                         <h2 id="heroTitle" class="display-4">Miguel Ruddock</h2>
                         <h3 id="heroSubtitle" class="lead">User Experience / Interface Designer</h3>
                         <p id="heroText">I create opportunities through human-centric design and bring life to concepts, ideas, and dreams to positively impact the world.</p>
                         
-                        <div class="text-center">
+                        <div class="d-flex justify-content-sm-start justify-content-md-center">
                             <a class="btn btn-primary btn-sm" href="#" role="button">Contact me</a>
                         </div>
                     </div>
@@ -137,7 +138,7 @@
     
             <div class="container-fluid">
                 <div class="row">
-                    <div id="travelCover" class="cover col-sm-12 col-md-8">
+                    <div id="travelCover" class="cover card-body col-sm-12 col-md-8">
                         <img src="images/travelAppCover.jpg" alt="cover for travel project">
     
                     </div>
@@ -153,12 +154,12 @@
 
                 <div class="row">
                     <!-- setting order for columns with  order-2 order-md-8 -->
-                    <div id="goodEatsCover" class="cover col-sm-12 col-md-8 order-2 order-md-8">
+                    <div id="goodEatsCover" class="cover card-body col-sm-12 col-md-8 order-2 order-md-8">
                         <img src="images/goodEatsCover.jpg" alt="cover for Good Eats project">
                     </div>
                     <div id="goodEatsChoice" class="projectChoiceBlock col-sm-12 col-md-4 order-2 order-sm-4">
                         <!-- using float-right to position textBlock to the right-->
-                        <div class="float-right">
+                        <div class="float-sm-left float-md-right">
                             <div id="projectChoiceTwo" class="projectChoiceTitle">
                                 <h4 class="projectTitle">Good Eats App</h4>
                                 <h5 class="projectSubtitle">Medical Mobile App</h5>
@@ -169,7 +170,7 @@
                 </div>
 
                 <div class="row">
-                    <div id="wrcdvCover" class="cover col-sm-12 col-md-8">
+                    <div id="wrcdvCover" class="cover card-body col-sm-12 col-md-8">
                         <img src="images/wrcdvCover.jpg" alt="cover for WRCDV project">
                     </div>
                     <div id="wrcdvChoice" class="projectChoiceBlock col-sm-12 col-md-4">
@@ -188,7 +189,7 @@
             <div class="container-fluid toolsSection">
                 <p class="toolsText">Tools I've used for my projects:</p>
                 <div class="row align-items-end" id="tools1">
-                    <div class="col-md-12">
+                    <div class="col-sm-9 col-md-9 col-lg-7">
                         <div class="toolIconblock"><img class="toolIcon" src="images/toolFigma.svg" alt="Figma tool icon">
                             <p>Figma</p></div>
                         <div class="toolIconblock"><img class="toolIcon" src="images/toolAdobeXD.svg" alt="Adobe XD tool icon">
@@ -208,7 +209,7 @@
                     </div>
                 </div>
                 <div class="row align-items-end" id="tools2">
-                    <div class="col">
+                    <div class="col-sm-9  col-md-9 col-lg-7">
                         <div class="toolIconblock"><img class="toolIcon" src="images/toolSketch.svg" alt="Sketch tool icon">
                             <p>Sketch</p></div>
                         <div class="toolIconblock"><img class="toolIcon" src="images/toolInvision.svg" alt="Invision App tool icon">
@@ -281,38 +282,6 @@
                     </div>
                 </div>
             </div>
-
-            <h1>Just showing some bootstap cards to fill requirement</h1>
-            <div class="container-fluid">
-                <div class="row justify-content-around">
-                    <div class="card col-sm-12 col-md-4" style="width: 18rem;">
-                        <img src="images/travelAppCover.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Travel Flow</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="//docs.google.com/document/d/1AUaFScqLjCUje3eHTYkEIab6wMw6-uUuTVTxpn6PVos/edit?usp=sharing" class="btn btn-primary">See more</a>
-                        </div>
-                      </div>
-                      <div class="card col-sm-12 col-md-4" style="width: 18rem;">
-                        <img src="images/goodEatsCover.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Good Eats</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="//docs.google.com/presentation/d/1qT-N6msyJT0qMtQHgEsXVUe_Nx0uMtI3SYdojnPvLYw/edit?usp=sharing" class="btn btn-primary">See more</a>
-                        </div>
-                      </div>
-                      <div class="card col-sm-12 col-md-4" style="width: 18rem;">
-                        <img src="images/wrcdvCover.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Women's Resource Center</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="//docs.google.com/document/d/1UUEhMuEip8s86ba3jUCqPBUZQ3dj95SnNpWfBLyYXPM/edit?usp=sharing" class="btn btn-primary">See more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         
-             
 
 
         </main>

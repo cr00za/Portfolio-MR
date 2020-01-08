@@ -11,17 +11,28 @@ h1 {
     font-size: 48px;
  }  
  h1, h2, h3 {font-family: 'Barlow Condensed', sans-serif;}
- .quotes {font-family: 'Spirax', cursive;}
+
 
 /************ Navigation ***************************************************************** */
+/* Enable scroll function */
+html {
+    scroll-behavior: smooth;
+  }  
 
 /************ HERO ***************************************************************** */
 /* Buttons - overriding the button styles to fit my theme */
+/*This is modifying the btn-primary colors */
 .btn-primary{
     background-color: #f6f6f6 !important;
     border-color: #023246 !important;
     color: #023246 !important;
 }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff !important;
+    background-color: #38C1F9 !important;
+    border-color: #023246  !important; 
+}
+
 .btn {border-radius: 2px !important; }
 .jumbotron {
     padding-top: 7rem !important;
@@ -29,6 +40,7 @@ h1 {
     background-color: #FFFFFF;}
 
 /* Text - hero section styling */
+#welcome {font-weight: 100;}
 #heroTitle {font-family: 'Lato', sans-serif; font-weight: 500;}
 #heroSubtitle { 
     font-weight: 100;
@@ -143,11 +155,22 @@ h1 {
 
 /* aligning connnect/showcaseQuote Block with images */
 #connect {margin: 40px auto;}
+.socialIcons {filter: grayscale(100%);}
+
+/* ------------      Animation       ------------ */
+.socialIcons:hover {filter: grayscale(0%);}
 
 /************ TOOLS ********************************************************** */
 /* Icon color change - change color to black and white */
 .toolIcon {filter: grayscale(100%);}
-.toolIconblock {display: inline-block; width: 24%}
+.toolIconblock {
+    display: inline-block; 
+    font-size: 12px; 
+    width: 11.5%;
+ 
+}
+/* ------------      Animation       ------------ */
+.toolIcon:hover {filter: grayscale(0%);}
 
 /************ CONTACT ********************************************************** */
 /* background - change background to #023246 */
@@ -177,7 +200,7 @@ textarea, input {
 
 
 
-/* ---------------------------      Animation       ------------------------------ */
+/* ------------      Animation       ------------ */
 
 /* animate the hero text on hover */
 .cover img:hover {
@@ -223,11 +246,17 @@ textarea, input {
     }
 }
   */
-  #heroImage {width: 100%;}
+  #heroImage {width: 60%; height: 60%;}
   .heroImageBlock {padding-top: 10%;}
+
+
+
 
 /* setting the block for hero text to show on only on screens larger than small */
 @media screen and (min-width: 768px){
+
+    .navSpacer {width: 85%;}
+
     .jumbotron {
         padding-top: 0 !important;
         margin-top: 0 !important;
@@ -247,6 +276,7 @@ textarea, input {
         padding-bottom: 14%;
         width: 45%;
     } 
+    #heroImage {width: 100%; height: 100%;}
     .heroImageBlock {
         z-index: 1 !important;
         position: absolute;
@@ -261,7 +291,10 @@ textarea, input {
         align-content: center;
         justify-content: center;
         max-width:67%;
-        height:55%;
+        height:60%;
+        /* setting top and bottom padding for md screen size */
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
     .heroBlock {
@@ -299,7 +332,7 @@ textarea, input {
     .projectChoiceBlock {margin-top: 10%;}
 
     /* Tools Icons */
-    .toolIconblock {display: inline-block; width: 12%}
+    .toolIconblock {min-width: 11.5%; max-width: 11.5%; }
 
 
     /* aligning connnect/showcaseQuote Block with images */
