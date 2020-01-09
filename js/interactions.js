@@ -13,9 +13,17 @@ $( '.links a' ).on( 'click', function(e){
 	
   // Prevent the browser from showing the attribute name of the clicked link in the address bar
   e.preventDefault();
-
 });
   
+// Fading Text into focus
+// $(document).ready(function(){
+//   AOS.init({
+//     duration: 1200,
+//   })
+// });
+
+
+
 
 // The scroll() method triggers the scroll event, or attaches a function to run when a scroll event occurs.
 // scrollTop returns the scroll position
