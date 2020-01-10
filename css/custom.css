@@ -359,7 +359,7 @@ html {
         padding-bottom: 14%;
         width: 45%;
     } 
-    #heroImage {width: 100%; height: 100%}
+    #heroImage {width: 80%; height: auto;}
     .heroImageBlock {
         z-index: 1 !important;  
         background-color: #FFF;
