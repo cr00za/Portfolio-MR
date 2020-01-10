@@ -33,7 +33,7 @@ $(document).scroll(function(){
     if(scroll>45) {
         $(".navbar-custom").css("background", "rgba(255, 255, 255, .95)");
         $(".navbar-nav a").css("color", "#023246");
-        // $("nav").removeClass("navbar-light").addClass("navbar-dark");
+        $("nav").removeClass("navbar-light").addClass("navbar-dark");
         // $("#logo").attr("src","/images/Logo-dark.svg");
         
     }
@@ -41,7 +41,7 @@ $(document).scroll(function(){
         $(".navbar-custom").css("background", "transparent");
         $(".navbar-nav a").css("color", "#023246");
         // $("nav").removeClass("navbar-dark").addClass("navbar-light");   
-        $("#logo").attr("src","/images/Logo-dark.svg");
+        // $("#logo").attr("src","/images/Logo-dark.svg");
     }
 
 });
