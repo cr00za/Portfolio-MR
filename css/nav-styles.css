@@ -3,7 +3,7 @@
 /* navbar toggler */
 
 .navbar-toggler {
-    color: rgba(2, 50, 70, 0.5);
+    color: rgba(2, 50, 70, 1);
     border-color: rgba(2,50,70,.1);
 }
 
@@ -43,7 +43,7 @@
     width: 0%;
     content: '.';
     color: transparent;
-    background: #38C1F9;
+    background: #023246;
     height: 2px;
     }
     .stroke a:hover:after {
