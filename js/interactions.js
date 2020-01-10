@@ -34,7 +34,7 @@ $(document).scroll(function(){
         $(".navbar-custom").css("background", "rgba(255, 255, 255, .95)");
         $(".navbar-nav a").css("color", "#023246");
         // $("nav").removeClass("navbar-light").addClass("navbar-dark");
-        $("#logo").attr("src","/images/Logo-dark.svg");
+        // $("#logo").attr("src","/images/Logo-dark.svg");
         
     }
     else {
