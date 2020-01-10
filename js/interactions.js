@@ -31,17 +31,17 @@ $( '.links a' ).on( 'click', function(e){
 $(document).scroll(function(){
     var scroll = $(window).scrollTop();
     if(scroll>45) {
-        $(".navbar-custom").css("background", "rgba(255, 255, 255, .95)");
-        $(".navbar-nav a").css("color", "#023246");
+        $(".navbar-custom").css("background", "rgba(2, 50, 70, .95)");
+        $(".navbar-nav a").css("color", "#FFF");
         $("nav").removeClass("navbar-light").addClass("navbar-dark");
-        // $("#logo").attr("src","/images/Logo-dark.svg");
+        $("#logo").attr("src","images/Logo-light.svg");
         
     }
     else {
-        $(".navbar-custom").css("background", "transparent");
+        $(".navbar-custom").css("background", "rgba(255, 255, 255, 1)");
         $(".navbar-nav a").css("color", "#023246");
-        // $("nav").removeClass("navbar-dark").addClass("navbar-light");   
-        // $("#logo").attr("src","/images/Logo-dark.svg");
+        $("nav").removeClass("navbar-dark").addClass("navbar-light");   
+        $("#logo").attr("src","images/Logo-dark.svg");
     }
 
 });
