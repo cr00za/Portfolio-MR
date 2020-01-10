@@ -161,7 +161,7 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
-.aboutText {font-size: 14px; font-weight: 300;}
+.aboutText {font-size: 14px; font-weight: 300; max-width: 100%;}
 .aboutIllustration {width: 50%;}
 
 /* aligning connnect/showcaseQuote Block with images */
@@ -328,7 +328,8 @@ html {
 
 /* setting the block for hero text to show on only on screens larger than small */
 @media screen and (min-width: 768px){
-
+    .aboutText {font-size: 16px; font-weight: 300; max-width: 80%;}
+    #bioImage {max-width: 80%;}
     .navSpacer {width: 85%;}
 
     .jumbotron {
@@ -338,6 +339,14 @@ html {
 
     /* adjusting space for top of My Process Section md lg devices*/
     #myProcess {padding-top: 5%;}
+
+    /* set background color for Team work Text, right */
+.processRight {
+  padding-left: 0%;
+}
+#teamworkText {
+  max-width: 80%;
+}
     /* styling logoblock - overriding the nav to fit my theme */
     .logoBlock {
         display: inline-block;
@@ -386,8 +395,9 @@ html {
         font-size: 19px;
     }
     .cover {
-        padding-bottom: 5rem;
+        /* padding-bottom: 5rem; */
     }
+    /* .cover img {width: 0%;} */
     /* styling portfolio title & subtitle text */
     .projectTitle {
         font-size: 18px;
