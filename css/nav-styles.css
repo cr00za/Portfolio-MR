@@ -20,6 +20,42 @@
 
     nav a img {width: 75%;}
     /* stroke effect setup*/
+
+    /* for scrolling */
+     /* stroke effect setup*/
+     .scroller a,
+     .scroller a:after,
+     .scroller a:before {
+     transition: all .5s;
+     }
+     .scroller a:hover {
+     color: #F6F6F6;
+     /* font-weight: 400; */
+ 
+     }
+     /* stroke effect */
+     .scroller a{
+     position: relative;
+     }
+     .scroller a:after{
+     position: absolute;
+     bottom: 0px;
+     left: 0;
+     right: 0;
+     margin: auto;
+     width: 0%;
+     content: '.';
+     color: transparent;
+     background: #F6F6F6;
+     height: 2px;
+     }
+     .scroller a:hover:after {
+     width: 82%;
+     }
+
+
+
+
     .stroke a,
     .stroke a:after,
     .stroke a:before {
@@ -49,4 +85,6 @@
     .stroke a:hover:after {
     width: 82%;
     }
+
+
 }

@@ -28,7 +28,7 @@ html {
     color: #023246 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #fff !important;
+    color: #F6F6F6 !important;
     background-color: #38C1F9 !important;
     border-color: #023246  !important; 
 }
@@ -37,7 +37,7 @@ html {
 .jumbotron {
     padding-top: 7rem !important;
     padding-bottom: 0 !important;
-    background-color: #FFFFFF;}
+    background-color: #F6F6F6;}
 
 /* Text - hero section styling */
 #welcome {font-weight: 100;}
@@ -80,7 +80,7 @@ html {
 /* set background color for Team work Text, right */
 .processRight {
     background-color: none;
-    padding-left: 12%;
+    padding-left: 8%;
     padding-top: 10%;
     /* padding: 10%; */
 }
@@ -335,7 +335,7 @@ html {
     .jumbotron {
         padding-top: 0 !important;
         margin-top: 0 !important;
-        background-color: #FFFFFF;}
+        background-color: #F6F6F6;}
 
     /* adjusting space for top of My Process Section md lg devices*/
     #myProcess {padding-top: 5%;}
@@ -353,16 +353,16 @@ html {
         z-index: 0 !important;
         /* background-color: #023246 !important; */
         margin-top: -2%;
-        margin-bottom: -1%;
+        margin-bottom: 0%;
         margin-left: -1%;
         padding-left: 1%;
-        padding-bottom: 14%;
+        padding-bottom: 10%;
         width: 45%;
     } 
     #heroImage {width: 80%; height: auto;}
     .heroImageBlock {
         z-index: 1 !important;  
-        background-color: #FFF;
+        background-color: transparent;
         /* setting top and bottom padding for md screen size */
         padding-top: 1%;
         padding-bottom: 1%;

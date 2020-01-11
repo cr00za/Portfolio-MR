@@ -22,7 +22,9 @@ $( '.links a' ).on( 'click', function(e){
 //   })
 // });
 
-
+$('.navbar-collapse a').click(function (e) {
+    $('.show').collapse('toggle');
+  });
 
 
 // The scroll() method triggers the scroll event, or attaches a function to run when a scroll event occurs.
@@ -30,21 +32,23 @@ $( '.links a' ).on( 'click', function(e){
 //when window scrolls do this function
 $(document).scroll(function(){
     var scroll = $(window).scrollTop();
-    if(scroll>45) {
+    if(scroll>20) {
         $(".navbar-custom").css("background", "rgba(2, 50, 70, .95)");
         $(".navbar-nav a").css("color", "#FFF");
         $("nav").removeClass("navbar-light").addClass("navbar-dark");
         $("#logo").attr("src","images/Logo-light.svg");
-        
+        $("nav #navbarNavAltMarkup").removeClass("stroke").addClass("scroller");
     }
     else {
         $(".navbar-custom").css("background", "rgba(255, 255, 255, 1)");
         $(".navbar-nav a").css("color", "#023246");
         $("nav").removeClass("navbar-dark").addClass("navbar-light");   
         $("#logo").attr("src","images/Logo-dark.svg");
+        $("nav #navbarNavAltMarkup").removeClass("scroller").addClass("stroke");
     }
 
 });
+
 
 
 
