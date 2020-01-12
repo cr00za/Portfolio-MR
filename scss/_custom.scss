@@ -1,0 +1,27 @@
+// Custom.scss
+
+// File: theme.scss
+// Override default BT variables:
+// $grid-breakpoints: (
+//         xs: 0,
+//         sm: 600px,
+//         md: 800px,
+//         lg: 992px,
+//         xl: 1200px,
+//         xxl: 1900px
+// );
+
+// $container-max-widths: (
+//         sm: 600px,
+//         md: 720px,
+//         lg: 960px,
+//         xl: 1140px,
+//         xxl: 1610px
+// );
+
+// // Option B: Include parts of Bootstrap
+
+// // Required
+// @import "node_modules/bootstrap/scss/functions";
+// @import "node_modules/bootstrap/scss/variables";
+// @import "node_modules/bootstrap/scss/mixins";

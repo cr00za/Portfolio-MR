@@ -5,13 +5,16 @@
 #myProcess {padding-top: 0;}
 
 .showcaseQuote {font-weight: 600; font-size: 48px;}
-p { font-family: 'Lato', sans-serif; font-weight: 300;}
+p { font-family: 'Lato', sans-serif; font-weight: 300; color: #757575;}
 h1 {
     font-weight: 600;    
     font-size: 48px;
  }  
  h1, h2, h3 {font-family: 'Barlow Condensed', sans-serif;}
-
+html{
+  overflow-x: hidden;
+}
+ 
 
 /************ Navigation ***************************************************************** */
 /* Enable scroll function */
@@ -41,7 +44,7 @@ html {
 
 /* Text - hero section styling */
 #welcome {font-weight: 100;}
-#heroTitle {font-family: 'Lato', sans-serif; font-weight: 500;}
+#heroTitle {font-family: 'Lato', sans-serif; font-weight: 600;}
 #heroSubtitle { 
     font-weight: 100;
     color: #023246;
@@ -106,8 +109,10 @@ html {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     width: 90%;
+    color: #333333;
 }
 
+.projectSubtitle { color: #333333;}
 
 
 /* set cover image size */
@@ -170,7 +175,7 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
-.aboutText {font-size: 14px; font-weight: 400; max-width: 100%;}
+.aboutText {font-size: 14px; font-weight: 300; max-width: 100%;}
 .aboutIllustration {width: 50%;}
 
 /* aligning connnect/showcaseQuote Block with images */
