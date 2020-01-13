@@ -34,23 +34,22 @@
     <body>
         
     </div>
-<!-- Sliding div starts here -->
-      <div id="slider" style="right:-342px;">
-
-          <div id="sideform">
-              <h2>Contact Me</h2>
-              <p>Drop me a note.</p>
-              <input class="contactInput" name="dname" type="text" placeholder="Your Name">
-              <input class="contactInput" name="demail" type="text" placeholder="Your Email">
-              <input class="contactInput" name="dsubject" type="text" placeholder="Subject">
-
-              <textarea class="contactTextArea" placeholder="Message"></textarea>
-              <div class="d-flex justify-content-md-center">
-                <a class="btn btn-primary btn-sm" href="#" role="button">Send</a>
-            </div>
-          </div>
-      </div>
-<!-- Sliding div ends here -->
+        <!-- Sliding div starts here -->
+        <div class="sidebar-contact">
+                <div class="toggle"></div>
+                <h2>Contact Me</h2>
+                <p>Drop me a note.</p>
+                <div class="scroll">
+                <form>
+                <input type="text" name="" placeholder="Name">
+                <input type="email" name="" placeholder="Email">
+                <input type="rel" name="" placeholder="Phone Number">
+                <textarea placeholder="Message here.."></textarea>
+                <input type="submit" name="" value="send">
+                </form>
+                </div>
+        </div>
+        <!-- Sliding div ends here -->
         <header>
             <!-- <div class="safezone">IPHONE X SAFE ZONE</div> -->
 
@@ -69,7 +68,7 @@
                     <a class="nav-item nav-link js-anchor-link" href="#myProcess">My Process</a>
                     <a class="nav-item nav-link js-anchor-link" href="#portfolio">Portfolio</a>
                     <a class="nav-item nav-link js-anchor-link" href="#aboutMe">About me</a>
-                    <a class="nav-item nav-link js-anchor-link" href="#contactMe">Contact</a>
+                    <a class="nav-item nav-link js-anchor-link toggle" href="#contactMe" >Contact</a>
                   </div>
                 </div>
               </nav>
@@ -87,7 +86,7 @@
                         <p id="heroText">I create opportunities through human-centric design and bring life to concepts, ideas, and dreams to positively impact the world.</p>
                         
                         <div class="d-flex justify-content-sm-start justify-content-md-center">
-                            <a class="btn btn-primary btn-sm" href="#" role="button" id="sidebar" onclick="open_panel()">Contact me</a>
+                            <a class="btn btn-primary btn-sm toggle" href="#" role="button">Contact me</a>
                         </div>
                     </div>
                     </div>
