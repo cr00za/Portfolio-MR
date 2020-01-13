@@ -19,7 +19,8 @@
         <!-- Custom -->
         <link rel="stylesheet" href="css/nav-styles.css">
         <link rel="stylesheet" href="css/custom.css">
-        <link rel="stylesheet" href="css/test.scss">
+        <link href="css/slider.css" rel="stylesheet">
+        
 
         <!-- AOS CDN Library -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -31,6 +32,25 @@
     </head>
 
     <body>
+        
+    </div>
+<!-- Sliding div starts here -->
+      <div id="slider" style="right:-342px;">
+
+          <div id="sideform">
+              <h2>Contact Me</h2>
+              <p>Drop me a note.</p>
+              <input class="contactInput" name="dname" type="text" placeholder="Your Name">
+              <input class="contactInput" name="demail" type="text" placeholder="Your Email">
+              <input class="contactInput" name="dsubject" type="text" placeholder="Subject">
+
+              <textarea class="contactTextArea" placeholder="Message"></textarea>
+              <div class="d-flex justify-content-md-center">
+                <a class="btn btn-primary btn-sm" href="#" role="button">Send</a>
+            </div>
+          </div>
+      </div>
+<!-- Sliding div ends here -->
         <header>
             <!-- <div class="safezone">IPHONE X SAFE ZONE</div> -->
 
@@ -67,7 +87,7 @@
                         <p id="heroText">I create opportunities through human-centric design and bring life to concepts, ideas, and dreams to positively impact the world.</p>
                         
                         <div class="d-flex justify-content-sm-start justify-content-md-center">
-                            <a class="btn btn-primary btn-sm" href="#" role="button">Contact me</a>
+                            <a class="btn btn-primary btn-sm" href="#" role="button" id="sidebar" onclick="open_panel()">Contact me</a>
                         </div>
                     </div>
                     </div>
@@ -330,6 +350,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/interactions.js"></script>
+    <script src="js/slider.js"></script>
     
     <!-- Animate on Scroll -->
     <script>   
