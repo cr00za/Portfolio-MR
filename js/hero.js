@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".toggle, sidebar-contact").hover(function() {
-    $( '.glasses' ).attr("src","images/Portfolio Portrait-sky.svg");
+    $( '.glasses' ).attr("src","images/Portfolio Portrait-blue.svg");
     });
 
     $(".glassesPortfolio").hover(function() {
