@@ -2,7 +2,7 @@
 /* ||||||||- GLOBAL STYLES - |||||||||| */
 .sectionTitle { padding: 10% 0 5% 2%; }
 /* adjusting space for top of My Process Section sm devices*/
-#myProcess {padding-top: 0;}
+#myProcess {padding-top: 20%;}
 
 .showcaseQuote {font-weight: 600; font-size: 48px;}
 p { font-family: 'Lato', sans-serif; font-weight: 300; color: #757575;}
