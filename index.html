@@ -36,13 +36,13 @@
     </div>
         <!-- Sliding div starts here -->
         <div class="sidebar-contact">
-            <div class="formBlanket">
-                <p class="formResponse">Thanks for the note! You can expect a reply from me the same day or the next. Cheers!</p>
-                <div id="mdiv" class="formClose">
-                    <div class="mdiv">
-                        <div class="md"></div>
-                    </div>
+            <p class="formResponse hideMe">Thanks for the note! You can expect a reply from me the same day or the next. Cheers!</p>
+            <div id="mdiv" class="formClose">
+                <div class="mdiv">
+                    <div class="md"></div>
                 </div>
+            </div>
+            <div id="formView">
                 <div class="toggle"></div>
                 <h2>Contact Me</h2>
                 <p>Drop me a note.</p>
@@ -72,10 +72,10 @@
                 
                 <div class="collapse navbar-collapse w-100 stroke justify-content-end" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link js-anchor-link" href="#myProcess">My Process</a>
-                    <a class="nav-item nav-link js-anchor-link" href="#portfolio">Portfolio</a>
-                    <a class="nav-item nav-link js-anchor-link" href="#aboutMe">About me</a>
+                    <a class="nav-item nav-link active glassesHome" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link js-anchor-link glassesProcess" href="#myProcess">My Process</a>
+                    <a class="nav-item nav-link js-anchor-link glassesPortfolio" href="#portfolio">Portfolio</a>
+                    <a class="nav-item nav-link js-anchor-link glassesAbout" href="#aboutMe">About me</a>
                     <a class="nav-item nav-link js-anchor-link toggle" href="#contactMe" >Contact</a>
                   </div>
                 </div>
@@ -100,7 +100,7 @@
                     </div>
                     <!-- setting up columns for larger devices / center button only on md or > devices -->
                     <div class="col-xs-12 d-flex my-auto col-sm-6 col-lg-5 heroImageBlock justify-content-center">
-                        <img id="heroImage" src="images/Portfolio Portrait.svg" alt="my illustrated portrait">
+                        <img id="heroImage" class="glasses" src="images/Portfolio Portrait-blue.svg" alt="my illustrated portrait">
                     </div>
                 </div>
            
@@ -358,7 +358,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/interactions.js"></script>
     <script src="js/slider.js"></script>
-    
+    <script src="js/hero.js"></script>
     <!-- Animate on Scroll -->
     <script>   
         AOS.init({  

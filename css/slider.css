@@ -31,8 +31,8 @@
 }
 
 
-
-.formResponse {display: none;}
+.showMe {visibility: visible;}
+.hideMe {display: none;}
 .sidebar-contact{
     position:fixed;
     top:40%;
