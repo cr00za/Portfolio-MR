@@ -4,12 +4,12 @@ $(document).ready(function(){
     });
 
     $(".glassesPortfolio").hover(function() {
-        $( '.glasses' ).attr("src","images/Portfolio Portrait-navy.svg");
+        $( '.glasses' ).attr("src","images/Portfolio Portrait-blue.svg");
         
     });
 
     $(".jumbotron, .heroBlock, .heroImageBlock").hover(function() {
-        $( '.glasses' ).attr("src","images/Portfolio Portrait-blue.svg");
+        $( '.glasses' ).attr("src","images/Portfolio Portrait-navy.svg");
     });
 
     $(".glassesHome").hover(function() {

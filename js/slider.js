@@ -34,19 +34,3 @@ $(document).ready(function(){
   
     });
  
-    $(document).ready(function(){
-        $(".toggle, sidebar-contact").hover(function() {
-        $( '.glasses' ).attr("src","images/Portfolio Portrait-blue.svg");
-        });
-    
-        $(".glassesPortfolio").hover(function() {
-            $( '.glasses' ).attr("src","images/Portfolio Portrait-sky.svg");
-            
-        });
-    
-        $(".jumbotron, .heroBlock, .heroImageBlock").hover(function() {
-            $( '.glasses' ).attr("src","images/Portfolio Portrait.svg");
-        });
-    
-    
-    });
