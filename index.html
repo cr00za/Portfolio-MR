@@ -43,7 +43,7 @@
         <!-- Custom -->
         <link rel="stylesheet" href="css/nav-styles.css">
         <link rel="stylesheet" href="css/custom.css">
-        <link href="css/slider.css" rel="stylesheet">
+        <!-- <link href="css/slider.css" rel="stylesheet"> -->
         
 
         <!-- AOS CDN Library -->
@@ -59,7 +59,7 @@
          
     </div>
         <!-- Sliding div starts here -->
-        <div class="sidebar-contact">
+        <!-- <div class="sidebar-contact">
             <p class="formResponse hideMe">Thanks for the note! You can expect a reply from me the same day or the next. Cheers!</p>
             <div id="mdiv" class="formClose">
                 <div class="mdiv">
@@ -80,7 +80,7 @@
                 </form>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Sliding div ends here -->
         <header>
             <!-- <div class="safezone">IPHONE X SAFE ZONE</div> -->
@@ -100,7 +100,7 @@
                     <a class="nav-item nav-link js-anchor-link glassesProcess" href="#myProcess">My Process</a>
                     <a class="nav-item nav-link js-anchor-link glassesPortfolio" href="#portfolio">Portfolio</a>
                     <a class="nav-item nav-link js-anchor-link glassesAbout" href="#aboutMe">About me</a>
-                    <a class="nav-item nav-link js-anchor-link toggle" href="#contactMe" >Contact</a>
+                    <a class="nav-item nav-link js-anchor-link toggle" data-toggle="modal" data-target="#exampleModal" data-whatever="Miguel" href="#contactMe" >Contact</a>
                   </div>
                 </div>
               </nav>
@@ -118,7 +118,8 @@
                         <p id="heroText">I create opportunities through human-centric design and bring life to concepts, ideas, and dreams to positively impact the world.</p>
                         
                         <div class="d-flex justify-content-sm-start justify-content-md-center">
-                            <a class="btn btn-primary btn-sm toggle" href="#" role="button">Contact me</a>
+                            <!-- <a class="btn btn-primary btn-sm toggle" href="#" role="button">Contact me</a> -->
+                            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Miguel" >Contact me</a>
                         </div>
                     </div>
                     </div>
@@ -130,8 +131,6 @@
            
             </div>
 <!-- MODAL CONTACT FORM -->
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Miguel Ruddock">Contact Me</button>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -145,8 +144,8 @@
       <div class="modal-body">
         <form>
           <div class="form-group">
-            <label for="recipient-name" class="col-form-label" placeholder="Your name">Subject</label>
-            <input type="text" class="form-control" placeholder="Name">
+            <label for="recipient-name" class="col-form-label">Subject</label>
+            <input type="text" class="form-control" placeholder="Subject">
           </div>
           <div class="form-group">
             <label for="message-text" class="col-form-label">Message:</label>
