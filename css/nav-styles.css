@@ -3,7 +3,8 @@
 /* navbar toggler */
 
 .navbar-toggler {
-    color: rgba(2, 50, 70, 1);
+    color: #287094;
+    /* rgba(2, 50, 70, 1); */
     border-color: rgba(2,50,70,.1);
 }
 
@@ -63,6 +64,7 @@
     }
     .stroke a:hover {
     color: #023246;
+    /* color: #287094; */
     /* font-weight: 400; */
 
     }

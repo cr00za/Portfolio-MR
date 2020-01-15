@@ -10,7 +10,21 @@
 
         gtag('config', 'UA-156282530-1');
         </script>
+        <!-- End of Google Analytics tracking code -->
 
+        <!-- Hotjar Tracking Code for brains.com -->
+        <!-- Hotjar Tracking Code for https://cr00za.github.io/Portfolio-MR -->
+            <script>
+                (function(h,o,t,j,a,r){
+                    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                    h._hjSettings={hjid:869363,hjsv:6};
+                    a=o.getElementsByTagName('head')[0];
+                    r=o.createElement('script');r.async=1;
+                    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                    a.appendChild(r);
+                })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+            </script>
+        <!-- End of Hotjar Tracking Code  -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Miguel's Portfolio Website</title>
@@ -115,6 +129,41 @@
                 </div>
            
             </div>
+<!-- MODAL CONTACT FORM -->
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Miguel Ruddock">Contact Me</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label" placeholder="Your name">Subject</label>
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text" placeholder="Your message"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- END MODAL CONTACT FORM  -->
 
             <!-- MY PROCESS - SECTION -->
             <h2 class="sectionTitle" data-aos="fade-down" data-aos-delay="300" id="myProcess">My Process</h2>
@@ -369,6 +418,7 @@
     <script src="js/interactions.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/hero.js"></script>
+    <script src="js/modalContact.js"></script>
     <!-- Animate on Scroll -->
     <script>   
         AOS.init({  
