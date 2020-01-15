@@ -1,4 +1,8 @@
 
+
+/*-------------------------------*/
+/***** SMOOTH SCROLL         *****/
+/*-------------------------------*/
 // Smooth Scroll
 // Select all »a« elements with a parent class »links« and add a function that is executed on click
 $( '.links a' ).on( 'click', function(e){

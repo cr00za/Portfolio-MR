@@ -1,5 +1,7 @@
 
-/* ||||||||- GLOBAL STYLES - |||||||||| */
+/*-----------------------*/
+/***** GLOBAL STYLES *****/
+/*-----------------------*/
 .sectionTitle { padding: 10% 0 5% 1%; }
 /* adjusting space for top of My Process Section sm devices*/
 #myProcess {padding-top: 20%;}
@@ -13,11 +15,14 @@ html {overflow-x: hidden;}
 h2 {font-size: 36px;}
 #connect p {font-weight: 400; color:#212529;}
 
-/************ Navigation ***************************************************************** */
+/*----------------------------*/
 /* Enable scroll function */
 html {scroll-behavior: smooth;}  
 
-/************ HERO ***************************************************************** */
+
+/*-----------------------*/
+/***** HERO SECTION  *****/
+/*-----------------------*/
 /* Buttons - overriding the button styles to fit my theme */
 /*This is modifying the btn-primary colors */
 .btn-primary{
@@ -52,9 +57,15 @@ html {scroll-behavior: smooth;}
 }
 .heroImageBlock {
     display: inline-block;
+    background-color: #f6f6f6;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
-/************ MY PROCESS ********************************************************** */
+#heroImage {display:inline-block; width: 60%;}
 
+/*----------------------------*/
+/***** MY PROCESS SECTION *****/
+/*----------------------------*/
 
 /* illustrations - sizing illustrations so they can tile into a 2x2 for all screens */
 .phase {
@@ -86,7 +97,10 @@ html {scroll-behavior: smooth;}
 /* Shortening teamwork textblock */
 #teamworkText {max-width: 80%;}
 
-/************ PORTFOLIO ********************************************************** */
+
+/*----------------------------*/
+/***** PORTFOLIO SECTION *****/
+/*----------------------------*/
 /* subtitle - style bar for Portfolio subtitle */
 #bar {
     display: inline-block;
@@ -124,7 +138,7 @@ html {scroll-behavior: smooth;}
 }
 
 /* making the covers pop off the page with a drop shadow */
-.cover img {
+.cover img{
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
 
@@ -141,7 +155,9 @@ html {scroll-behavior: smooth;}
 }
 
 
-/************ TOOLS ********************************************************** */
+/*----------------------------*/
+/***** TOOLS SECTION *****/
+/*----------------------------*/
 /* Icon color change - change color to black and white */
 .toolIcon {filter: grayscale(100%);}
 .toolIconblock {
@@ -153,7 +169,9 @@ html {scroll-behavior: smooth;}
 /* ------------      Animation       ------------ */
 .toolIcon:hover {filter: grayscale(0%);}
 
-/************ QUOTE SECTION ********************************************************** */
+/*----------------------------*/
+/***** QUOTE SECTION      *****/
+/*----------------------------*/
 .quoteBlock { 
   background-color: #023246;
   color: #F6F6F6;
@@ -163,7 +181,31 @@ html {scroll-behavior: smooth;}
   text-align: center;
 }
 
-/************ ABOUT ME ********************************************************** */
+/*----------------------------*/
+/***** ABOUT ME SECTION   *****/
+/*----------------------------*/
+.aboutBackground {
+    position: relative;
+    /* width:100%;
+    height:100vh; */
+    background: url("/images/about-background.jpg") no-repeat center center fixed;
+    background-size:cover;
+    z-index: 0;
+}
+
+.aboutOverlay {
+    position: absolute;
+    background-color: #F6F6F6;
+    opacity: 0.2;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+}
 /* Area - description */
 #bioImage {width: 100%; margin-bottom: 1rem;}
 .aboutSubtitle {
@@ -184,10 +226,9 @@ html {scroll-behavior: smooth;}
 .socialIcons:hover {filter: grayscale(0%);}
 
 
-/************ CONTACT ********************************************************** */
-/* something - something */
-
-/************ FOOTER ********************************************************** */
+/*----------------------------*/
+/***** FOOTER SECTION *****/
+/*----------------------------*/
 /* Area - description */
 .footerBlock { 
     height: 100px;
@@ -202,87 +243,30 @@ html {scroll-behavior: smooth;}
 
 
 
-/* ------------      Animation       ------------ */
+/* ------------      OLD Animation       ------------ */
 
 /* animate the hero text on hover */
-.cover img:hover {
+/* .figure:hover {
         -webkit-transform: scale(0.95);
         -ms-transform: scale(0.95);
         transform: scale(0.95);
         background-image: rgba(196, 196, 196, 0.9);
         box-shadow: 0px 10px 10px 0px rgba(196, 196, 196, 0.4);
         transition: .5s ease-in-out;
-}
-
-
-
+} */
 
 /* ////////////////////////////     Responsive       ///////////////////////////// */
 
-
-/* @media screen and (min-width: 500px){
-    .heroImageBlock {
-        z-index: 1 !important;
-        position: absolute;
-        right: 0;
-        background-color: #F0F0F0;
-        padding-top: 10%;
-        margin-left: -12%;
-        margin-top: -4%;
-        padding-left: 16%;
-        padding-right: 2%;
-        padding-bottom: 15%;
-        justify-content: center;
-        max-width:67%;
-        height: auto;
-    }
-
-    .heroBlock {
-        z-index: 2;
-        background-color: #F6F6F6;
-        margin-left: 0%;
-        color: #023246;
-        padding: 4% 2%;
-        max-width: 60%;
-        height: 60%;
-        /* offset-x | offset-y | blur-radius | spread-radius | color */
-        /* box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
-    }
-}
-  */
-  #heroImage {display:inline-block; width: 60%;}
-  .heroImageBlock { 
-    background-color: #f6f6f6;
-    padding-top: 4%;
-    padding-bottom: 4%;
-  }
-
-
+/*-------------------------------*/
+/***** MEDIA QUERY   768px   *****/
+/*-------------------------------*/
 /* setting the block for hero text to show on only on screens larger than small */
 @media screen and (min-width: 768px){
-p{font-size: 16px;}
-      /* styling about section text  */
-    .aboutText {font-size: 16px; max-width: 80%;}
-    #bioImage {max-width: 80%;}
-    .navSpacer {width: 85%;}
+   
+    /***** General   *****/    
+    p{font-size: 16px;}
 
-    .jumbotron {
-        padding-top: 0 !important;
-        margin-top: 0 !important;
-        background-color: #F6F6F6;}
-
-    /* adjusting space for top of My Process Section md lg devices*/
-    #myProcess {padding-top: 5%;}
-
-    /* set background color for Team work Text, right */
-.processRight {
-  padding-left: 0%;
-}
-
-#teamworkText {
-  max-width: 80%;
-}
-
+    /***** Legacy Logo Styling   *****/ 
     /* styling logoblock - overriding the nav to fit my theme */
     .logoBlock {
         display: inline-block;
@@ -295,7 +279,14 @@ p{font-size: 16px;}
         padding-bottom: 10%;
         width: 45%;
     } 
-    #heroImage {width: 80%; height: auto;}
+
+    /***** Hero   *****/    
+    .jumbotron {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+        background-color: #F6F6F6;}
+
+        #heroImage {width: 80%; height: auto;}
     .heroImageBlock {
         z-index: 1 !important;  
         background-color: transparent;
@@ -303,7 +294,6 @@ p{font-size: 16px;}
         padding-top: 1%;
         padding-bottom: 1%;
     }
-
     .heroBlock {
         z-index: 2;
         background-color: none;
@@ -315,73 +305,75 @@ p{font-size: 16px;}
         padding-left: 4%;
         max-width: 450px;
         height: 60%;
-        
-        /* offset-x | offset-y | blur-radius | spread-radius | color */
-        /* box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8); */
-            /* top left highlight */
-    /* box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83); */
-    /* bottom right shadow */
-    /* box-shadow: 6px 6px 16px 0 rgba(196, 196, 196, 0.51); */
     }
-    /* #heroText {max-width: 460px;} */
+    
 
+    /***** My Process   *****/  
+    /* adjusting space for top of section*/
+    #myProcess {padding-top: 5%;}
+    /* set background color for Team work Text, right */
+    .processRight {
+    padding-left: 0%;
+    }
+    #teamworkText {
+    max-width: 80%;
+    }
+
+    /***** Portfolio   *****/ 
     .portfolioSubtitleText {
         font-size: 19px;
     }
-    .cover {
-        /* padding-bottom: 5rem; */
+    /* styling portfolio title & subtitle text */
+    .projectTitle {
+        font-weight: 400;
+        font-size: 22px;
     }
-    /* .cover img {width: 0%;} */
-    /* styling portfolio title & subtitle text */
-
-    /* styling portfolio title & subtitle text */
-.projectTitle {
-    font-weight: 400;
-    font-size: 22px;
-}
     .projectSubtitle {
         font-size: 16px;
     }
 
 
-
-    /* Tools Icons */
+    /***** Tools section   *****/  
     .toolIconblock {min-width: 11.5%; max-width: 11.5%;}
 
-    /* aligning connnect/showcaseQuote Block with images */
-    #connect {margin-top: 20px;}
+    /***** About   *****/    
+    .aboutText {font-size: 16px; max-width: 80%;}
+    #bioImage {max-width: 50%;}
+    .navSpacer {width: 85%;}
 
-/* STYLING FOR CONTACT FORM */
-.sidebar-contact{
-    width:100%;
-    height:100%;
-    left:-100%;
-  }
-  .sidebar-contact .toggle{
-    top:50%;
-    transform:translateY(-50%);
-    transition:0.5s;
-  }
-  .sidebar-contact.active .toggle
-  {
-    top:0;
-    right:0;
-    transform:translateY(0);
-  }
-  .scroll{
-    width:100%;
-    height:100%;
-    overflow-y:auto;
-  }
-  .content{
-    padding:50px 50px;
-  }
+     #connect {margin-top: 20px;}
 
-
-    /* END Media Query */
+    /***** Contact Form   *****/ 
+    .sidebar-contact{
+        width:100%;
+        height:100%;
+        left:-100%;
     }
+    .sidebar-contact .toggle{
+        top:50%;
+        transform:translateY(-50%);
+        transition:0.5s;
+    }
+    .sidebar-contact.active .toggle
+    {
+        top:0;
+        right:0;
+        transform:translateY(0);
+    }
+    .scroll{
+        width:100%;
+        height:100%;
+        overflow-y:auto;
+    }
+    .content{
+        padding:50px 50px;
+    }
+}/* END Media Query */
 
-  
+
+
+
+    /***** Fade Animation   *****/ 
     [aos="fade"] {
         opacity: 0;
         transition-property: opacity;
