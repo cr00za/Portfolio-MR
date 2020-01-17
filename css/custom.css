@@ -2,7 +2,11 @@
 /*-----------------------*/
 /***** GLOBAL STYLES *****/
 /*-----------------------*/
-.sectionTitle { padding: 10% 0 5% 1%; }
+.sectionTitle { 
+    padding: 10% 0 5% 1%; 
+    font-weight: 900; 
+    font-size: 40px;
+}
 /* adjusting space for top of My Process Section sm devices*/
 #myProcess {padding-top: 20%;}
 
@@ -173,29 +177,34 @@ html {scroll-behavior: smooth;}
 /***** QUOTE SECTION      *****/
 /*----------------------------*/
 .quoteBlock { 
-  background-color: #023246;
+  /* background-color: #023246; */
   color: #F6F6F6;
   margin-top: 10%;
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
+  
+}
+.quoteSection {
+    height:40%;
+    background: url("/images/about-background.jpg") no-repeat center center fixed;
+    background-size:cover;
+    z-index: 0;
+    text-align: center;
+    margin-bottom: 10%;
 }
 
 /*----------------------------*/
 /***** ABOUT ME SECTION   *****/
 /*----------------------------*/
-.aboutBackground p {color: black;}
+/* .aboutBackground p {color: black;} */
 
 .aboutBackground {
     position: relative;
-    /* width:100%;
-    height:100vh; */
-    background: url("/images/about-background.jpg") no-repeat center center fixed;
-    background-size:cover;
     z-index: 0;
-    
+    padding-bottom: 10%;
 }
-.aboutOverlay {
+/* .aboutOverlay {
     position: absolute;
     background-color: #F6F6F6;
     opacity: 0.7;
@@ -206,11 +215,11 @@ html {scroll-behavior: smooth;}
     right: 0;
     width: 100%;
     height: 60%;
-}
-.smoke {
+} */
+/* .smoke {
     background: url("https://giphy.com/gifs/TJb0yO9rhndYF3RJKi/html5");
     bottom: 0;
-}
+} */
 /* Area - description */
 #bioImage {width: 97%; margin-bottom: 1rem;}
 .aboutSubtitle {
@@ -218,16 +227,24 @@ html {scroll-behavior: smooth;}
     font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
+.synergyBlock {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
 
-.aboutText {font-size: 14px; font-weight: 300; max-width: 100%;}
+.biohero-xs {display: block; z-index: -1; }
+.biohero-md {display: none;}
+.biohero-lg {display: none;}
+
+
+.aboutText {font-size: 16px; font-weight: 300; max-width: 100%;}
 .aboutIllustration {width: 50%;}
 
-/* aligning connnect/showcaseQuote Block with images */
-#connect {margin: 40px auto;}
-.socialIcons {
-    /* filter: grayscale(50%); */
-    filter: contrast(10%);
+#connect {
+    margin-top: 5%; 
 }
+#connect p {color: #757575;}
+
 .socialIcons img {width: 30px}
 .socialBlock a {padding-right: 16px;}
 /* ------------      Animation       ------------ */
@@ -269,11 +286,13 @@ html {scroll-behavior: smooth;}
 /***** MEDIA QUERY   768px   *****/
 /*-------------------------------*/
 /* setting the block for hero text to show on only on screens larger than small */
+
+
 @media screen and (min-width: 768px){
    
     /***** General   *****/    
     p{font-size: 16px;}
-
+    .navSpacer {width: 85%;}
     /***** Legacy Logo Styling   *****/ 
     /* styling logoblock - overriding the nav to fit my theme */
     .logoBlock {
@@ -344,20 +363,69 @@ html {scroll-behavior: smooth;}
     /***** Tools section   *****/  
     .toolIconblock {min-width: 11.5%; max-width: 11.5%;}
 
-    /***** About   *****/    
+    /***** Quote Section   *****/ 
+    .quoteSection{
+        position: relative;
+        /* width:100%;*/
+
+    }
+
+
+    /***** About   *****/   
+    .aboutBackground {
+        margin-top: 16%;
+    }
+    .bioImageRow {
+        margin-bottom: 5%;
+    }
+    
+    .aboutSubtitle {
+        color: #287094;
+    }
     .aboutText {font-size: 16px; max-width: 80%;}
-    #bioImage {max-width: 50%;}
-    .navSpacer {width: 85%;}
+    #bioImage {
+        max-width: 100%;    
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
+        z-index: 1;
+    }
 
-    #connect {margin-top: 20px;}
 
+    #synergyColumn {
+        position: relative;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .biohero-xs {display: none;}
+    .biohero-md {display: block; 
+        z-index: -1; 
+        top: -48%; 
+        position: absolute;
+        left: -40%;
+        width: 100%;
+    }
+    .biohero-lg {display: none;}
+   
+
+.aboutTextBackground {
+    background-color: #F6F6F6;
+    z-index: 0;
+    top: 60%;
+    width: 100%;
+    height: 40%;
+}
+
+.socialIcons {
+    filter: grayscale(100%);
+    /* filter: contrast(10%); */
+}
     .aboutBackground p {color: black;}
     .aboutBackground { padding-bottom: 3%;}
-    .aboutOverlay {
-        top: 60%;
+    /* .aboutOverlay {
+        top: 70%;
         width: 100%;
-        height: 40%;
-    }
+        height: 30%;
+    } */
 
 
     /***** Contact Form   *****/ 
@@ -401,7 +469,18 @@ html {scroll-behavior: smooth;}
       }
 
 
-
+      @media screen and (min-width: 992px){
+        .biohero-xs {display: none;}
+        .biohero-md {display: none;}
+        .biohero-lg {
+            display: block; 
+            z-index: -1; 
+            top: -48%; 
+            position: absolute;
+            left: -40%;
+            width: 100%;
+        }
+        }
 
 
 
