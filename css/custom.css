@@ -187,7 +187,7 @@ html {scroll-behavior: smooth;}
 }
 .quoteSection {
     height:40%;
-    background: url("./images/about-background.jpg") no-repeat center center fixed;
+    background: url("/images/about-background.jpg") no-repeat center center fixed;
     background-size:cover;
     z-index: 0;
     text-align: center;
@@ -204,36 +204,29 @@ html {scroll-behavior: smooth;}
     z-index: 0;
     padding-bottom: 10%;
 }
-/* .aboutOverlay {
-    position: absolute;
-    background-color: #F6F6F6;
-    opacity: 0.7;
-    z-index: -1;
-    top: 60%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 60%;
-} */
-/* .smoke {
-    background: url("https://giphy.com/gifs/TJb0yO9rhndYF3RJKi/html5");
-    bottom: 0;
-} */
-/* Area - description */
-#bioImage {width: 97%; margin-bottom: 1rem;}
+
+#bioImage {
+    max-width: 100%;    
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
+    z-index: 1;
+    margin-bottom: 15%;
+}
+
 .aboutSubtitle {
     font-weight: 400;    
     font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
 .synergyBlock {
-    padding-top: 15%;
     padding-bottom: 15%;
+    display: flex;
+    justify-content: center;
 }
 
+
 .biohero-xs {display: block; z-index: -1; }
-.biohero-md {display: none;}
+.biohero-sm {display: none;}
 .biohero-lg {display: none;}
 
 
@@ -282,12 +275,29 @@ html {scroll-behavior: smooth;}
 
 /* ////////////////////////////     Responsive       ///////////////////////////// */
 
+
+
+/*-------------------------------*/
+/***** MEDIA QUERY   556px   *****/
+/*-------------------------------*/
+@media screen and (min-width: 576px){
+/* setting how the about illustration should display on sm screens */
+.biohero-xs {display: none;}
+.biohero-sm {display: block; 
+    z-index: -1; 
+    top: -48%; 
+    position: absolute;
+    left: -40%;
+    width: 100%;
+}
+.biohero-lg {display: none;}
+.aboutBackground {
+    margin-top: 16%;
+}
+
 /*-------------------------------*/
 /***** MEDIA QUERY   768px   *****/
 /*-------------------------------*/
-/* setting the block for hero text to show on only on screens larger than small */
-
-
 @media screen and (min-width: 768px){
    
     /***** General   *****/    
@@ -372,9 +382,6 @@ html {scroll-behavior: smooth;}
 
 
     /***** About   *****/   
-    .aboutBackground {
-        margin-top: 16%;
-    }
     .bioImageRow {
         margin-bottom: 5%;
     }
@@ -391,20 +398,12 @@ html {scroll-behavior: smooth;}
     }
 
 
-    #synergyColumn {
+    /* #synergyColumn {
         position: relative;
         padding-top: 0%;
         padding-bottom: 0%;
-    }
-    .biohero-xs {display: none;}
-    .biohero-md {display: block; 
-        z-index: -1; 
-        top: -48%; 
-        position: absolute;
-        left: -40%;
-        width: 100%;
-    }
-    .biohero-lg {display: none;}
+    } */
+
    
 
 .aboutTextBackground {
@@ -471,7 +470,7 @@ html {scroll-behavior: smooth;}
 
       @media screen and (min-width: 992px){
         .biohero-xs {display: none;}
-        .biohero-md {display: none;}
+        .biohero-sm {display: none;}
         .biohero-lg {
             display: block; 
             z-index: -1; 
