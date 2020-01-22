@@ -45,6 +45,7 @@
         <link rel="stylesheet" href="css/nav-styles.css">
         <link rel="stylesheet" href="css/cardStyle.css">
         <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="scss/custom.scss">
     
         
         <!-- <link href="css/slider.css" rel="stylesheet"> -->
@@ -59,7 +60,7 @@
 
     </head>
 
-    <body>
+    <body class="">
          
     </div>
 
@@ -67,20 +68,20 @@
             <!-- <div class="safezone">IPHONE X SAFE ZONE</div> -->
 
 
-              <nav class="navbar navbar-expand-md navbar-custom fixed-top navbar-light" id="nav">
+              <nav class="navbar navbar-expand-md navbar-custom fixed-top navbar-light marginLeft-sm marginRight-sm" id="nav">
                 <div class="navSpacer">
                     <a class="navbar-brand" href="#"><img id="logo" src="images/Logo-dark.svg" alt="Logo"></a>
                 </div>   
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon "></span>
                     </button>
                 
                 <div class="collapse navbar-collapse w-100 stroke justify-content-end" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
                     <a class="nav-item nav-link active glassesHome" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link js-anchor-link glassesProcess" href="#myProcess">My Process</a>
+                    <a class="nav-item nav-link js-anchor-link glassesProcess" href="#myProcess">Process</a>
                     <a class="nav-item nav-link js-anchor-link glassesPortfolio" href="#portfolio">Portfolio</a>
-                    <a class="nav-item nav-link js-anchor-link glassesAbout" href="#aboutMe">About me</a>
+                    <a class="nav-item nav-link js-anchor-link glassesAbout" href="#aboutMe">About</a>
                     <a class="nav-item nav-link js-anchor-link toggle" data-toggle="modal" data-target="#exampleModal" data-whatever="Miguel" href="#contactMe" >Contact</a>
                   </div>
                 </div>
@@ -89,23 +90,23 @@
     
         <main>
             <div class="logoBlock"></div>
-            <div class="jumbotron">
-                <div class="row sx-auto">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 heroBlock">
+            <div class="jumbotron marginLeftLand-sm marginRightLand-sm">
+                <div class="row ">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-7 heroBlock pl-3 pl-sm-3">
                         <div>
-                        <h4 id="welcome" data-aos="fade" > Welcome, I'm</h4>
-                        <h2 id="heroTitle" class="display-4">Miguel Ruddock</h2>
-                        <h3 id="heroSubtitle" class="lead">User Experience / Interface Designer</h3>
-                        <p id="heroText">I create opportunities through human-centric design and bring life to concepts, ideas, and dreams to positively impact the world.</p>
-                        
-                        <div class="d-flex justify-content-sm-start justify-content-md-center">
-                            <!-- <a class="btn btn-primary btn-sm toggle" href="#" role="button">Contact me</a> -->
-                            <a type="button" class="btn btn-primary toggle" data-toggle="modal" data-target="#exampleModal" data-whatever="Miguel" >Contact me</a>
+                            <h4 id="welcome" data-aos="fade" > Welcome, I'm</h4>
+                            <h2 id="heroTitle" class="display-4">Miguel Ruddock</h2>
+                            <h3 id="heroSubtitle" class="lead">User Experience / Interface Designer</h3>
+                            <p id="heroText">I create opportunities through human-centric design and bring life to concepts, ideas, and dreams to positively impact the world.</p>
+                            
+                            <div class="d-flex justify-content-sm-start justify-content-md-center">
+                                <!-- <a class="btn btn-primary btn-sm toggle" href="#" role="button">Contact me</a> -->
+                                <a type="button" class="btn btn-primary toggle" data-toggle="modal" data-target="#exampleModal" data-whatever="Miguel" >Contact me</a>
+                            </div>
                         </div>
                     </div>
-                    </div>
                     <!-- setting up columns for larger devices / center button only on md or > devices -->
-                    <div class="col-xs-12 d-flex my-auto col-sm-6 col-lg-5 heroImageBlock justify-content-center">
+                    <div class="col-12 d-flex my-auto col-sm-6 col-lg-5 heroImageBlock justify-content-center">
                         <img id="heroImage" class="glasses" src="images/Portfolio Portrait-navy.svg" alt="my illustrated portrait">
                     </div>
                 </div>
@@ -146,14 +147,14 @@
 <!-- END MODAL CONTACT FORM  -->
 
             <!-- MY PROCESS - SECTION -->
-            <h2 class="sectionTitle" data-aos="fade-down" data-aos-delay="300" id="myProcess">My Process</h2>
-            <div class="container-fluid processBackground">
+            <h2 class="sectionTitle marginLeft-sm marginRight-sm" data-aos="fade-down" data-aos-delay="300" id="myProcess">My Process</h2>
+            <div class="container-fluid processBackground marginLeft-sm marginRight-sm">
                 <div class="row">
 
-                    <div class="processLeft col-sm-6 mx-auto" data-aos="fade-right">
-                        <div class="row mx-auto">
+                    <div class="processLeft col-12 col-sm-6" data-aos="fade-right">
+                        <div class="row">
                             <!-- Phase 1: Discover -->
-                            <div id="discover" class="phase col-xs-6 col-sm-6 mx-auto px-0">
+                            <div id="discover" class="phase col-6 col-sm-6 mx-auto pl-0">
                                 <img class="phaseImage" src="images/discoverIcon2.svg" alt="icon representing the Discovery phase">
                                 <h4 class="phaseTitle">Discover</h4>
                                 <div id="discoverText" class="phaseText">
@@ -162,7 +163,7 @@
                                 <div  id="line1" class="line"></div>
                             </div>
                             <!-- Phase 2: Define -->
-                            <div id="define" class="phase col-xs-6 col-sm-6 mx-auto px-0">
+                            <div id="define" class="phase col-6 col-sm-6 mx-auto pl-0">
                                 <img class="phaseImage" src="images/defineIcon2.svg" alt="placeholder pic for Discover phase">
                                 <h4 class="phaseTitle">Define</h4>
                                 <div id="defineText" class="phaseText">
@@ -171,7 +172,7 @@
                                 <div  id="line2" class="line"></div>
                             </div>
                             <!-- Phase 3: Develop -->
-                            <div id="develop" class="phase col-xs-6 col-sm-6 mx-auto px-0">
+                            <div id="develop" class="phase col-6 col-sm-6 mx-auto pl-0">
                                 <img class="phaseImage" src="images/developIcon2.svg" alt="placeholder pic for Discover phase">
                                 <h4 class="phaseTitle">Develop</h4>
                                 <div id="developText" class="phaseText">
@@ -180,7 +181,7 @@
                                 <div  id="line3" class="line"></div>
                             </div> 
                             <!-- Phase 4: Deliver -->
-                            <div id="deliver" class="phase col-xs-6 col-sm-6 mx-auto px-0">
+                            <div id="deliver" class="phase col-6 col-sm-6 mx-auto pl-0">
                                 <img class="phaseImage" src="images/deliverIcon2.svg" alt="placeholder pic for Discover phase">
                                 <h4 class="phaseTitle">Deliver</h4>
                                 <div id="deliverText" class="phaseText">
@@ -192,7 +193,7 @@
     
                     </div>
 
-                    <div class="processRight showcaseText col-xs-12 col-sm-6" data-aos="fade-left" data-aos-delay="800">
+                    <div class="processRight showcaseText col-12 col-sm-6 pl-3" data-aos="fade-left" data-aos-delay="800">
                         <div id="teamworkText">
                             <h2 class="showcaseQuote align-baseline">Teamwork makes the dreamwork</h2>
                             <p>I've had the opportunity to be a part of multiple design teams in my UX/UI program at Georgia Tech while working on projects for external businesses.</p>
@@ -204,17 +205,17 @@
             </div>
 
             <!-- PORTFOLIO - SECTION -->
-            <h2 class="sectionTitle" data-aos="fade-down" data-aos-delay="1000"id="portfolio">Portfolio</h2>
-                    <div class="portfolioSubtitleBlock col-xs-12 col-sm-8 col-md-8 col-lg-6">
-                        <div id="bar"></div>
+            <h2 class="sectionTitle marginLeft-sm marginRight-sm" data-aos="fade-down" data-aos-delay="1000"id="portfolio">Portfolio</h2>
+                    <div class="portfolioSubtitleBlock marginLeft-sm marginRight-sm col-12 col-sm-8 col-md-8 col-lg-6">
+                        <div id="bar" class=""></div>
                         <h3 class="portfolioSubtitleText">View samples of individual and group projects I’ve completed
                                 below in my portfolio. They span from responsive web to mobile app design.</h3>
                     </div>
  
     
-                <div class="container-fluid">
-                    <div class="row ">
-                        <div id="travelCover" class="cover card-body col-xs-12 col-sm-12 col-md-6">
+                <div class="container-fluid marginLeft-sm marginRight-sm">
+                    <div class="row">
+                        <div id="travelCover" class="cover card-body col-12 col-sm-12 col-md-6">
                                 <img class="coverImage" src="images/travelAppCover.jpg" alt="cover for travel project">
                             
                             <div id="travelChoice" class="projectChoiceBlock">
@@ -228,7 +229,7 @@
 
                     
                         <!-- setting order for columns with  order-2 order-md-8 -->
-                        <div id="goodEatsCover" class="cover card-body col-xs-12 col-sm-12 col-md-6 order-2 order-md-8">
+                        <div id="goodEatsCover" class="cover card-body col-12 col-sm-12 col-md-6 order-2 order-md-8">
                             <img src="images/goodEatsCover.jpg" alt="cover for Good Eats project">
                         
                             <div id="goodEatsChoice" class="projectChoiceBlock">
@@ -243,7 +244,7 @@
                     </div>
 
                     <div class="row">
-                        <div id="wrcdvCover" class="cover card-body col-xs-12 col-sm-12 col-md-6">
+                        <div id="wrcdvCover" class="cover card-body col-12 col-sm-12 col-md-6">
                             <img src="images/wrcdvCover.jpg" alt="cover for WRCDV project">
                         
                             <div id="wrcdvChoice" class="projectChoiceBlock">
@@ -260,46 +261,61 @@
 
             <!-- TOOLS - SECTION -->
             
-            
-            <div class="container-fluid toolsSection">
-                <div><p class="toolsText">Tools I've used for my projects:</p></div>
+
+            <div class="container-fluid toolsSection marginLeft-sm marginRight-sm">
                 
-                <div class="row align-items-end" id="tools1">
-                    <div class="col-xs-12 col-md-9 col-lg-7 mx-auto">
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolFigma.svg" alt="Figma tool icon">
-                            <p>Figma</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolAdobeXD.svg" alt="Adobe XD tool icon">
-                            <p>AdobeXD</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolAdobePhotoshop.svg" alt="Adobe Photoshop tool icon">
-                            <p>Photoshop</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolMiro.svg" alt="Miro tool icon">
-                            <p>Miro</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolJQuery.svg" alt="JQuery tool icon">
-                            <p>JQuery</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolJavascript.svg" alt="Javascript tool icon">
-                            <p>Javascript</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolhtml5.svg" alt="HTML5 tool icon">
-                            <p>HTML5</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolCSS.svg" alt="CSS tool icon">
-                            <p>CSS</p></div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <p class="toolsText">Tools I've used for my projects:</p>
                     </div>
                 </div>
-                <div class="row align-items-end" id="tools2">
-                    <div class="col-xs-12  col-md-9 col-lg-7 mx-auto">
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolSketch.svg" alt="Sketch tool icon">
-                            <p>Sketch</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolInvision.svg" alt="Invision App tool icon">
-                            <p>Invision</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolAdobeIllustrator.svg" alt="Adobe Illustrator tool icon">
-                            <p>Illustrator</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolFlowmapp.svg" alt="Flowmapp tool icon">
-                            <p>Flowmapp</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolBootstrap.svg" alt="Bootstrap tool icon">
-                            <p>Bootstrap</p></div>
-                        <div class="toolIconblock"><img class="toolIcon" src="images/toolGithub.svg" alt="Github tool icon">
-                            <p>Github</p></div>
-                        <div class="toolIconblock pr-0"><img class="toolIcon" src="images/toolWebAim.svg" alt="WebAim tool icon">
-                            <p>WebAim</p></div>
+                
+                <div class="row align-items-end" >
+                    <div class="col-12 mx-auto " id="tools1">
+                        <div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolFigma.svg" alt="Figma tool icon">
+                                <p>Figma</p></div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolAdobeXD.svg" alt="Adobe XD tool icon">
+                                <p>AdobeXD</p></div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolAdobePhotoshop.svg" alt="Adobe Photoshop tool icon">
+                                <p>Photoshop</p></div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolMiro.svg" alt="Miro tool icon">
+                                <p>Miro</p></div>
+                        </div>
+
+                        <div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolJQuery.svg" alt="JQuery tool icon">
+                                <p>JQuery</p></div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolJavascript.svg" alt="Javascript tool icon">
+                                <p>Javascript</p></div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolhtml5.svg" alt="HTML5 tool icon">
+                                <p>HTML5</p></div>
+                            <div class="toolIconblock"><img class="toolIcon mr-0 pr-0" src="images/toolCSS.svg" alt="CSS tool icon">
+                                <p>CSS</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-end " >
+                    <div class="col-12 mx-auto" id="tools2">
+                        <div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolSketch.svg" alt="Sketch tool icon">
+                                <p>Sketch</p></div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolInvision.svg" alt="Invision App tool icon">
+                                <p>Invision</p></div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolAdobeIllustrator.svg" alt="Adobe Illustrator tool icon">
+                                <p>Illustrator</p></div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolFlowmapp.svg" alt="Flowmapp tool icon">
+                                <p>Flowmapp</p></div>
+                        </div>
+
+                        <div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolBootstrap.svg" alt="Bootstrap tool icon">
+                                <p>Bootstrap</p></div>
+                            <div class="toolIconblock"><img class="toolIcon" src="images/toolGithub.svg" alt="Github tool icon">
+                                <p>Github</p></div>
+                            <div class="toolIconblock"><img class="toolIcon mr-0 pr-0" src="images/toolWebAim.svg" alt="WebAim tool icon">
+                                <p>WebAim</p></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -307,30 +323,30 @@
             <!-- Quote - SECTION -->
             <section class="quoteSection">
                 <div class="containter-fluid">
-                    <div class="row quoteBlock">
-                        <h2 class="showcaseQuote mx-auto col-xs-12">Challenges are<br>opportunities<br>in disguise.</h2>
+                    <div class="row quoteBlock ">
+                        <h2 class="showcaseQuote mx-auto col-12">Challenges are<br>opportunities<br>in disguise.</h2>
                     </div>
                 </div>
             </section>
 
             <!-- ABOUT ME - SECTION -->
             <div class="">
-                <h2 class="sectionTitle ml-2 " data-aos="fade-down" data-aos-delay="700" id="aboutMe">About Me</h2>
-            <div class="container-fluid aboutBackground">
+                <h2 class="sectionTitle marginLeft-sm marginRight-sm" data-aos="fade-down" data-aos-delay="700" id="aboutMe">About Me</h2>
+            <div class="container-fluid aboutBackground marginLeft-sm marginRight-sm">
                 
-               
-                <div class="row bioImageRow">
+            
+                <div class="row bioImageRow ">
                 
                         
-                    <div id="bioColumn" class="col-xs-12 col-sm-5 order-xs-1 offset-sm-1">
-                        <div class="bioBlock justify-content-xs-center">
+                    <div id="bioColumn" class="col-12 col-sm-5 order-xs-1">
+                        <div class="bioBlock d-flex justify-content-xs-center">
                             <img id="bioImage" src="images/Portfolio Portrait-label3.jpg" alt="portfolio portrait">
                         
                         </div> 
                 
                     </div>
                 
-                    <div id="synergyColumn" class="col-xs-12 col-sm-6 order-xs-5">
+                    <div id="synergyColumn" class="col-12 col-sm-6 order-xs-5">
                         <div class="synergyBlock"> 
                             <img src="images/synergyDesignBlock.svg" alt="synergy block" class="biohero-xs">
                             <img src="images/synergyDesignBlock-sm.svg" alt="synergy block" class="biohero-sm">
@@ -343,10 +359,10 @@
                 </div>
           
                     
-                <div class="row">
+                <div class="row aboutVerbiage">
                     
 
-                        <div class="col-xs-12 col-sm-4 order-xs-1 ">
+                        <div class="col-12 col-sm-4 order-xs-1">
                             <div id="mantra" class="abBlocks">
                                 
                                     <h2 class="aboutSubtitle">My personal mantra:</h2>
@@ -355,7 +371,7 @@
                             </div>
                         </div>      
 
-                        <div class="col-xs-12 col-sm-4 order-xs-2">
+                        <div class="col-12 col-sm-4 order-xs-2">
                             <div id="whyux" class="abBlocks">
                                 
                                 <h2 class="aboutSubtitle">Why UX/UI?</h2>
@@ -364,18 +380,20 @@
                             </div>
                         </div>    
 
-                        <div class="col-xs-12 col-sm-4 order-xs-3">  
+                        <div class="col-12 col-sm-4 order-xs-3">  
                             <div id="influence" class="abBlocks">
         
                             <h2 class="aboutSubtitle">What has influenced me?</h2>
                             <p class="aboutText">I’ve lived in and traveled to 15 countries including Japan, Austria, and Australia. But no matter where I go I always make new friends and create space in what began as unfamiliar.  <br><br>In my spare time I enjoy silversmithing, guitar, Anime, sculpting running marathons, and working with my nonprofit, Heal Georgia.</p>
 
                         </div>
+
                 </div>    
 
                 <div class="row">
-                    <div id="connect" class="col-xs-12 col-sm-12 mx-3">
-                        <p>Social Media</p>
+                    
+                    <div id="connect" class="col-12">
+                        <p>Social Media</p>   
                         <div class="socialBlock">
                             <a class="socialIcons" href="https://www.linkedin.com/in/miguelruddock/" target="_blank">
                                 <img src="images/LinkedIn.svg" alt="linkedin icon"></a>
@@ -387,21 +405,22 @@
                                 <img src="images/twitter.svg" alt="twitter icon"></a>
                         </div> 
                     </div>
+
                 </div>
                        
 
                      
             </div>
        
-            </div>
+           
 
 
         </main>
         
         <footer class="footerBlock">
-            <div class="container foot">  
+            <div class="container foot marginLeft-sm marginRight-sm">  
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-12">
                         <p>© Miguel Ruddock 2020</p>
                     </div>
                 </div> 

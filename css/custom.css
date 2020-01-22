@@ -2,20 +2,30 @@
 /*-----------------------*/
 /***** GLOBAL STYLES *****/
 /*-----------------------*/
+
+
+
 .sectionTitle { 
-    padding: 10% 0 5% 1%; 
     font-weight: 900; 
     font-size: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* Vertical spacing */
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 /* adjusting space for top of My Process Section sm devices*/
-#myProcess {padding-top: 20%;}
+#myProcess {
+    /* padding-top: 20%; */
+}
 
 .showcaseQuote {font-weight: 600; font-size: 48px;}
 p { font-family: 'Lato', sans-serif; font-weight: 300; color: #757575;}
 h1 {font-weight: 600; font-size: 48px;}  
 
 h1, h2, h3 {font-family: 'Barlow Condensed', sans-serif;}
-html {overflow-x: hidden;}
+html, body {overflow-x: hidden;}
 h2 {font-size: 36px;}
 #connect p {font-weight: 400; color:#212529;}
 
@@ -43,7 +53,7 @@ html {scroll-behavior: smooth;}
 .btn {border-radius: 0px !important; }
 .jumbotron {
     padding-top: 7rem !important;
-    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
     background-color: #F6F6F6;}
 
 /* Text - hero section styling */
@@ -55,15 +65,17 @@ html {scroll-behavior: smooth;}
 } 
 
 .heroBlock {
-    padding: 4% 2%;
-    max-width: 80%;
+    /* padding-top: 4%;
+    padding-bottom: 2%; */
+    max-width: 100%;
     height: 60%;
+  
 }
 .heroImageBlock {
     display: inline-block;
     background-color: #f6f6f6;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    /* padding-top: 4%;
+    padding-bottom: 2%; */
 }
 #heroImage {display:inline-block; width: 60%;}
 
@@ -111,11 +123,14 @@ html {scroll-behavior: smooth;}
     background-color: #023246;
     width: 8px;
     height: 4rem;
-    margin-right: 8px;
+    margin-left: 4px;
 }
 
 /* style portfolio subtitle Block and text within in */
-.portfolioSubtitleBlock { margin-bottom: 40px; }
+.portfolioSubtitleBlock {
+     /* Vertical Spacing  */
+    margin-bottom: 10px;
+}
 .portfolioSubtitleText {
     display: inline-block;
     font-weight: 300; 
@@ -132,13 +147,11 @@ html {scroll-behavior: smooth;}
 .cover img { max-width: 100%;}
 
 /* giving some space between the portfolio entries */
-.cover {
-    padding-bottom: 2rem;
-}
+.cover {}
 .projectChoiceBlock {
     /* breathing room for title and bottom of portfolio covers*/
-    margin-top: 10%;
-    margin-bottom: 4rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 /* making the covers pop off the page with a drop shadow */
@@ -162,14 +175,25 @@ html {scroll-behavior: smooth;}
 /*----------------------------*/
 /***** TOOLS SECTION *****/
 /*----------------------------*/
+#tools1 {max-width: 100%; padding-left: 9.5%}
+#tools2 {max-width: 100%; padding-left: 9.5%}
+.toolsText {
+    display: inline-block;
+    color: #212529;
+    font-weight: 500;
+    font-size: 16px;
+}
 /* Icon color change - change color to black and white */
 .toolIcon {filter: grayscale(100%);}
 .toolIconblock {
     display: inline-block; 
     font-size: 12px; 
     width: 20%;
- 
 }
+.toolsSection {
+    margin-bottom: 70px;
+}
+
 /* ------------      Animation       ------------ */
 .toolIcon:hover {filter: grayscale(0%);}
 
@@ -179,9 +203,9 @@ html {scroll-behavior: smooth;}
 .quoteBlock { 
   /* background-color: #023246; */
   color: #F6F6F6;
-  margin-top: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  /* margin-top: 10%; */
+  /* padding-top: 5%;
+  padding-bottom: 5%; */
   text-align: center;
   
 }
@@ -191,7 +215,7 @@ html {scroll-behavior: smooth;}
     background-size:cover;
     z-index: 0;
     text-align: center;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
 }
 
 /*----------------------------*/
@@ -202,15 +226,15 @@ html {scroll-behavior: smooth;}
 .aboutBackground {
     position: relative;
     z-index: 0;
-    padding-bottom: 10%;
+    /* padding-bottom: 10%; */
 }
 
 #bioImage {
-    max-width: 80%;    
+    max-width: 100%;    
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
     z-index: 1;
-    margin-bottom: 15%;
+    /* margin-bottom: 15%; */
 }
 
 .aboutSubtitle {
@@ -219,11 +243,11 @@ html {scroll-behavior: smooth;}
     font-family: 'Lato', sans-serif;
 }
 .synergyBlock {
-    padding-bottom: 15%;
-    display: flex;
-    justify-content: center;
+ margin-top: 56px;
+ margin-bottom: 40px;
 }
 
+.abBlocks { margin-bottom: 40px;}
 
 .biohero-xs {display: block; z-index: -1; }
 .biohero-sm {display: none;}
@@ -238,12 +262,16 @@ html {scroll-behavior: smooth;}
 } */
 
 #connect {
-    margin-top: 5%; 
+    /* margin-top: 5%;  */
+    margin-left: 15px;
+    margin-bottom: 86px;
 }
 #connect p {color: #757575;}
 
-.socialIcons img {width: 30px}
-.socialBlock a {padding-right: 16px;}
+.socialIcons img {width: 25%}
+.socialBlock a {
+    /* padding-right: 15px; */
+}
 /* ------------      Animation       ------------ */
 .socialIcons:hover {filter: grayscale(0%);}
 
@@ -254,8 +282,9 @@ html {scroll-behavior: smooth;}
 /* Area - description */
 .footerBlock { 
     height: 100px;
-    padding-top: 24px;
+    /* padding-top: 24px; */
     padding-left: 0;
+    padding-top: 20px;
     background-color: #023246;
 }
 
@@ -285,6 +314,10 @@ html {scroll-behavior: smooth;}
 /***** MEDIA QUERY   556px   *****/
 /*-------------------------------*/
 @media screen and (min-width: 576px){
+
+    /* .marginLeftLand-sm {padding-left: 10px;}
+    .marginRightLand-sm {padding-right: 10px;} */
+
 /* setting how the about illustration should display on sm screens */
 .biohero-xs {display: none;}
 .biohero-sm {display: block; 
@@ -298,12 +331,18 @@ html {scroll-behavior: smooth;}
 .aboutBackground {
     margin-top: 16%;
 }
+.bioImageRow {
+    margin-bottom: 40px;
+}
+
 
 /*-------------------------------*/
 /***** MEDIA QUERY   768px   *****/
 /*-------------------------------*/
 @media screen and (min-width: 768px){
    
+    .marginLeft-sm {padding-left: 30px;}
+    .marginRight-sm {padding-right: 30px;}
     /***** General   *****/    
     p{font-size: 16px;}
     .navSpacer {width: 85%;}
@@ -313,18 +352,18 @@ html {scroll-behavior: smooth;}
         display: inline-block;
         z-index: 0 !important;
         /* background-color: #023246 !important; */
-        margin-top: -2%;
-        margin-bottom: 0%;
-        margin-left: -1%;
-        padding-left: 1%;
-        padding-bottom: 10%;
+        /* margin-top: -2%;
+        margin-bottom: 0%; */
+        margin-left: 0%;
+        padding-left: 0%;
+        /* padding-bottom: 10%; */
         width: 45%;
     } 
 
     /***** Hero   *****/    
     .jumbotron {
-        padding-top: 0 !important;
-        margin-top: 0 !important;
+        /* padding-top: 0 !important;
+        margin-top: 0 !important; */
         background-color: #F6F6F6;}
 
         #heroImage {width: 80%; height: auto;}
@@ -332,18 +371,18 @@ html {scroll-behavior: smooth;}
         z-index: 1 !important;  
         background-color: transparent;
         /* setting top and bottom padding for md screen size */
-        padding-top: 1%;
-        padding-bottom: 1%;
+        /* padding-top: 1%;
+        padding-bottom: 1%; */
     }
     .heroBlock {
         z-index: 2;
         background-color: none;
         color: #023246;
         /* padding: 4% 2%; */
-        padding-top: 4%;
-        padding-right: 0%;
-        padding-bottom: 4%;
-        padding-left: 4%;
+        /* padding-top: 4%;
+       
+        padding-bottom: 4%; */
+        
         max-width: 450px;
         height: 60%;
     }
@@ -351,7 +390,7 @@ html {scroll-behavior: smooth;}
 
     /***** My Process   *****/  
     /* adjusting space for top of section*/
-    #myProcess {padding-top: 5%;}
+    /* #myProcess {padding-top: 5%;} */
     /* set background color for Team work Text, right */
     .processRight {
     padding-left: 0%;
@@ -387,7 +426,7 @@ html {scroll-behavior: smooth;}
 
     /***** About   *****/   
     .bioImageRow {
-        margin-bottom: 5%;
+        /* margin-bottom: 5%; */
     }
     
     .aboutSubtitle {
@@ -423,7 +462,7 @@ html {scroll-behavior: smooth;}
     /* filter: contrast(10%); */
 }
     .aboutBackground p {color: black;}
-    .aboutBackground { padding-bottom: 3%;}
+    /* .aboutBackground { padding-bottom: 3%;} */
     /* .aboutOverlay {
         top: 70%;
         width: 100%;
@@ -454,7 +493,7 @@ html {scroll-behavior: smooth;}
         overflow-y:auto;
     }
     .content{
-        padding:50px 50px;
+        /* padding:50px 50px; */
     }
 }/* END Media Query */
 
