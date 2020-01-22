@@ -52,7 +52,8 @@ html {scroll-behavior: smooth;}
 
 .btn {border-radius: 0px !important; }
 .jumbotron {
-    padding-top: 7rem !important;
+    padding-top: 4rem !important;
+    margin-top: 75px;
     margin-bottom: 0 !important;
     background-color: #F6F6F6;}
 
@@ -328,7 +329,10 @@ html {scroll-behavior: smooth;}
     } 
 
     /***** Hero   *****/    
-    .jumbotron {background-color: #F6F6F6;}
+    .jumbotron {
+        margin-top: 50px;
+        background-color: #F6F6F6;
+    }
 
     #heroImage {width: 80%; height: auto;}
     .heroImageBlock {
