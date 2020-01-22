@@ -65,8 +65,6 @@ html {scroll-behavior: smooth;}
 } 
 
 .heroBlock {
-    /* padding-top: 4%;
-    padding-bottom: 2%; */
     max-width: 100%;
     height: 60%;
   
@@ -106,8 +104,6 @@ html {scroll-behavior: smooth;}
 .processRight {
     background-color: none;
     padding-left: 8%;
-    /* padding-top: 10%; */
-    /* padding: 10%; */
 }
 
 /* Shortening teamwork textblock */
@@ -146,10 +142,8 @@ html {scroll-behavior: smooth;}
 /* set cover image size */
 .cover img { max-width: 100%;}
 
-/* giving some space between the portfolio entries */
-.cover {}
+/* breathing room for title and bottom of portfolio covers*/
 .projectChoiceBlock {
-    /* breathing room for title and bottom of portfolio covers*/
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -175,16 +169,21 @@ html {scroll-behavior: smooth;}
 /*----------------------------*/
 /***** TOOLS SECTION *****/
 /*----------------------------*/
-#tools1 {max-width: 100%; padding-left: 9.5%}
-#tools2 {max-width: 100%; padding-left: 9.5%}
+#tools1 {max-width: 100%; 
+    /* padding-left: 9.5% */
+}
+#tools2 {max-width: 100%; 
+    /* padding-left: 9.5% */
+}
 .toolsText {
     display: inline-block;
-    color: #212529;
+    color: #287094;
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 16px;
 }
 /* Icon color change - change color to black and white */
-.toolIcon {filter: grayscale(100%);}
+.toolIcon {filter: grayscale(100%); padding: 2px;}
 .toolIconblock {
     display: inline-block; 
     font-size: 12px; 
@@ -192,6 +191,7 @@ html {scroll-behavior: smooth;}
 }
 .toolsSection {
     margin-bottom: 70px;
+    text-align: center;
 }
 
 /* ------------      Animation       ------------ */
@@ -201,13 +201,10 @@ html {scroll-behavior: smooth;}
 /***** QUOTE SECTION      *****/
 /*----------------------------*/
 .quoteBlock { 
-  /* background-color: #023246; */
   color: #F6F6F6;
-  /* margin-top: 10%; */
-  /* padding-top: 5%;
-  padding-bottom: 5%; */
   text-align: center;
-  
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .quoteSection {
     height:40%;
@@ -215,18 +212,15 @@ html {scroll-behavior: smooth;}
     background-size:cover;
     z-index: 0;
     text-align: center;
-    /* margin-bottom: 10%; */
 }
 
 /*----------------------------*/
 /***** ABOUT ME SECTION   *****/
 /*----------------------------*/
-/* .aboutBackground p {color: black;} */
 
 .aboutBackground {
     position: relative;
     z-index: 0;
-    /* padding-bottom: 10%; */
 }
 
 #bioImage {
@@ -234,7 +228,6 @@ html {scroll-behavior: smooth;}
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
     z-index: 1;
-    /* margin-bottom: 15%; */
 }
 
 .aboutSubtitle {
@@ -255,12 +248,6 @@ html {scroll-behavior: smooth;}
 
 
 .aboutText {font-size: 16px; font-weight: 300; max-width: 100%;}
-/* .aboutVerbiage { 
-    padding-top: 5%;
-    background-color: #F6F6F6;
-    padding-bottom: 5%;
-} */
-
 #connect {
     /* margin-top: 5%;  */
     margin-left: 15px;
@@ -268,10 +255,8 @@ html {scroll-behavior: smooth;}
 }
 #connect p {color: #757575;}
 
-.socialIcons img {width: 25%}
-.socialBlock a {
-    /* padding-right: 15px; */
-}
+.socialIcons img {width: 25%; padding-right: 15px;}
+
 /* ------------      Animation       ------------ */
 .socialIcons:hover {filter: grayscale(0%);}
 
@@ -280,9 +265,9 @@ html {scroll-behavior: smooth;}
 /***** FOOTER SECTION *****/
 /*----------------------------*/
 /* Area - description */
+
 .footerBlock { 
     height: 100px;
-    /* padding-top: 24px; */
     padding-left: 0;
     padding-top: 20px;
     background-color: #023246;
@@ -293,19 +278,6 @@ html {scroll-behavior: smooth;}
 .foot { margin-left: 0;}
 
 
-
-/* ------------      OLD Animation       ------------ */
-
-/* animate the hero text on hover */
-/* .figure:hover {
-        -webkit-transform: scale(0.95);
-        -ms-transform: scale(0.95);
-        transform: scale(0.95);
-        background-image: rgba(196, 196, 196, 0.9);
-        box-shadow: 0px 10px 10px 0px rgba(196, 196, 196, 0.4);
-        transition: .5s ease-in-out;
-} */
-
 /* ////////////////////////////     Responsive       ///////////////////////////// */
 
 
@@ -314,9 +286,6 @@ html {scroll-behavior: smooth;}
 /***** MEDIA QUERY   556px   *****/
 /*-------------------------------*/
 @media screen and (min-width: 576px){
-
-    /* .marginLeftLand-sm {padding-left: 10px;}
-    .marginRightLand-sm {padding-right: 10px;} */
 
 /* setting how the about illustration should display on sm screens */
 .biohero-xs {display: none;}
@@ -335,6 +304,8 @@ html {scroll-behavior: smooth;}
     margin-bottom: 40px;
 }
 
+} 
+/* End of 576px media query */
 
 /*-------------------------------*/
 /***** MEDIA QUERY   768px   *****/
@@ -351,47 +322,30 @@ html {scroll-behavior: smooth;}
     .logoBlock {
         display: inline-block;
         z-index: 0 !important;
-        /* background-color: #023246 !important; */
-        /* margin-top: -2%;
-        margin-bottom: 0%; */
         margin-left: 0%;
         padding-left: 0%;
-        /* padding-bottom: 10%; */
         width: 45%;
     } 
 
     /***** Hero   *****/    
-    .jumbotron {
-        /* padding-top: 0 !important;
-        margin-top: 0 !important; */
-        background-color: #F6F6F6;}
+    .jumbotron {background-color: #F6F6F6;}
 
-        #heroImage {width: 80%; height: auto;}
+    #heroImage {width: 80%; height: auto;}
     .heroImageBlock {
         z-index: 1 !important;  
         background-color: transparent;
-        /* setting top and bottom padding for md screen size */
-        /* padding-top: 1%;
-        padding-bottom: 1%; */
     }
+
     .heroBlock {
         z-index: 2;
         background-color: none;
         color: #023246;
-        /* padding: 4% 2%; */
-        /* padding-top: 4%;
-       
-        padding-bottom: 4%; */
-        
         max-width: 450px;
         height: 60%;
     }
     
 
     /***** My Process   *****/  
-    /* adjusting space for top of section*/
-    /* #myProcess {padding-top: 5%;} */
-    /* set background color for Team work Text, right */
     .processRight {
     padding-left: 0%;
     }
@@ -415,6 +369,8 @@ html {scroll-behavior: smooth;}
 
     /***** Tools section   *****/  
     .toolIconblock {min-width: 11.5%; max-width: 11.5%;}
+    .toolsText {font-size: 22px;}
+
 
     /***** Quote Section   *****/ 
     .quoteSection{
@@ -425,13 +381,7 @@ html {scroll-behavior: smooth;}
 
 
     /***** About   *****/   
-    .bioImageRow {
-        /* margin-bottom: 5%; */
-    }
-    
-    .aboutSubtitle {
-        color: #287094;
-    }
+    .aboutSubtitle {color: #287094;}
     .aboutText {font-size: 16px; max-width: 80%;}
     #bioImage {
         max-width: 80%;   
@@ -439,15 +389,6 @@ html {scroll-behavior: smooth;}
         box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
         z-index: 1;
     }
-
-
-    /* #synergyColumn {
-        position: relative;
-        padding-top: 0%;
-        padding-bottom: 0%;
-    } */
-
-   
 
 .aboutTextBackground {
     background-color: #F6F6F6;
@@ -457,17 +398,8 @@ html {scroll-behavior: smooth;}
     height: 40%;
 }
 
-.socialIcons {
-    filter: grayscale(100%);
-    /* filter: contrast(10%); */
-}
-    .aboutBackground p {color: black;}
-    /* .aboutBackground { padding-bottom: 3%;} */
-    /* .aboutOverlay {
-        top: 70%;
-        width: 100%;
-        height: 30%;
-    } */
+.socialIcons { filter: grayscale(100%);}
+.aboutBackground p {color: black;}
 
 
     /***** Contact Form   *****/ 
@@ -492,14 +424,12 @@ html {scroll-behavior: smooth;}
         height:100%;
         overflow-y:auto;
     }
-    .content{
-        /* padding:50px 50px; */
-    }
+
 }/* END Media Query */
 
 
 
-
+/* ------------------------ Fade Animation ---------------------- */
     /***** Fade Animation   *****/ 
     [aos="fade"] {
         opacity: 0;
