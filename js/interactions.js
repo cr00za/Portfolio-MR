@@ -37,7 +37,7 @@ $('.navbar-collapse a').click(function (e) {
 $(document).scroll(function(){
     var scroll = $(window).scrollTop();
     if(scroll>20) {
-        $(".navbar-custom").css("background", "rgba(2, 50, 70, .95)");
+        $(".navbar-custom").css("background", "rgba(40, 112, 148, 1)");
         $(".navbar-nav a").css("color", "#FFF");
         $("nav").removeClass("navbar-light").addClass("navbar-dark");
         $("#logo").attr("src","images/Logo-light.svg");

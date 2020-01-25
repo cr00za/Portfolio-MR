@@ -9,12 +9,12 @@ $(document).ready(function(){
     $( '.glasses' ).attr("src","images/Portfolio Portrait-sky.svg");
     });
 
-    $(".toggle, sidebar-contact, .glassesPortfolio, .glassesHome, glassesAbout").hover(function() {
+    $(".toggle, .glassesPortfolio, .glassesHome, .glassesAbout").hover(function() {
         $( '.glasses' ).attr("src","images/Portfolio Portrait-blue.svg");
         
     });
 
-    $(".jumbotron, .heroBlock, .heroImageBlock").hover(function() {
+    $(".heroBlock, .heroImageBlock").hover(function() {
         $( '.glasses' ).attr("src","images/Portfolio Portrait-navy.svg");
     });
 

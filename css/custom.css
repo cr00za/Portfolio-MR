@@ -40,14 +40,15 @@ html {scroll-behavior: smooth;}
 /* Buttons - overriding the button styles to fit my theme */
 /*This is modifying the btn-primary colors */
 .btn-primary{
-    background-color: #f6f6f6 !important;
-    border-color: #023246 !important;
-    color: #023246 !important;
+    background-color: #287094 !important;
+    border-color: #287094 !important;
+    color: #F6F6F6 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #F6F6F6 !important;
-    background-color: #287094 !important;
-    border-color: #023246  !important; 
+    color: #000000 !important;
+    background-color: #F6F6F6 !important;
+    background-color: #F6F6F6;
+    border-color: #287094  !important; 
 }
 
 .btn {border-radius: 0px !important; }
@@ -75,6 +76,7 @@ html {scroll-behavior: smooth;}
     background-color: #f6f6f6;
     /* padding-top: 4%;
     padding-bottom: 2%; */
+    
 }
 #heroImage {display:inline-block; width: 60%;}
 
@@ -249,17 +251,7 @@ html {scroll-behavior: smooth;}
 
 
 .aboutText {font-size: 16px; font-weight: 300; max-width: 100%;}
-#connect {
-    /* margin-top: 5%;  */
-    margin-left: 15px;
-    margin-bottom: 86px;
-}
-#connect p {color: #757575;}
 
-.socialIcons img {width: 25%; padding-right: 15px;}
-
-/* ------------      Animation       ------------ */
-.socialIcons:hover {filter: grayscale(0%);}
 
 
 /*----------------------------*/
@@ -268,15 +260,31 @@ html {scroll-behavior: smooth;}
 /* Area - description */
 
 .footerBlock { 
-    height: 100px;
+    /* height: 100px; */
     padding-left: 0;
-    padding-top: 20px;
-    background-color: #023246;
+    padding-top: 36px;
+    background-color: #287094;
 }
 
-.footerBlock p { color: #F6F6F6;}
-
+.footerBlock p {  color: #F6F6F6;}
 .foot { margin-left: 0;}
+
+#connect {
+    /* margin-top: 5%;  */
+    /* margin-left: 15px; */
+    margin-bottom: 36px;
+}
+
+#connect p {color: #F6F6F6;}
+
+.socialIcons {
+    width: 10%; 
+    padding-right: 15px;
+}
+
+
+/* ------------      Animation       ------------ */
+.socialIcons:hover {filter: grayscale(0%);}
 
 
 /* ////////////////////////////     Responsive       ///////////////////////////// */
@@ -346,7 +354,9 @@ html {scroll-behavior: smooth;}
         color: #023246;
         max-width: 450px;
         height: 60%;
+        padding-top: 12%;
     }
+   
     
 
     /***** My Process   *****/  
@@ -360,6 +370,7 @@ html {scroll-behavior: smooth;}
     /***** Portfolio   *****/ 
     .portfolioSubtitleText {
         font-size: 19px;
+        width: 90%;
     }
     /* styling portfolio title & subtitle text */
     .projectTitle {
@@ -445,6 +456,7 @@ html {scroll-behavior: smooth;}
       }
 
 
+
       @media screen and (min-width: 992px){
         .biohero-xs {display: none;}
         .biohero-sm {display: none;}
@@ -456,6 +468,9 @@ html {scroll-behavior: smooth;}
             left: -40%;
             width: 100%;
         }
+
+        /* set cover image size */
+.cover img { max-width: 80%;}
         }
 
 
