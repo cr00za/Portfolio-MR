@@ -1,0 +1,86 @@
+
+
+/*-----------------------*/
+/***** HERO SECTION  *****/
+/*-----------------------*/
+.wrcHero {
+    height: 653px;
+    background: url("../images/wrcHero.jpg") no-repeat center center fixed;
+    background-size:cover;
+    z-index: 0;
+}
+
+.wrcHeroText {
+    background-color:  rgba(255, 255, 255, 0.6);
+    /* border-radius: 0px 196px 196px 0px; */
+    width: 548px;
+    margin-top: 226px;
+    left: -1px;
+    padding: 24px 100px 24px 48px;
+    text-align: left;
+}
+
+.wrc-logo img { width: 75%; margin-top: 70px; padding-left: 48px;}
+
+/*---------------------------*/
+/***** DISCOVERY SECTION *****/
+/*---------------------------*/
+
+/* Discovery Section */
+.discoverySection {
+    padding-top: 140px;
+    padding-left: 48px;
+}
+.discoverySectionB {
+    padding-top: 70px;
+}
+
+.phaseNumber {
+    color: #287094;
+    font-weight: 500;
+    font-size: 20px;
+}
+.phaseType {
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.discoverIcon img {
+    width: 60%;
+    padding-left: 50px;
+}
+
+h3.lightHeadings {
+    color: #287094;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h3.darkHeadings {
+    color: #287094;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.leftSideRight {
+    /* padding-left: 10px; */
+}
+
+.discoverySectionB li {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 576px){
+
+    .wrcHeroText {
+        background-color:  rgba(255, 255, 255, 0.6);
+        border-radius: 0px 196px 196px 0px;
+
+    }
+
+}
+
+@media screen and (min-width: 786px){
+
+}
