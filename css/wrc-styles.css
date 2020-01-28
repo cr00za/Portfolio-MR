@@ -132,6 +132,12 @@
         display: inline-block;
     }
 
+
+    .definitionSectionC img {
+        width: 35%;
+        margin-bottom: 20px;
+    }
+
     /* section findings and research */
     .definitionSectionC p { 
         font-size: 14px;
@@ -139,11 +145,11 @@
         max-width: 300px;
     }
 
-    .definitionSectionC img {
-        width: 35%;
-        margin-bottom: 20px;
-    }
-
+/* Research Sub Heading spacing */
+.researchSubHead {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 @media screen and (min-width: 576px){
 
     /*-----------------------*/
