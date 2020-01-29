@@ -85,16 +85,8 @@
         font-size: 20px;
     }
 
-    /* list items padding to fix lack of indentation */
-    .discoverySection1B ul {
-        padding-left: 14px;
-    }
 
-    /* list items color and font size for hierarchy */
-    .discoverySection1B li {
-        font-size: 14px;
-        color: #757575;
-    }
+
     .leftSideLeft ul, .leftSideRight ul{min-width: 164.25px;}
     .blurbs { color: #757575; max-width: 300px; font-size: 14px;}
 
@@ -115,10 +107,11 @@
         padding-bottom: 20px;
     }
      /* list items color and font size for hierarchy */
-    .definitionSectionB li {
+    .listItems {
         font-size: 14px;
         color: #757575;
     }
+
     /* list items padding to fix lack of indentation */
     .definitionSectionB ul {
         padding-left: 14px;
@@ -150,6 +143,11 @@
     margin-top: 40px;
     margin-bottom: 20px;
 }
+
+.sect-top {margin-top:70px}
+.insect-top {margin-top: 48px;}
+.artifact {width: 100%;}
+.artifact-userflow {width: 50%;}
 @media screen and (min-width: 576px){
 
     /*-----------------------*/
@@ -175,9 +173,7 @@
     .discoverySection1 {
         margin-top: 140px;
     }
-    .discoverySection2 {
-        margin-top: 48px;
-    }
+   
     .pad-sm {
     padding-left: 0px;
     padding-right: 0px;
