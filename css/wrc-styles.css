@@ -148,6 +148,8 @@
 .insect-top {margin-top: 48px;}
 .artifact {width: 100%;}
 .artifact-userflow {width: 50%;}
+.artifact-wireframes {width: 65%;}
+h4.centerArtifactLabel {display: flex; justify-content: center; margin-bottom: 20px;}
 @media screen and (min-width: 576px){
 
     /*-----------------------*/

@@ -42,12 +42,38 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- 
+    <link rel="stylesheet" href="css/nav-styles.css">
     <link rel="stylesheet" href="css/wrc-styles.css">
 
 </head>
     <body>
-      
+        <!-- HEADER START -->
+        <header>
+            <!-- <div class="safezone">IPHONE X SAFE ZONE</div> -->
+
+
+              <nav class="navbar navbar-expand-md navbar-custom fixed-top navbar-light marginLeft-sm marginRight-sm" id="nav">
+                <div class="navSpacer">
+                    <a class="navbar-brand" href="#"><img id="logo" src="images/Logo-dark.svg" alt="Logo"></a>
+                </div>   
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                    </button>
+                
+                <div class="collapse navbar-collapse w-100 stroke justify-content-end" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active glassesHome" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link js-anchor-link glassesProcess" href="https://cr00za.github.io/Portfolio-MR/#myProcess">Process</a>
+                    <a class="nav-item nav-link js-anchor-link glassesPortfolio" href="https://cr00za.github.io/Portfolio-MR/#portfolio">Portfolio</a>
+                    <a class="nav-item nav-link js-anchor-link glassesAbout" href="https://cr00za.github.io/Portfolio-MR/#aboutMe">About</a>
+                    <a class="nav-item nav-link js-anchor-link toggle" data-toggle="modal" data-target="#exampleModal" data-whatever="Miguel" href="https://cr00za.github.io/Portfolio-MR/#contactMe" >Contact</a>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+
+        <!-- HEADER END -->
         <div class="container wrcHero">
             <div class="row">
                 <div class="col-xs-12">  
@@ -317,14 +343,28 @@
 
         <!-- User Flow -->
 
-        <div class="container pad-sm pad-lg insect-top">
+        <div class="container pad-sm pad-lg sect-top">
             <div class="row userflow">
-                <div class="col-12 d-flex justify-content-center">
-                    <h4 class="lightHeadings">User Flow</h4>
-                    <img class="artifact-userflow" src="images/develop-userFlow.png" alt="user flow diagram">
-                
+                <div class="col-12 d-flex justify-content-center flex-column">
+                    <h4 class="lightHeadings centerArtifactLabel">User Flow</h4>
+                    <div class="d-flex justify-content-center">
+                        <img class="artifact-userflow" src="images/develop-userFlow.png" alt="user flow diagram">
+                    </div>
                 </div>
 
+            </div>
+        </div>
+
+        <!-- Wireframes -->
+
+        <div class="container pad-sm pad-lg insect-top">
+            <div class="row wireframes">
+                <div class="col-12 d-flex justify-content-center flex-column">
+                    <h4 class="lightHeadings centerArtifactLabel">Wireframes</h4>
+                    <div class=" d-flex justify-content-center">  
+                        <img class="artifact-wireframes" src="images/develop-wireframes.png" alt="user flow diagram">    
+                    </div>
+                </div>
             </div>
         </div>
 
