@@ -30,12 +30,13 @@ $('.navbar-collapse a').click(function (e) {
     $('.show').collapse('toggle');
   });
 
-
+  $(".navbar-custom").css("background", "rgba(255, 255, 255, 1)");
 // The scroll() method triggers the scroll event, or attaches a function to run when a scroll event occurs.
 // scrollTop returns the scroll position
 //when window scrolls do this function
 $(document).scroll(function(){
     var scroll = $(window).scrollTop();
+    
     if(scroll>20) {
         $(".navbar-custom").css("background", "rgba(40, 112, 148, 1)");
         $(".navbar-nav a").css("color", "#FFF");

@@ -40,9 +40,8 @@
         max-width: 300px;
     }
     /* Entire Discovery Section - set top margin*/
-    .discoverySection1A {
+    .discoverySection1 {
         margin-top: 140px;
-        padding-bottom: 20px;
     }
 
     /* .discoverySectionB {
@@ -145,12 +144,23 @@
 }
 
 .sect-top {margin-top:70px}
-.insect-top {margin-top: 48px;}
+.insect-top {padding-top: 48px;}
 .artifact {width: 100%;}
-.artifact-userflow {width: 50%;}
+.artifact-userflow {width: 65%;}
 .artifact-wireframes {width: 65%;}
 h4.centerArtifactLabel {display: flex; justify-content: center; margin-bottom: 20px;}
+
+
+.carousel-indicators li {
+    background-color: #287094 !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #287094 !important;
+}
+.carousel-inner {background-color: #FFF;}
 @media screen and (min-width: 576px){
+
 
     /*-----------------------*/
     .wrcHero {
@@ -185,6 +195,24 @@ h4.centerArtifactLabel {display: flex; justify-content: center; margin-bottom: 2
 }
 
 @media screen and (min-width: 786px){
+    /* General spacing */
+    .sect-top {margin-top:90px}
+
+    /* padding for navbar */
+    .marginLeft-sm {padding-left: 30px;}
+    .marginRight-sm {padding-right: 30px;}
+    .navSpacer {width: 85%;}
+    /***** Legacy Logo Styling   *****/ 
+    /* styling logoblock - overriding the nav to fit my theme */
+    .logoBlock {
+        display: inline-block;
+        z-index: 0 !important;
+        margin-left: 0%;
+        padding-left: 0%;
+        width: 45%;
+    } 
+
+
 /* Discovery Section */
     .discoverySection1 {
         margin-top: 48px;
@@ -195,4 +223,9 @@ h4.centerArtifactLabel {display: flex; justify-content: center; margin-bottom: 2
     padding-right: 0px;
     }
 
+}
+
+@media screen and (min-width: 992px){
+    /* General spacing */
+    .sect-top {margin-top:140px}
 }

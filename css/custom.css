@@ -20,8 +20,8 @@
     /* padding-top: 20%; */
 }
 
-.showcaseQuote {font-weight: 600; font-size: 48px;}
-p { font-family: 'Lato', sans-serif; font-weight: 300; color: #757575;}
+.showcaseQuote { width: 100%;} 
+p { font-family: 'Lato', sans-serif; font-weight: 300; color: #757575; max-width: 430px;}
 h1 {font-weight: 600; font-size: 48px;}  
 
 h1, h2, h3 {font-family: 'Barlow Condensed', sans-serif;}
@@ -109,10 +109,10 @@ html {scroll-behavior: smooth;}
     padding-left: 8%;
 }
 
-/* Shortening teamwork textblock */
-#teamworkText {max-width: 80%;}
-
-
+.highlightBlock {
+    width: 100%;
+    max-width: 62px;
+}
 /*----------------------------*/
 /***** PORTFOLIO SECTION *****/
 /*----------------------------*/
@@ -204,10 +204,10 @@ html {scroll-behavior: smooth;}
 /***** QUOTE SECTION      *****/
 /*----------------------------*/
 .quoteBlock { 
-  color: #F6F6F6;
-  text-align: center;
+  /* color: #F6F6F6; */
   padding-top: 20px;
   padding-bottom: 20px;
+  /* width: 30%; */
 }
 .quoteSection {
     height:40%;
@@ -363,8 +363,8 @@ html {scroll-behavior: smooth;}
     .processRight {
     padding-left: 0%;
     }
-    #teamworkText {
-    max-width: 80%;
+    .teamworkText {
+    max-width: 300px;
     }
 
     /***** Portfolio   *****/ 
