@@ -21,7 +21,7 @@
 }
 
 .showcaseQuote { width: 100%;} 
-.showcaseText { margin-top: 70px;}
+.showcaseText { padding-top: 70px;}
 p { font-family: 'Lato', sans-serif; font-weight: 300; color: #757575; max-width: 430px;}
 h1 {font-weight: 600; font-size: 48px;}  
 
@@ -87,7 +87,7 @@ html {scroll-behavior: smooth;}
 
 /* illustrations - sizing illustrations so they can tile into a 2x2 for all screens */
 .phase {
-    max-width: 40%;
+    max-width: 270px;
 }
 
 /* styling text in my process breakdown */
