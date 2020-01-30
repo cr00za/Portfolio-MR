@@ -21,6 +21,7 @@
 }
 
 .showcaseQuote { width: 100%;} 
+.showcaseText { margin-top: 70px;}
 p { font-family: 'Lato', sans-serif; font-weight: 300; color: #757575; max-width: 430px;}
 h1 {font-weight: 600; font-size: 48px;}  
 
@@ -101,7 +102,7 @@ html {scroll-behavior: smooth;}
 }
 
 /* sizing process illustrations */
-.phaseImage {max-width: 50%;}
+.phaseImage {max-width: 94px;}
 
 /* set background color for Team work Text, right */
 .processRight {
@@ -111,8 +112,12 @@ html {scroll-behavior: smooth;}
 
 .highlightBlock {
     width: 100%;
-    max-width: 62px;
+    width: 62px;
 }
+.teamworkText {
+    width: 230px;
+    max-width: 230px;
+    }
 /*----------------------------*/
 /***** PORTFOLIO SECTION *****/
 /*----------------------------*/
@@ -363,9 +368,7 @@ html {scroll-behavior: smooth;}
     .processRight {
     padding-left: 0%;
     }
-    .teamworkText {
-    max-width: 300px;
-    }
+
 
     /***** Portfolio   *****/ 
     .portfolioSubtitleText {
