@@ -300,19 +300,19 @@ html {scroll-behavior: smooth;}
 /***** MEDIA QUERY   556px   *****/
 /*-------------------------------*/
 @media screen and (min-width: 576px){
-
+    #bioImage { max-width: 140%; }
 /* setting how the about illustration should display on sm screens */
 .biohero-xs {display: none;}
 .biohero-sm {display: block; 
     z-index: -1; 
-    top: -48%; 
+    top: 0%; 
     position: absolute;
-    left: -40%;
+    left: -8%;
     width: 100%;
 }
 .biohero-lg {display: none;}
 .aboutBackground {
-    margin-top: 16%;
+    /* margin-top: 6%; */
 }
 .bioImageRow {
     margin-bottom: 40px;
@@ -401,8 +401,9 @@ html {scroll-behavior: smooth;}
     /***** About   *****/   
     .aboutSubtitle {color: #287094;}
     .aboutText {font-size: 16px; max-width: 80%;}
+    
     #bioImage {
-        max-width: 80%;   
+        max-width: 120%;   
         /* offset-x | offset-y | blur-radius | spread-radius | color */
         box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
         z-index: 1;
@@ -466,14 +467,15 @@ html {scroll-behavior: smooth;}
         .biohero-lg {
             display: block; 
             z-index: -1; 
-            top: -48%; 
+            top: 0%; 
             position: absolute;
-            left: -40%;
+            left: -22%;
             width: 100%;
         }
-
+        #bioImage {width: 100%; max-width: 488px;}  
         /* set cover image size */
 .cover img { max-width: 80%;}
+
         }
 
 
