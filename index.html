@@ -88,6 +88,9 @@
         </header>
     
         <main>
+            <!-- --------- -->
+            <!-- JUMBOTRON -->
+            <!-- --------- -->
             <div class="logoBlock"></div>
             <div class="jumbotron marginLeftLand-sm marginRightLand-sm  d-flex justify-content-lg-around">
                 <div class="row ">
@@ -105,54 +108,59 @@
                         </div>
                     </div>
                     <!-- setting up columns for larger devices / center button only on md or > devices -->
-                    <div class="col-12 d-flex my-auto col-sm-6 col-lg-5 ml-lg-5 heroImageBlock justify-content-end">
+                    <div class="col-12 d-flex my-auto col-sm-6 col-lg-5 ml-lg-5 heroImageBlock justify-content-center justify-content-end-md">
                         <img id="heroImage" class="glasses" src="images/Portfolio Portrait-navy.svg" alt="my illustrated portrait">
                     </div>
                 </div>
            
             </div>
-<!-- MODAL CONTACT FORM -->
+            <!-- ------------------ -->
+            <!-- CONTACT MODAL FORM -->
+            <!-- ------------------ -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Subject</label>
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text" placeholder="Your message"></textarea>
+                    </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+                </div>
+            </div>
+            </div>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Subject</label>
-            <input type="text" class="form-control" placeholder="Subject">
-          </div>
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text" placeholder="Your message"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
-      </div>
-    </div>
-  </div>
-</div>
 
+            <!-- END MODAL CONTACT FORM  -->
 
-<!-- END MODAL CONTACT FORM  -->
-
+          
+            <!-- -------------------- -->
             <!-- MY PROCESS - SECTION -->
-            <h2 class="sectionTitle marginLeft-sm marginRight-sm" data-aos="fade-in" data-aos-delay="400" id="myProcess">My Process</h2>
-            
-            <div class="container-fluid processBackground marginLeft-sm marginRight-sm">
-            
-                        <div class="row">
+            <!-- -------------------- -->
+            <div class="container-fluid processBackground marginLeft-sm marginRight-sm rowWidth">
+                        <div class="row rowWidth">
+                            <h2 class="sectionTitle marginLeft-sm marginRight-sm rowWidth" data-aos="fade-in" data-aos-delay="400" id="myProcess">My Process</h2>
+                        </div>
+
+                        <div class="row ">
                             <!-- Phase 1: Discover -->
-                            <div id="discover" class="phase col-6 col-lg-3 mx-auto">
+                            <div id="discover" class="phase col-6 mx-auto px-sm-0">
                                 <img class="phaseImage" src="images/discoverIcon2.svg" alt="icon representing the Discovery phase">
                                 <h4 class="phaseTitle">Discover</h4>
                                 <div id="discoverText" class="phaseText">
@@ -161,16 +169,18 @@
                             </div>
 
                             <!-- Phase 2: Define -->
-                            <div id="define" class="phase col-6 col-lg-3 mx-auto">
+                            <div id="define" class="phase col-6 mx-auto px-sm-0">
                                 <img class="phaseImage" src="images/defineIcon2.svg" alt="placeholder pic for Discover phase">
                                 <h4 class="phaseTitle">Define</h4>
                                 <div id="defineText" class="phaseText">
                                     <p>Narrow in on the design constraints/ guiderails. Idendify what we're solving and for whom.</p>
                                 </div>
                             </div>
+                        </div>
 
+                        <div class="row">
                             <!-- Phase 3: Develop -->
-                            <div id="develop" class="phase col-6 col-lg-3 mx-auto">
+                            <div id="develop" class="phase col-6 mx-auto px-sm-0">
                                 <img class="phaseImage" src="images/developIcon2.svg" alt="placeholder pic for Discover phase">
                                 <h4 class="phaseTitle">Develop</h4>
                                 <div id="developText" class="phaseText">
@@ -179,7 +189,7 @@
                             </div> 
                             
                             <!-- Phase 4: Deliver -->
-                            <div id="deliver" class="phase col-6 col-lg-3 mx-auto">
+                            <div id="deliver" class="phase col-6 mx-auto px-sm-0">
                                 <img class="phaseImage" src="images/deliverIcon2.svg" alt="placeholder pic for Discover phase">
                                 <h4 class="phaseTitle">Deliver</h4>
                                 <div id="deliverText" class="phaseText">
@@ -192,7 +202,7 @@
                     </div>
             </div>
             
-            <div class="container showcaseText">
+            <!-- <div class="container showcaseText">
 
                     <div class="row d-flex justify-content-center">
                         <div class="col-7  teamworkText">
@@ -205,13 +215,16 @@
                         </div>
                     </div>
 
-            </div>
+            </div> -->
 
             
 
             
 
+    
+            <!-- ------------------- -->
             <!-- PORTFOLIO - SECTION -->
+            <!-- ------------------- -->
             <h2 class="sectionTitle marginLeft-sm marginRight-sm" data-aos="fade-in" data-aos-delay="400"id="portfolio">Portfolio</h2>
                     <div class="portfolioSubtitleBlock marginLeft-sm marginRight-sm col-12 col-sm-8 col-md-8 col-lg-6">
                         <div id="bar" class=""></div>
@@ -220,7 +233,7 @@
                     </div>
  
     
-                <div class="container-fluid marginLeft-sm marginRight-sm">
+                <div class="container-fluid marginLeft-sm marginRight-sm portfolioSection ">
                     <div class="row">
                         <div id="travelCover" class="cover card-body col-12 col-sm-12 col-md-6">
                                 <img class="coverImage" src="images/travelAppCover.jpg" alt="cover for travel project">
@@ -266,9 +279,10 @@
                     </div>
                 </div>
 
+    
+            <!-- --------------- -->
             <!-- TOOLS - SECTION -->
-            
-
+            <!-- --------------- -->
             <div class="container-fluid toolsSection marginLeft-sm marginRight-sm">
                 
                 <div class="row">
@@ -328,7 +342,10 @@
                 </div>
             </div>
 
+      
+            <!-- --------------- -->
             <!-- Quote - SECTION -->
+            <!-- --------------- -->
             <section class="quoteSection">
                 <div class="containter-fluid">
                     <div class="row  quoteBlock mx-auto">
@@ -341,7 +358,10 @@
                 </div>
             </section>
 
+           
+            <!-- ------------------ -->
             <!-- ABOUT ME - SECTION -->
+            <!-- ------------------ -->
             <div class="">
                 <h2 class="sectionTitle marginLeft-sm marginRight-sm" data-aos="fade-in" data-aos-delay="400" id="aboutMe">About Me</h2>
             <div class="container-fluid aboutBackground marginLeft-sm marginRight-sm">
@@ -410,7 +430,10 @@
        
 
         </main>
-        
+
+        <!-- ---------------- -->
+        <!-- FOOTER - SECTION -->
+        <!-- ---------------- -->
         <footer class="footerBlock">
             <div class="container foot marginLeft-sm marginRight-sm">  
                 <div class="row">

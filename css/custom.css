@@ -30,6 +30,9 @@ html, body {overflow-x: hidden;}
 h2 {font-size: 36px;}
 #connect p {font-weight: 400; color:#212529;}
 
+.rowWidth {    width: 100%;
+    max-width: 1080px;}
+
 /*----------------------------*/
 /* Enable scroll function */
 html {scroll-behavior: smooth;}  
