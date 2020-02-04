@@ -2,7 +2,9 @@
 /*-----------------------*/
 /***** GLOBAL STYLES *****/
 /*-----------------------*/
-
+.container {
+    max-width: 1080px;
+}
 
 
 .sectionTitle { 
@@ -102,6 +104,11 @@ html {scroll-behavior: smooth;}
 /*----------------------------*/
 /***** MY PROCESS SECTION *****/
 /*----------------------------*/
+.processSection {    
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    max-width: 1080px;
+}
 
 /* illustrations - sizing illustrations so they can tile into a 2x2 for all screens */
 .phase {
@@ -136,9 +143,15 @@ html {scroll-behavior: smooth;}
     width: 230px;
     max-width: 230px;
     }
-/*----------------------------*/
+/*---------------------------*/
 /***** PORTFOLIO SECTION *****/
-/*----------------------------*/
+/*---------------------------*/
+
+.processBackground {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    max-width: 1080px;
+}
 
 .portfolioSection {
     background-color: #287094;
@@ -257,8 +270,14 @@ html {scroll-behavior: smooth;}
 .aboutBackground {
     position: relative;
     z-index: 0;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
 }
-
+.aboutSection {    
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    max-width: 1080px;
+}
 #bioImage {
     max-width: 100%;    
     /* offset-x | offset-y | blur-radius | spread-radius | color */
