@@ -90,7 +90,6 @@ html {scroll-behavior: smooth;}
 .heroBlock {
     max-width: 100%;
     height: 60%;
-  
 }
 .heroImageBlock {
     display: inline-block;
@@ -109,7 +108,7 @@ html {scroll-behavior: smooth;}
     padding-right: 35px !important;
     max-width: 1080px;
 }
-
+.sectionBottomProcess {padding-bottom: 34px !important;}
 /* illustrations - sizing illustrations so they can tile into a 2x2 for all screens */
 .phase {
     max-width: 270px;
@@ -147,6 +146,10 @@ html {scroll-behavior: smooth;}
 /***** PORTFOLIO SECTION *****/
 /*---------------------------*/
 
+/* bottom padding calculated to give standard 50px needs 10px to add to existing */
+.sectionBottomPortfolio {
+    padding-bottom: 10px !important;
+}
 .processBackground {
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -229,7 +232,8 @@ html {scroll-behavior: smooth;}
     color: #287094;
     font-weight: 500;
     font-size: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+    margin-top: 70px;
 }
 /* Icon color change - change color to black and white */
 .toolIcon {filter: grayscale(100%); padding: 2px;}
@@ -239,7 +243,7 @@ html {scroll-behavior: smooth;}
     width: 20%;
 }
 .toolsSection {
-    margin-bottom: 70px;
+    margin-bottom: 34px;
     text-align: center;
 }
 
@@ -251,8 +255,8 @@ html {scroll-behavior: smooth;}
 /*----------------------------*/
 .quoteBlock { 
   /* color: #F6F6F6; */
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   /* width: 30%; */
 }
 .quoteSection {
@@ -274,10 +278,10 @@ html {scroll-behavior: smooth;}
     padding-right: 20px !important;
     max-width: 1080px;
 }
-/* .aboutSection2 {
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 1080px;} */
+/* bottom padding calculated to give standard 50px needs 10px to add to abBlock's 40px */
+.sectionBottomAbout {
+    padding-bottom: 10px !important;
+}
 #bioImage {
     max-width: 100%;    
     /* offset-x | offset-y | blur-radius | spread-radius | color */
@@ -313,19 +317,15 @@ html {scroll-behavior: smooth;}
 
 .footerBlock { 
     /* height: 100px; */
-    padding-left: 0;
-    padding-top: 36px;
+    /* padding-left: 0; */
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #287094;
 }
 
 .footerBlock p {  color: #F6F6F6;}
 .foot { margin-left: 0;}
 
-#connect {
-    /* margin-top: 5%;  */
-    /* margin-left: 15px; */
-    margin-bottom: 36px;
-}
 
 #connect p {color: #F6F6F6;}
 
@@ -348,6 +348,7 @@ html {scroll-behavior: smooth;}
 /*-------------------------------*/
 @media screen and (min-width: 576px){
 
+
 .sectionTitle { 
     font-weight: 900; 
     font-size: 40px;
@@ -358,7 +359,7 @@ html {scroll-behavior: smooth;}
     padding-bottom: 20px;
     margin-bottom: 0px;
 }
-
+.heroBlock {padding-left: 0px;}
     #bioImage { max-width: 140%; }
 /* setting how the about illustration should display on sm screens */
 .biohero-xs {display: none;}
@@ -419,6 +420,8 @@ html {scroll-behavior: smooth;}
         max-width: 450px;
         height: 60%;
         padding-top: 12%;
+        
+
     }
    
     
