@@ -8,8 +8,8 @@
 .sectionTitle { 
     font-weight: 900; 
     font-size: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
     /* Vertical spacing */
     padding-top: 70px;
     padding-bottom: 20px;
@@ -37,12 +37,7 @@ h2 {font-size: 36px;}
 /* Enable scroll function */
 html {scroll-behavior: smooth;}  
 
-
-/*-----------------------*/
-/***** HERO SECTION  *****/
-/*-----------------------*/
-/* Buttons - overriding the button styles to fit my theme */
-/*This is modifying the btn-primary colors */
+/* General Button Styling */
 .btn-primary{
     background-color: #287094 !important;
     border-color: #287094 !important;
@@ -56,6 +51,26 @@ html {scroll-behavior: smooth;}
 }
 
 .btn {border-radius: 0px !important; }
+
+/* Portfolio section buttons */
+.portfolioButton {
+    background-color: #F6F6F6 !important;
+    border-color: #F6F6F6 !important;
+    color: #023246 !important;
+}
+.portfolioButton:hover, .portfolioButton:focus, .portfolioButton:active, .portfolioButton.active {
+    color: #F6F6F6 !important;
+    background-color: #023246 !important;
+    border-color: #023246  !important; 
+}
+
+
+/*-----------------------*/
+/***** HERO SECTION  *****/
+/*-----------------------*/
+/* Buttons - overriding the button styles to fit my theme */
+/*This is modifying the btn-primary colors */
+
 .jumbotron {
     padding-top: 4rem !important;
     margin-top: 75px;
@@ -131,12 +146,16 @@ html {scroll-behavior: smooth;}
 /* subtitle - style bar for Portfolio subtitle */
 #bar {
     display: inline-block;
-    background-color: #023246;
+    background-color: #C4C4C4;
     width: 8px;
     height: 4rem;
     margin-left: 4px;
 }
 
+/* Portfolio section title color */
+.portfolioSection .sectionTitle {
+    color: #F6F6F6;
+}
 /* style portfolio subtitle Block and text within in */
 .portfolioSubtitleBlock {
      /* Vertical Spacing  */
@@ -148,7 +167,7 @@ html {scroll-behavior: smooth;}
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     width: 90%;
-    color: #333333;
+    color: #EEEEEE;
 }
 
 .projectSubtitle { color: #333333;}
@@ -174,10 +193,12 @@ html {scroll-behavior: smooth;}
 .projectTitle {
     font-weight: 500;
     font-size: 16px;
+    color: #EEEEEE;
 }
 .projectSubtitle {
     font-weight: 300;
     font-size: 12px;
+    color: #EEEEEE;
 }
 
 
@@ -307,6 +328,18 @@ html {scroll-behavior: smooth;}
 /***** MEDIA QUERY   556px   *****/
 /*-------------------------------*/
 @media screen and (min-width: 576px){
+
+.sectionTitle { 
+    font-weight: 900; 
+    font-size: 40px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    /* Vertical spacing */
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
     #bioImage { max-width: 140%; }
 /* setting how the about illustration should display on sm screens */
 .biohero-xs {display: none;}
@@ -466,6 +499,7 @@ html {scroll-behavior: smooth;}
         opacity: 1;
       }
 
+/*  */
 
 
       @media screen and (min-width: 992px){
