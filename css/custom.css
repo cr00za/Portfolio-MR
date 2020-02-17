@@ -2,34 +2,59 @@
 /*-----------------------*/
 /***** GLOBAL STYLES *****/
 /*-----------------------*/
+/* toy car --- 38C1F9
+*/
+
+/* Test classes */
+.port-cover {
+    /* border-style: solid;
+    border-color: #757575; */
+}
+/* Test classes End */
+
+
 .container {
-    max-width: 1080px;
+    max-width: 1080px !important;
 }
 
+html, body {overflow-x: hidden;}
+body{
+    /* padding-top:0px !important;
+    margin-top: 0px !important; */
+ }
+
+/* initializing font sizes */
+h1 {font-weight: 600; font-size: 48px;}  
+h2 {font-size: 36px;}
+h1, h2, h3 {font-family: 'Barlow Condensed', sans-serif;}
+
+
+/* COLORS */
+/* 
+
+Black - #023246
+*/
+
+p { 
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300; 
+    color: #757575; 
+    max-width: 430px;
+    padding: 0px;
+}
 
 .sectionTitle { 
     font-weight: 900; 
     font-size: 40px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
-    /* Vertical spacing */
     padding-top: 70px;
     padding-bottom: 20px;
     margin-bottom: 0px;
-}
-/* adjusting space for top of My Process Section sm devices*/
-#myProcess {
-    /* padding-top: 20%; */
+    color: #287094;
 }
 
 .showcaseQuote { width: 100%;} 
 .showcaseText { padding-top: 70px;}
-p { font-family: 'Lato', sans-serif; font-weight: 300; color: #757575; max-width: 430px;}
-h1 {font-weight: 600; font-size: 48px;}  
 
-h1, h2, h3 {font-family: 'Barlow Condensed', sans-serif;}
-html, body {overflow-x: hidden;}
-h2 {font-size: 36px;}
 #connect p {font-weight: 400; color:#212529;}
 
 .rowWidth {    width: 100%;
@@ -41,32 +66,33 @@ html {scroll-behavior: smooth;}
 
 /* General Button Styling */
 .btn-primary{
-    background-color: #287094 !important;
-    border-color: #287094 !important;
-    color: #F6F6F6 !important;
+    background-color: #38C1F9 !important;
+    border-color: #38C1F9 !important;
+    color: #023246 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #000000 !important;
-    background-color: #F6F6F6 !important;
-    background-color: #F6F6F6;
-    border-color: #287094  !important; 
+    color: #F6F6F6 !important;
+    background-color: #023246 !important;
+    border-color: #023246  !important; 
 }
 
 .btn {border-radius: 0px !important; }
 
 /* Portfolio section buttons */
 .portfolioButton {
-    background-color: #F6F6F6 !important;
-    border-color: #F6F6F6 !important;
+    background-color: #38C1F9 !important;
+    border-color: #38C1F9 !important;
     color: #023246 !important;
+    font-size: 16px;
 }
 .portfolioButton:hover, .portfolioButton:focus, .portfolioButton:active, .portfolioButton.active {
-    color: #F6F6F6 !important;
+    color: #F6F6F6!important;
     background-color: #023246 !important;
     border-color: #023246  !important; 
 }
 
-
+.mysection-top-pad
+.mysection-top-pad {padding-top: 40px;}
 /*-----------------------*/
 /***** HERO SECTION  *****/
 /*-----------------------*/
@@ -74,32 +100,69 @@ html {scroll-behavior: smooth;}
 /*This is modifying the btn-primary colors */
 
 .jumbotron {
-    padding-top: 4rem !important;
-    margin-top: 75px;
-    margin-bottom: 0 !important;
-    background-color: #F6F6F6;}
+    margin-bottom: 0px !important;
+    background-color: #FFFFFF;
+    top: 0 !important;
+}
+
 
 /* Text - hero section styling */
-#welcome {font-weight: 100;}
-#heroTitle {font-family: 'Lato', sans-serif; font-weight: 600;}
+#welcome {font-weight: 300; color: #E6E6E6;}
+#heroTitle {
+    font-family: 'Lato', sans-serif; 
+    font-weight: 600;
+    font-size: 42px;
+    color: #F6F6F6;
+}
 #heroSubtitle { 
     font-weight: 100;
-    color: #287094;
+    font-size: 24px;
+    color: #38C1F9;
 } 
 
-.heroBlock {
-    max-width: 100%;
-    height: 60%;
+/* set up the shadow for the hero block */
+.heroBlock {       
+    margin-top: 0px;
+    padding-top: 0px;
+  
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
 }
-.heroImageBlock {
-    display: inline-block;
-    background-color: #f6f6f6;
-    /* padding-top: 4%;
-    padding-bottom: 2%; */
-    
+.myleft-side {
+    width: 100%;
+    height: 400px;
+    background-color: #287094;
+    padding-top: 100px;
+ 
 }
-#heroImage {display:inline-block; width: 60%;}
+.myright-side {
+    width: 100%;
+    height: 400px;
+    background-color: #E6E6E6;
+}
 
+
+#puzzle{
+   max-width: 270px;
+   text-align: center;
+}
+
+/* setting button to not stretch */
+.hero-button {
+    padding: 10px;
+    height: 44px !important;
+    font-size: 14px;
+}
+
+#heroText { 
+    /* color: #F6F6F6; 
+    width: 330px; */
+    font-weight: 300; 
+    font-size: 16px;
+    color: #E6E6E6;
+    width: 310px;
+
+}
 /*----------------------------*/
 /***** MY PROCESS SECTION *****/
 /*----------------------------*/
@@ -111,13 +174,28 @@ html {scroll-behavior: smooth;}
 .sectionBottomProcess {padding-bottom: 34px !important;}
 /* illustrations - sizing illustrations so they can tile into a 2x2 for all screens */
 .phase {
-    max-width: 270px;
+    width: 100%;
+    width: 200px;
 }
+.inner-square {
+    width: 165px;
+    /* min-height: 230px; */
+    padding: 2px;
+    border-color: #E6E6E6;
+    border-style: solid;
+    border-width: 1px;
+    height: 245px;
+}
+
+#discover {;}
 
 /* styling text in my process breakdown */
 /* #e9ecef */
 .phaseTitle {font-weight: 500; color: #023246; font-size: 16px;}
-.phaseText {color: #023246; font-size: 14px;}
+.phaseText {
+    color: #023246; 
+    font-size: 14px;
+}
 
 /* Alignment of of the process section blocks */
 .processLeft {
@@ -183,6 +261,7 @@ html {scroll-behavior: smooth;}
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     width: 90%;
+    max-width: 450px;
     color: #EEEEEE;
 }
 
@@ -190,12 +269,13 @@ html {scroll-behavior: smooth;}
 
 
 /* set cover image size */
-.cover img { max-width: 100%;}
+.cover img { width: 100%; max-width: 424px;}
 
 /* breathing room for title and bottom of portfolio covers*/
 .projectChoiceBlock {
     margin-top: 30px;
     margin-bottom: 20px;
+    max-width: 200px;
 }
 
 /* making the covers pop off the page with a drop shadow */
@@ -230,8 +310,8 @@ html {scroll-behavior: smooth;}
 .toolsText {
     display: inline-block;
     color: #287094;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 900;
+    font-size: 40px;
     margin-bottom: 20px;
     margin-top: 70px;
 }
@@ -243,8 +323,10 @@ html {scroll-behavior: smooth;}
     width: 20%;
 }
 .toolsSection {
-    margin-bottom: 34px;
+
     text-align: center;
+    background-color: #E6E6E6;
+    padding-bottom: 34px;
 }
 
 /* ------------      Animation       ------------ */
@@ -283,9 +365,11 @@ html {scroll-behavior: smooth;}
     padding-bottom: 10px !important;
 }
 #bioImage {
-    max-width: 100%;    
+    width: 100%;   
+    max-width: 200px; 
+    max-height: 205px;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
+    /* box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8); */
     z-index: 1;
 }
 
@@ -297,16 +381,18 @@ html {scroll-behavior: smooth;}
 .synergyBlock {
  margin-top: 56px;
  margin-bottom: 40px;
+ width: 100%;
+
 }
 
 .abBlocks { margin-bottom: 40px;}
 
-.biohero-xs {display: block; z-index: -1; }
-.biohero-sm {display: none;}
-.biohero-lg {display: none;}
+.biohero-xs {display: block; z-index: -1; max-width: 320px;}
+.biohero-sm {display: none; max-width: 240px;}
+.biohero-lg {display: none; max-width: 240px;}
 
 
-.aboutText {font-size: 16px; font-weight: 300; max-width: 100%;}
+.aboutText {font-size: 16px; font-weight: 300; max-width: 100%;  }
 
 
 
@@ -344,10 +430,31 @@ html {scroll-behavior: smooth;}
 
 
 /*-------------------------------*/
-/***** MEDIA QUERY   556px   *****/
+/***** MEDIA QUERY   576px   *****/
 /*-------------------------------*/
 @media screen and (min-width: 576px){
+    .phase {
+        width: 100%;
+        width: 290px;
+    }
+    .inner-square {
+        width: 200px;
+        min-height: 290px;
+        padding: 10px;
+        height: 245px;
+    }
 
+
+    /* HERO STYLING */
+    .myleft-side {
+        height: 400px;
+        padding-top: 20px;
+     
+    }
+    .myright-side {
+        height: 400px;
+    }
+    
 
 .sectionTitle { 
     font-weight: 900; 
@@ -359,7 +466,9 @@ html {scroll-behavior: smooth;}
     padding-bottom: 20px;
     margin-bottom: 0px;
 }
-.heroBlock {padding-left: 0px;}
+
+.phaseTitle {font-weight: 500; color: #023246; font-size: 20px;}
+/* .heroBlock {padding-left: 0px;} */
     #bioImage { max-width: 140%; }
 /* setting how the about illustration should display on sm screens */
 .biohero-xs {display: none;}
@@ -367,13 +476,11 @@ html {scroll-behavior: smooth;}
     z-index: -1; 
     top: 0%; 
     position: absolute;
-    left: -8%;
+    left: -12%;
     width: 100%;
+    
 }
 .biohero-lg {display: none;}
-.aboutBackground {
-    /* margin-top: 6%; */
-}
 .bioImageRow {
     margin-bottom: 40px;
 }
@@ -385,7 +492,12 @@ html {scroll-behavior: smooth;}
 /***** MEDIA QUERY   768px   *****/
 /*-------------------------------*/
 @media screen and (min-width: 768px){
-   
+   .phaseTitle {
+    font-size: 22px;
+   }
+   .phaseText {
+    font-size: 20px;
+   }
     .marginLeft-sm {padding-left: 30px;}
     .marginRight-sm {padding-right: 30px;}
     /***** General   *****/    
@@ -403,32 +515,31 @@ html {scroll-behavior: smooth;}
 
     /***** Hero   *****/    
     .jumbotron {
-        margin-top: 50px;
-        background-color: #F6F6F6;
-    }
-
-    #heroImage {width: 80%; height: auto;}
-    .heroImageBlock {
-        z-index: 1 !important;  
-        background-color: transparent;
-    }
-
-    .heroBlock {
-        z-index: 2;
-        background-color: none;
-        color: #023246;
-        max-width: 450px;
-        height: 60%;
-        padding-top: 12%;
-        
-
-    }
-   
+        padding-top: 0px;
+        background-color: #FFFFFF;
     
+    }
+
+  
+
 
     /***** My Process   *****/  
     .processRight {
     padding-left: 0%;
+    }
+
+    .phase {
+        /* width: 100%;
+        width: 200px; */
+    }
+    .inner-square {
+        width: 200px;
+        min-height: 290px;
+        padding: 10px;
+        border-color: #E6E6E6;
+        border-style: solid;
+        border-width: 1px;
+        height: 245px;
     }
 
 
@@ -449,7 +560,7 @@ html {scroll-behavior: smooth;}
 
     /***** Tools section   *****/  
     .toolIconblock {min-width: 11.5%; max-width: 11.5%;}
-    .toolsText {font-size: 22px;}
+    /* .toolsText {font-size: 22px;} */
 
 
     /***** Quote Section   *****/ 
@@ -465,9 +576,7 @@ html {scroll-behavior: smooth;}
     .aboutText {font-size: 16px; max-width: 80%;}
     
     #bioImage {
-        max-width: 120%;   
-        /* offset-x | offset-y | blur-radius | spread-radius | color */
-        box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
+        width: 220px;
         z-index: 1;
     }
 
@@ -506,6 +615,11 @@ html {scroll-behavior: smooth;}
         overflow-y:auto;
     }
 
+    .biohero-sm {
+        left: -8%;
+    }
+
+
 }/* END Media Query */
 
 
@@ -525,6 +639,10 @@ html {scroll-behavior: smooth;}
 
 
       @media screen and (min-width: 992px){
+/* Setting cover image size to stay consistent when with md and lg size screens */
+/* set cover image size */
+/* .cover img {max-width: 100%;} */
+
 
         /* process padding adjustment */
         /* .processSection {    
@@ -539,16 +657,13 @@ html {scroll-behavior: smooth;}
             z-index: -1; 
             top: 0%; 
             position: absolute;
-            left: -22%;
+            left: -2%;
             width: 100%;
         }
-        #bioImage {width: 100%; max-width: 488px;}  
+        #bioImage {width: 100%; max-width: 220px;}  
         /* set cover image size */
-.cover img { max-width: 80%;}
+.cover img { max-width: 100%;}
 
-/* #discover, #develop {    
-    padding-left: 5px !important;
-} */
         }
 
 

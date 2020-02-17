@@ -69,7 +69,7 @@
 
               <nav class="navbar navbar-expand-md navbar-custom fixed-top navbar-light marginLeft-sm marginRight-sm" id="nav">
                 <div class="navSpacer">
-                    <a class="navbar-brand" href="#"><img id="logo" src="images/Logo-light.svg" alt="Logo"></a>
+                    <a class="navbar-brand" href="#"><img id="logo" src="images/Logo-dark.svg" alt="Logo"></a>
                 </div>   
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
@@ -81,7 +81,7 @@
                     <a class="nav-item nav-link js-anchor-link glassesProcess" href="#myProcess">Process</a>
                     <a class="nav-item nav-link js-anchor-link glassesPortfolio" href="#portfolio">Portfolio</a>
                     <a class="nav-item nav-link js-anchor-link glassesAbout" href="#aboutMe">About</a>
-                    <a class="nav-item nav-link js-anchor-link toggle" onClick="parent.location='mailto:miguel.uxd@gmail.com?subject=Hi&'" href="#contactMe" >Contact</a>
+                    <a class="nav-item nav-link js-anchor-link toggle" data-toggle="modal" data-target="#exampleModal" data-whatever="Miguel" href="#contactMe" >Contact</a>
                   </div>
                 </div>
               </nav>
@@ -91,38 +91,29 @@
             <!-- --------- -->
             <!-- JUMBOTRON -->
             <!-- --------- -->
-            
-            <div class="jumbotron px-0 mx-0 mt-0 pt-0">
-                
-                    <div class="row no-gutters heroBlock mt-0 pt-0">
-                        <div class="col-12 col-md-6  myleft-side d-flex justify-content-center">
-                        
-                            <div class="d-flex justify-content-center flex-column align-content-middle">
-                                <p id="welcome" data-aos="fade" > Hi, I'm</p>
+            <div class="logoBlock"></div>
+            <div class="jumbotron ">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-7 heroBlock">
+                            <div>
+                                <h4 id="welcome" data-aos="fade" > Welcome, I'm</h4>
                                 <h2 id="heroTitle" class="display-4">Miguel Ruddock</h2>
                                 <h3 id="heroSubtitle" class="lead">User Experience / Interface Designer</h3>
-                                <p id="heroText">I create opportunities through human-centric design, bringing life to concepts, ideas, and dreams to connect and impact the world.</p>
+                                <p id="heroText">I create opportunities through human-centric design and bring life to concepts, ideas, and dreams to positively impact the world.</p>
                                 
- 
+                                <div class="d-flex justify-content-sm-start">
+                                    <!-- <a class="btn btn-primary btn-sm toggle" href="#" role="button">Contact me</a> -->
+                                    <a type="button" class="btn btn-primary toggle" data-toggle="modal" data-target="#exampleModal" data-whatever="Miguel" >Contact me</a>
+                                </div>
                             </div>
                         </div>
                         <!-- setting up columns for larger devices / center button only on md or > devices -->
-                        <div class="col-12 col-md-6 myright-side d-flex justify-content-center flex-column align-content-middle">
-                            <div class="text-center">
-                                    <img id="puzzle" class="" src="images/hero-puzzle.svg" alt="puzzle pieces">
-                            </div>
-                            <div class="text-center"> 
-                                <!-- <a class="btn btn-primary btn-sm toggle" href="#" role="button">Contact me</a> -->
-                                <FORM class="pt-2">
-                                    <INPUT class="btn btn-primary toggle" TYPE="button" VALUE="Contact Me" onClick="parent.location='mailto:miguel.uxd@gmail.com?subject=Hi&'">
-                                    </FORM>                   
-                            </div>
-                          
-  
-
+                        <div class="col-12 d-flex my-auto col-sm-6 col-lg-5 ml-lg-5 heroImageBlock justify-content-center justify-content-end-md pr-0">
+                            <img id="heroImage" class="glasses" src="images/Portfolio Portrait-navy.svg" alt="my illustrated portrait">
                         </div>
                     </div>
-       
+                </div>
             </div>
             <!-- ------------------ -->
             <!-- CONTACT MODAL FORM -->
@@ -167,18 +158,18 @@
             <div class="container-fluid sectionBottomProcess">
                 <div class="container">
 
-                    <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400" id="myProcess">My Process</h2>
+                    <h2 class="sectionTitle" data-aos="fade-in" data-aos-delay="400" id="myProcess">My Process</h2>
                 </div>                   
 
 
                 <div class="container processBackground ">
 
-                <div class="row pb-1 pb-sm-3 pb-md-4 d-flex justify-content-center px-0">
+                <div class="row pb-4">
                     
                         <!-- Phase 1: Discover -->
-                        <div id="discover" class="phase pr-1 pr-sm-2 pr-md-3 col-6 d-flex justify-content-end">
-                            <div class="inner-square text-center">
-                                <img class="phaseImage " src="images/discoverIcon2.svg" alt="icon representing the Discovery phase">
+                        <div id="discover" class="phase col-6">
+                            <div class="inner-square">
+                                <img class="phaseImage" src="images/discoverIcon2.svg" alt="icon representing the Discovery phase">
                                 <h4 class="phaseTitle">Discover</h4>
                                 <div id="discoverText" class="phaseText">
                                     <p>Identify and explore the problem space with objectivity, empathy, and a sense of adventure.</p>
@@ -187,8 +178,8 @@
                         </div>
 
                         <!-- Phase 2: Define -->
-                        <div id="define" class="phase pl-0 col-6 pl-sm-2 pl-md-3 justify-content-start">
-                            <div class="inner-square text-center">
+                        <div id="define" class="phase col-6 mx-auto">
+                            <div class="inner-square">
                                 <img class="phaseImage" src="images/defineIcon2.svg" alt="placeholder pic for Discover phase">
                                 <h4 class="phaseTitle">Define</h4>
                                 <div id="defineText" class="phaseText">
@@ -199,11 +190,11 @@
                     
                 </div>
 
-                <div class="row d-flex justify-content-sm-center pt-md-2 px-0">
+                <div class="row ">
                     
                         <!-- Phase 3: Develop -->
-                        <div id="develop" class="phase pr-1 pr-sm-2 pr-md-3 col-6 d-flex justify-content-end">
-                            <div class="inner-square text-center">
+                        <div id="develop" class="phase col-6">
+                            <div class="inner-square">
                                 <img class="phaseImage" src="images/developIcon2.svg" alt="placeholder pic for Discover phase">
                                 <h4 class="phaseTitle">Develop</h4>
                                 <div id="developText" class="phaseText">
@@ -213,8 +204,8 @@
                         </div> 
                         
                         <!-- Phase 4: Deliver -->
-                        <div id="deliver" class="phase px-0 pl-sm-2 pl-md-3 col-6 justify-content-start">
-                            <div class="inner-square text-center">
+                        <div id="deliver" class="phase col-6 mx-auto">
+                            <div class="inner-square">
                                 <img class="phaseImage" src="images/deliverIcon2.svg" alt="placeholder pic for Discover phase">
                                 <h4 class="phaseTitle">Deliver</h4>
                                 <div id="deliverText" class="phaseText">
@@ -258,78 +249,58 @@
     
                 <div class="container-fluid portfolioBackground sectionBottomPortfolio">
                     <div class="container">
-                            <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400"id="portfolio">Portfolio</h2>
+                            <h2 class="sectionTitle" data-aos="fade-in" data-aos-delay="400"id="portfolio">Portfolio</h2>
                     </div>
                     <div class="container">
-                        <div class="row ">
-                            <!-- col-sm-8 col-md-8 col-lg-6 -->
-                            <div class="portfolioSubtitleBlock col-12  text-center">
-                                <!-- <div id="bar" class=""></div> -->
+                        <div class="row">
+                            <div class="portfolioSubtitleBlock col-12 col-sm-8 col-md-8 col-lg-6">
+                                <div id="bar" class=""></div>
                                 <h3 class="portfolioSubtitleText">View samples of individual and group projects I’ve completed
                                         below in my portfolio. They span from responsive web to mobile app design.</h3>
                             </div>
                 
                         </div>
-                        <div class="row justify-content-sm-center">
-                            <div id="travelCover" class="cover card-body col-12 col-sm-12 col-md-6 d-flex justify-content-center">
-                                <div class="port-cover d-flex justify-content-center flex-column">
+                        <div class="row">
+                            <div id="travelCover" class="cover card-body col-12 col-sm-12 col-md-6">
                                     <img class="coverImage" src="images/travelAppCover.jpg" alt="cover for travel project">
-                                    
-                                    <div id="travelChoice" class="projectChoiceBlock">
-                                        <div id="projectChoiceOne" class="projectChoiceTitle">
-                                            <h4 class="projectTitle">Travel Flow App</h4>
-                                            <h5 class="projectSubtitle">Mobile App Design</h5>
-                                        </div>
-                                        <a class="btn btn-primary btn-sm portfolioButton" target="_blank" href="//docs.google.com/presentation/d/1qT-N6msyJT0qMtQHgEsXVUe_Nx0uMtI3SYdojnPvLYw/edit?usp=sharing" role="button">See more</a>
+                                
+                                <div id="travelChoice" class="projectChoiceBlock">
+                                    <div id="projectChoiceOne" class="projectChoiceTitle">
+                                        <h4 class="projectTitle">Travel Flow App</h4>
+                                        <h5 class="projectSubtitle">Mobile App Design</h5>
                                     </div>
+                                    <a class="btn btn-primary btn-sm portfolioButton" target="_blank" href="//docs.google.com/presentation/d/1qT-N6msyJT0qMtQHgEsXVUe_Nx0uMtI3SYdojnPvLYw/edit?usp=sharing" role="button">See more</a>
                                 </div>
                             </div>
 
                         
                             <!-- setting order for columns with  order-2 order-md-8 -->
-                            <div id="goodEatsCover" class="cover card-body col-12 col-sm-12 col-md-6 order-2 order-md-8 d-flex justify-content-center">
-                                <div class="port-cover">
-                                    <img class="coverImage" src="images/goodEatsCover.jpg" alt="cover for Good Eats project">
-                                    <div id="goodEatsChoice" class="projectChoiceBlock">
+                            <div id="goodEatsCover" class="cover card-body col-12 col-sm-12 col-md-6 order-2 order-md-8">
+                                <img src="images/goodEatsCover.jpg" alt="cover for Good Eats project">
+                            
+                                <div id="goodEatsChoice" class="projectChoiceBlock">
                                         <div id="projectChoiceTwo" class="projectChoiceTitle">
                                             <h4 class="projectTitle">Good Eats App</h4>
                                             <h5 class="projectSubtitle">Medical Mobile App</h5>
                                         </div>
                                         <a class="btn btn-primary btn-sm portfolioButton" target="_blank" href="//docs.google.com/document/d/1UUEhMuEip8s86ba3jUCqPBUZQ3dj95SnNpWfBLyYXPM/edit?usp=sharing" role="button">See more</a>
-                                    </div>
                                 </div>
-                                
                             </div>
         
                         </div>
                         <div class="row">
-                            <div id="wrcdvCover" class="cover card-body col-12 col-sm-12 col-md-6 d-flex justify-content-center">
-                                <div class="port-cover">
-                                    <img class="coverImage" src="images/wrcdvCover.jpg" alt="cover for WRCDV project">
+                            <div id="wrcdvCover" class="cover card-body col-12 col-sm-12 col-md-6">
+                                <img src="images/wrcdvCover.jpg" alt="cover for WRCDV project">
                             
-                                    <div id="wrcdvChoice" class="projectChoiceBlock">
-                                        <div id="projectChoiceThree" class="projectChoiceTitle">
-                                            <h4 class="projectTitle">Women's Resource Center</h4>
-                                            <h5 class="projectSubtitle">Non-profit site redesign</h5>
-                                        </div>
-                                        <a class="btn btn-primary btn-sm portfolioButton" target="_blank" href="wrc-case-study.html" role="button">See more</a>
+                                <div id="wrcdvChoice" class="projectChoiceBlock">
+                                    <div id="projectChoiceThree" class="projectChoiceTitle">
+                                        <h4 class="projectTitle">Women's Resource Center</h4>
+                                        <h5 class="projectSubtitle">Non-profit site redesign</h5>
                                     </div>
+                                    <a class="btn btn-primary btn-sm portfolioButton" target="_blank" href="wrc-case-study.html" role="button">See more</a>
                                 </div>
                             </div>
 
-                            <div class="cover card-body col-12 col-sm-12 col-md-6 d-flex justify-content-center">
-                                <div class="port-cover">
-                                    <img class="coverImage" src="images/recycleMattersCover.jpg" alt="cover for Recycle Matters">
-                                    
-                                    <div id="recycleChoice" class="projectChoiceBlock">
-                                        <div id="projectChoicefour" class="projectChoiceTitle">
-                                            <h4 class="projectTitle">Recycle Matters</h4>
-                                            <h5 class="projectSubtitle">Website Design</h5>
-                                        </div>
-                                        <a class="btn btn-primary btn-sm portfolioButton" target="_blank" href="https://drive.google.com/open?id=1563V6Megs85sPIjbWRgPITIrKNkVv4r3" role="button">See more</a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -342,7 +313,7 @@
                 
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
-                        <h2 class="toolsText">My Toolbox</h2>
+                        <h4 class="toolsText">My Toolbox:</h4>
                     </div>
                 </div>
                 
@@ -420,23 +391,23 @@
             
             <div class="container-fluid sectionBottomAbout">
                 <div class="container aboutSection">
-                    <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400" id="aboutMe">About Me</h2>
+                    <h2 class="sectionTitle " data-aos="fade-in" data-aos-delay="400" id="aboutMe">About Me</h2>
                 </div>
 
                 <div class="container aboutSection">
             
-                    <div class="row bioImageRow d-flex justify-content-center">
+                    <div class="row bioImageRow ">
                 
-                        <div id="bioColumn" class="col-12 col-sm-5 order-0 ">
-                            <div class="bioBlock text-center d-flex justify-content-center justify-content-sm-end pr-sm-0">
-                                <img id="bioImage" src="images/Portfolio Portrait-navy.svg" alt="portfolio portrait">
+                        <div id="bioColumn" class="col-12 col-sm-5 order-xs-1">
+                            <div class="bioBlock ">
+                                <img id="bioImage" src="images/Portfolio Portrait.png" alt="portfolio portrait">
                             
                             </div> 
                     
                         </div>
                     
-                        <div id="synergyColumn" class="col-12 col-sm-6 d-flex justify-content-center justify-content-start">
-                            <div class="synergyBlock pl-5"> 
+                        <div id="synergyColumn" class="col-12 col-sm-6 order-xs-5">
+                            <div class="synergyBlock"> 
                                 <img src="images/synergyDesignBlock.svg" alt="synergy block" class="biohero-xs">
                                 <img src="images/synergyDesignBlock-sm.svg" alt="synergy block" class="biohero-sm">
                                 <img src="images/synergyDesignBlock-lg.svg" alt="synergy block" class="biohero-lg">
@@ -484,7 +455,7 @@
             <div class="container foot">  
 
                 <div class="row">
-                    <div id="connect" class="col-6">
+                    <div id="connect" class="col-4">
                         <p class="email">Miguel.uxd@gmail.com</p>
                         <p>Social Media</p>   
                         <div class="socialBlock">
@@ -492,8 +463,8 @@
                                 <img src="images/LinkedIn.svg" alt="linkedin icon"></a>
                         </div> 
                     </div>
- 
-                    <div class="col-6">
+
+                    <div class="col-4">
                         <p>© Miguel Ruddock 2020</p>
                     </div>
 

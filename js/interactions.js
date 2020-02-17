@@ -30,7 +30,7 @@ $('.navbar-collapse a').click(function (e) {
     $('.show').collapse('toggle');
   });
 
-  $(".navbar-custom").css("background", "rgba(255, 255, 255, 1)");
+  $(".navbar-custom").css("background", "rgba(255, 255, 255, 0)");
 // The scroll() method triggers the scroll event, or attaches a function to run when a scroll event occurs.
 // scrollTop returns the scroll position
 //when window scrolls do this function
@@ -39,16 +39,16 @@ $(document).scroll(function(){
     
     if(scroll>20) {
         $(".navbar-custom").css("background", "rgba(40, 112, 148, 1)");
-        $(".navbar-nav a").css("color", "#FFF");
+        $(".navbar-nav a").css("color", "#F6F6F6");
         $("nav").removeClass("navbar-light").addClass("navbar-dark");
         $("#logo").attr("src","images/Logo-light.svg");
         $("nav #navbarNavAltMarkup").removeClass("stroke").addClass("scroller");
     }
     else {
-        $(".navbar-custom").css("background", "rgba(255, 255, 255, 1)");
+        $(".navbar-custom").css("background", "rgba(230, 230, 230, 0)");
         $(".navbar-nav a").css("color", "#023246");
         $("nav").removeClass("navbar-dark").addClass("navbar-light");   
-        $("#logo").attr("src","images/Logo-dark.svg");
+        $("#logo").attr("src","images/Logo-light.svg");
         $("nav #navbarNavAltMarkup").removeClass("scroller").addClass("stroke");
     }
 

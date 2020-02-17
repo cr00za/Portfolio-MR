@@ -51,7 +51,7 @@
      width: 0%;
      content: '.';
      color: transparent;
-     background: #F6F6F6;
+     background: #38C1F9;
      height: 2px;
      }
      .scroller a:hover:after {
@@ -85,7 +85,7 @@
     width: 0%;
     content: '.';
     color: transparent;
-    background: #023246;
+    background: #38C1F9;
     height: 2px;
     }
     .stroke a:hover:after {
