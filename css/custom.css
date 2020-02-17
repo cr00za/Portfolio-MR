@@ -46,8 +46,8 @@ p {
 .sectionTitle { 
     font-weight: 900; 
     font-size: 40px;
-    padding-top: 70px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 30px;
     margin-bottom: 0px;
     color: #287094;
 }
@@ -55,9 +55,10 @@ p {
 .showcaseQuote { width: 100%;} 
 .showcaseText { padding-top: 70px;}
 
-#connect p {font-weight: 400; color:#212529;}
+#connect p {font-weight: 300; color:#212529;}
 
-.rowWidth {    width: 100%;
+.rowWidth {    
+    width: 100%;
     max-width: 1080px;}
 
 /*----------------------------*/
@@ -132,7 +133,7 @@ html {scroll-behavior: smooth;}
     width: 100%;
     height: 400px;
     background-color: #287094;
-    padding-top: 100px;
+ 
  
 }
 .myright-side {
@@ -171,7 +172,7 @@ html {scroll-behavior: smooth;}
     padding-right: 35px !important;
     max-width: 1080px;
 }
-.sectionBottomProcess {padding-bottom: 34px !important;}
+.sectionBottomProcess {padding-bottom: 60px !important;}
 /* illustrations - sizing illustrations so they can tile into a 2x2 for all screens */
 .phase {
     width: 100%;
@@ -226,7 +227,7 @@ html {scroll-behavior: smooth;}
 
 /* bottom padding calculated to give standard 50px needs 10px to add to existing */
 .sectionBottomPortfolio {
-    padding-bottom: 10px !important;
+    padding-bottom: 20px !important;
 }
 .processBackground {
     padding-left: 20px !important;
@@ -275,7 +276,7 @@ html {scroll-behavior: smooth;}
 .projectChoiceBlock {
     margin-top: 30px;
     margin-bottom: 20px;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 /* making the covers pop off the page with a drop shadow */
@@ -292,8 +293,8 @@ html {scroll-behavior: smooth;}
     color: #EEEEEE;
 }
 .projectSubtitle {
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 100;
+    font-size: 14px;
     color: #EEEEEE;
 }
 
@@ -326,7 +327,7 @@ html {scroll-behavior: smooth;}
 
     text-align: center;
     background-color: #E6E6E6;
-    padding-bottom: 34px;
+    padding-bottom: 44px;
 }
 
 /* ------------      Animation       ------------ */
@@ -404,13 +405,17 @@ html {scroll-behavior: smooth;}
 .footerBlock { 
     /* height: 100px; */
     /* padding-left: 0; */
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #287094;
 }
 
 .footerBlock p {  color: #F6F6F6;}
-.foot { margin-left: 0;}
+.foot { 
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    max-width: 1080px;
+}
 
 
 #connect p {color: #F6F6F6;}
@@ -419,10 +424,6 @@ html {scroll-behavior: smooth;}
     width: 10%; 
     padding-right: 15px;
 }
-
-
-/* ------------      Animation       ------------ */
-.socialIcons:hover {filter: grayscale(0%);}
 
 
 /* ////////////////////////////     Responsive       ///////////////////////////// */
@@ -453,19 +454,9 @@ html {scroll-behavior: smooth;}
     }
     .myright-side {
         height: 400px;
+        padding-top: 100px;
     }
     
-
-.sectionTitle { 
-    font-weight: 900; 
-    font-size: 40px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
-    /* Vertical spacing */
-    padding-top: 70px;
-    padding-bottom: 20px;
-    margin-bottom: 0px;
-}
 
 .phaseTitle {font-weight: 500; color: #023246; font-size: 20px;}
 /* .heroBlock {padding-left: 0px;} */
@@ -484,6 +475,12 @@ html {scroll-behavior: smooth;}
 .bioImageRow {
     margin-bottom: 40px;
 }
+
+/* ------------      Animation       ------------ */
+.socialIcons { filter: grayscale(100%);}
+.socialIcons:hover {filter: grayscale(0%);}
+
+
 
 } 
 /* End of 576px media query */
@@ -519,7 +516,14 @@ html {scroll-behavior: smooth;}
         background-color: #FFFFFF;
     
     }
-
+    /* HERO STYLING */
+    .myleft-side {
+        height: 550px; 
+    }
+    .myright-side {
+        height: 550px;
+    }
+    
   
 
 
@@ -588,7 +592,7 @@ html {scroll-behavior: smooth;}
     height: 40%;
 }
 
-.socialIcons { filter: grayscale(100%);}
+
 .aboutBackground p {color: black;}
 
 
