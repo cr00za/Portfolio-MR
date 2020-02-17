@@ -81,8 +81,8 @@ html {scroll-behavior: smooth;}
 
 /* Portfolio section buttons */
 .portfolioButton {
-    background-color: #38C1F9 !important;
-    border-color: #38C1F9 !important;
+    background-color: #F6F6F6 !important;
+    border-color: #F6F6F6 !important;
     color: #023246 !important;
     font-size: 16px;
 }
@@ -407,10 +407,10 @@ html {scroll-behavior: smooth;}
     /* padding-left: 0; */
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #287094;
+    background-color: #F6F6F6;
 }
 
-.footerBlock p {  color: #F6F6F6;}
+.footerBlock p {  color: #023246;}
 .foot { 
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -418,7 +418,7 @@ html {scroll-behavior: smooth;}
 }
 
 
-#connect p {color: #F6F6F6;}
+#connect p {color: #023246;}
 
 .socialIcons {
     width: 10%; 

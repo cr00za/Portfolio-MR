@@ -38,14 +38,17 @@ $(document).scroll(function(){
     var scroll = $(window).scrollTop();
     
     if(scroll>20) {
-        $(".navbar-custom").css("background", "rgba(40, 112, 148, 1)");
-        $(".navbar-nav a").css("color", "#F6F6F6");
-        $("nav").removeClass("navbar-light").addClass("navbar-dark");
-        $("#logo").attr("src","images/Logo-light.svg");
+        $(".navbar-custom").css("background", "rgba(246, 246, 246, 1)");
+        $(".navbar-light .navbar-nav .nav-link.active").css("color", "#023246");
+        $(".navbar-nav a").css("color", "#023246");
+        // $("nav").removeClass("navbar-light").addClass("navbar-dark");
+        $("#logo").attr("src","images/Logo-dark.svg");
         $("nav #navbarNavAltMarkup").removeClass("stroke").addClass("scroller");
+
     }
     else {
-        $(".navbar-custom").css("background", "rgba(230, 230, 230, 0)");
+        $(".navbar-custom").css("background", "rgba(246, 246, 246, 0)");
+        $(".navbar-light .navbar-nav .nav-link.active").css("color", "#023246");
         $(".navbar-nav a").css("color", "#023246");
         $("nav").removeClass("navbar-dark").addClass("navbar-light");   
         $("#logo").attr("src","images/Logo-light.svg");
@@ -54,10 +57,12 @@ $(document).scroll(function(){
 
 });
 
-$( '#topheader .navbar-nav a' ).on( 'click', function () {
-	$( '#topheader .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
-	$( this ).parent( 'li' ).addClass( 'active' );
-});
+
+
+// $( '#topheader .navbar-nav a' ).on( 'click', function () {
+// 	$( '#topheader .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+// 	$( this ).parent( 'li' ).addClass( 'active' );
+// });
 
 
 

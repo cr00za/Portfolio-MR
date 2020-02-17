@@ -1,4 +1,14 @@
-
+/* Setting up navigation active state color */
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(2, 50, 70, .9) !important;
+}
+/* set up the navigation non-active state color */
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(2, 50, 70, .6) !important;
+}
 
 /* navbar toggler */
 
