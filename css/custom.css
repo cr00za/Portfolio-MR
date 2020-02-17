@@ -126,20 +126,20 @@ html {scroll-behavior: smooth;}
     margin-top: 0px;
     padding-top: 0px;
   
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
+
 }
 .myleft-side {
     width: 100%;
     height: 400px;
     background-color: #287094;
- 
+     /* offset-x | offset-y | blur-radius | spread-radius | color */
+     box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
  
 }
 .myright-side {
     width: 100%;
     height: 400px;
-    background-color: #E6E6E6;
+    background-color: #FFFFFF;
 }
 
 
@@ -326,7 +326,7 @@ html {scroll-behavior: smooth;}
 .toolsSection {
 
     text-align: center;
-    background-color: #E6E6E6;
+    background-color: #FFFFFF;
     padding-bottom: 44px;
 }
 
