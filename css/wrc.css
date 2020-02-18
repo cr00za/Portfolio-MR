@@ -1,0 +1,234 @@
+
+/*-----------------------*/
+/***** GLOBAL STYLES *****/
+/*-----------------------*/
+
+
+.container {
+    max-width: 1080px !important;
+}
+
+html, body {overflow-x: hidden;}
+body{
+    /* padding-top:0px !important;
+    margin-top: 0px !important; */
+ }
+
+/* initializing font sizes */
+h1 {font-weight: 600; font-size: 48px;}  
+h2 {font-size: 36px;}
+h1, h2, h3 {font-family: 'Barlow Condensed', sans-serif;}
+
+
+/* COLORS */
+/* 
+
+Black - #023246
+*/
+
+p { 
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300; 
+    color: #757575; 
+    max-width: 430px;
+    padding: 0px;
+}
+
+.sectionTitle { 
+    font-weight: 900; 
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    color: #287094;
+}
+
+/*----------------------------*/
+/* Enable scroll function */
+html {scroll-behavior: smooth;}  
+
+/* General Button Styling */
+.btn-primary{
+    background-color: #38C1F9 !important;
+    border-color: #38C1F9 !important;
+    color: #023246 !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #F6F6F6 !important;
+    background-color: #023246 !important;
+    border-color: #023246  !important; 
+}
+
+.btn {border-radius: 0px !important; }
+
+/* Portfolio section buttons */
+.portfolioButton {
+    background-color: #F6F6F6 !important;
+    border-color: #F6F6F6 !important;
+    color: #023246 !important;
+    font-size: 16px;
+}
+.portfolioButton:hover, .portfolioButton:focus, .portfolioButton:active, .portfolioButton.active {
+    color: #F6F6F6!important;
+    background-color: #023246 !important;
+    border-color: #023246  !important; 
+}
+
+.mysection-top-pad {padding-top: 40px;}
+
+/*-----------------------*/
+/***** HERO SECTION  *****/
+/*-----------------------*/
+
+.jumbotron {
+    margin-bottom: 0px !important;
+    padding-top: 80px !important;
+    background-color: #FFFFFF;
+}
+
+#heroTitle {
+    font-family: 'Lato', sans-serif; 
+    font-weight: 600;
+    font-size: 42px;
+    color: #F6F6F6;
+}
+#heroSubtitle { 
+    font-weight: 100;
+    font-size: 24px;
+    color: #38C1F9;
+} 
+
+/* set up the shadow for the hero block */
+.heroBlock {       
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: #287094;
+    /* background-image: url('../images/wrc-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;  */
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 64px 30px -30px rgba(196, 196, 196, 0.8);
+}
+.hero-text-underlay {
+    width: 100%;
+    height: 400px;
+    padding-top: 0%;
+}
+
+.myleft-side {
+    width: 100%;
+    height: 400px;
+    /* padding: 20px; */
+    width: 400px;
+}
+
+.myright-side {
+    /* padding: 20px; */
+    width: 100%;
+    max-width: 310px;
+    height: 400px;
+    /* background-color: #FFFFFF; */
+}
+
+#hero-pic{
+   max-width: 400px;
+   max-height: 300px;
+   text-align: center;
+}
+
+/* setting button to not stretch */
+.hero-button {
+    padding: 10px;
+    height: 44px !important;
+    font-size: 14px;
+}
+
+#heroText { 
+    /* color: #F6F6F6; 
+    width: 330px; */
+    font-weight: 300; 
+    font-size: 16px;
+    color: #E6E6E6;
+    width: 350px;
+}
+
+
+/* ////////////////////////////     Responsive       ///////////////////////////// */
+
+
+
+/*-------------------------------*/
+/***** MEDIA QUERY   576px   *****/
+/*-------------------------------*/
+@media screen and (min-width: 576px){
+
+    /* HERO STYLING ///////////////////////////////////////////////*/
+    .myleft-side {
+        height: 400px;
+        padding-top: 20px;
+    }
+    .myright-side {
+        height: 400px;
+        max-width: 350px;
+    }
+} 
+/* End of 576px media query */
+
+/*-------------------------------*/
+/***** MEDIA QUERY   768px   *****/
+/*-------------------------------*/
+@media screen and (min-width: 768px){
+  
+    /***** Hero   *****/    
+    .jumbotron {
+        padding-top: 0px;
+    }
+    /* HERO STYLING */
+    .myleft-side {
+        height: 400px; 
+    }
+    .myright-side {
+        height: 400px;
+        padding-top: 108px;
+    }
+    
+
+    /***** My Process   *****/  
+
+    /***** Portfolio   *****/ 
+
+    /***** Quote Section   *****/ 
+  
+    /***** About   *****/   
+  
+    /***** Contact Form   *****/ 
+
+}/* END Media Query */
+
+
+
+/* ------------------------ Fade Animation ---------------------- */
+    /***** Fade Animation   *****/ 
+    [aos="fade"] {
+        opacity: 0;
+        transition-property: opacity;
+      }
+      
+      [aos="fade"].aos-animate {
+        opacity: 1;
+      }
+
+
+      @media screen and (min-width: 992px){
+
+        }
+
+
+
+
+
+
+
+
