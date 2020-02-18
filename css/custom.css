@@ -232,7 +232,7 @@ html {scroll-behavior: smooth;}
 .processBackground {
     padding-left: 20px !important;
     padding-right: 20px !important;
-    max-width: 1080px;
+    max-width: 962px !important;
 }
 
 .portfolioBackground {
