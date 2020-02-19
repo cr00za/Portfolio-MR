@@ -28,7 +28,7 @@
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Miguel's Portfolio Website</title>
+        <title>Travel App Case Study</title>
         <meta property="og:site_name" content="Miguel's Portfolio Site"/>
         <meta property="og:title" content="Home"/>
         <meta property="og:description" content="I create opportunities through human-centric design, bringing life to concepts, ideas, and dreams to connect and impact the world."/>
@@ -43,7 +43,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <!-- Custom -->
         <link rel="stylesheet" href="css/nav-styles.css">
-        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/wrc.css">
 
     
         
@@ -69,7 +69,7 @@
 
               <nav id="topheader" class=" navbar navbar-expand-md navbar-custom fixed-top navbar-light marginLeft-sm marginRight-sm" id="nav">
                 <div class="navSpacer">
-                    <a class="navbar-brand" href="#"><img id="logo" src="images/Logo-light.svg" alt="Logo"></a>
+                    <a class="navbar-brand" href="#"><img id="logo" src="images/Logo-dark.svg" alt="Logo"></a>
                 </div>   
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
@@ -92,31 +92,27 @@
             <!-- JUMBOTRON -->
             <!-- --------- -->
             
+  
             <div class="jumbotron px-0 mx-0 mt-0 pt-0">
                 
-                    <div class="row no-gutters heroBlock mt-0 pt-0">
-                        <div class="col-12 col-md-6  myleft-side d-flex justify-content-center">
-                        
-                            <div class="d-flex justify-content-center flex-column align-content-middle">
-                                <p id="welcome" data-aos="fade" > Hi, I'm</p>
-                                <h2 id="heroTitle" class="display-4">Miguel Ruddock</h2>
-                                <h3 id="heroSubtitle" class="lead">User Experience / Interface Designer</h3>
-                                <p id="heroText">I create opportunities through human-centric design, bringing life to concepts, ideas, and dreams to connect and impact the world.</p>
-                                <div class="text-center"> 
-                                    <a class="btn btn-primary btn-sm portfolioButton toggle" href="#portfolio" role="button">See Portfolio</a>
-                                </div>
- 
-                            </div>
-                        </div>
-                        <!-- setting up columns for larger devices / center button only on md or > devices -->
-                        <div class="col-12 col-md-6 myright-side d-flex justify-content-center flex-column align-content-middle">
-                            <div class="text-center">
-                                    <img id="puzzle" class="" src="images/Portfolio Portrait-blue.svg" alt="illustration of me">
-                            </div>
+                <div class="row no-gutters heroBlock mt-0 pt-0">
+                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+                        <div class="d-flex justify-content-center flex-column align-content-middle myleft-side pr-md-3">
+                            <img id="hero-pic" class="" src="images/case-TA-hero.jpg" alt="women's resource center for domestic violence">
                         </div>
                     </div>
-            <div id="myProcess"></div>
-            </div>
+
+                    <!-- setting up columns for larger devices / center button only on md or > devices -->
+                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
+                        <div class="myright-side align-content-middle text-center text-md-left flex-column pl-md-3">
+                            <h2 id="heroTitle" class="display-4">Travel Flow</h2>
+                            <h3 id="heroSubtitle" class="lead">Travel Assistant Mobile App</h3>
+                            <p id="heroText" class="">Your gateway to handling travel details with ease. The companion you always wished for to help you prepare for, manage, and live out your wanderlust dreams.</p>
+                        </div>
+                    </div>
+                </div>
+   
+        </div>
 
           
             <!-- -------------------- -->
@@ -126,62 +122,65 @@
             <div class="container-fluid sectionBottomProcess">
                 <div class="container">
 
-                    <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400" >My Process</h2>
+                    <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400" id="myProcess">My Process</h2>
                 </div>                   
 
 
                 <div class="container processBackground ">
 
-                    <div class="row pb-1 pb-sm-3 pb-md-4 no-gutter d-flex justify-content-center px-0">
-                        
-                            <!-- Phase 1: Discover -->
-                            <div id="discover" class="phase pr-1 pl-sm-2 pr-sm-2 pl-md-3 pr-md-3 pr-lg-3 col-6 col-lg-3 d-flex justify-content-end pb-1 pb-sm-3 pb-md-2 justify-content-lg-center">
-                                <div class="inner-square text-center">
-                                    <img class="phaseImage " src="images/discoverIcon2.svg" alt="icon representing the Discovery phase">
-                                    <h4 class="phaseTitle">Discover</h4>
-                                    <div id="discoverText" class="phaseText">
-                                        <p>Identify and explore the problem space with objectivity, empathy, and a sense of adventure.</p>
-                                    </div>
+                <div class="row pb-1 pb-sm-3 pb-md-4 d-flex justify-content-center px-0">
+                    
+                        <!-- Phase 1: Discover -->
+                        <div id="discover" class="phase pr-1 pr-sm-2 pr-md-3 col-6 col-md-3 d-flex justify-content-end">
+                            <div class="inner-square text-center">
+                                <img class="phaseImage " src="images/discoverIcon2.svg" alt="icon representing the Discovery phase">
+                                <h4 class="phaseTitle">Discover</h4>
+                                <div id="discoverText" class="phaseText">
+                                    <p>Identify and explore the problem space with objectivity, empathy, and a sense of adventure.</p>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- Phase 2: Define -->
-                            <div id="define" class="phase px-0 pl-sm-2 pr-sm-2 pl-lg-3 pr-lg-3 mr-lg-0 col-6 col-lg-3  justify-content-start justify-content-lg-center">
-                                <div class="inner-square text-center">
-                                    <img class="phaseImage" src="images/defineIcon2.svg" alt="placeholder pic for Discover phase">
-                                    <h4 class="phaseTitle">Define</h4>
-                                    <div id="defineText" class="phaseText">
-                                        <p>Narrow in on the design constraints/ guiderails. Idendify what we're solving and for whom.</p>
-                                    </div>
+                        <!-- Phase 2: Define -->
+                        <div id="define" class="phase pl-0 col-6 pl-sm-2 pl-md-3 col-md-3  justify-content-start">
+                            <div class="inner-square text-center">
+                                <img class="phaseImage" src="images/defineIcon2.svg" alt="placeholder pic for Discover phase">
+                                <h4 class="phaseTitle">Define</h4>
+                                <div id="defineText" class="phaseText">
+                                    <p>Narrow in on the design constraints/ guiderails. Idendify what we're solving and for whom.</p>
                                 </div>
                             </div>
-                        
-                            <!-- Phase 3: Develop -->
-                            <div id="develop" class="phase pr-1 pl-sm-2 pr-sm-2 pl-md-3 pr-md-3 pl-lg-2 pr-lg-3 ml-lg-0 col-6 col-lg-3 d-flex justify-content-end pt-md-3 pt-lg-0 justify-content-lg-center">
-                                <div class="inner-square text-center">
-                                    <img class="phaseImage" src="images/developIcon2.svg" alt="placeholder pic for Discover phase">
-                                    <h4 class="phaseTitle">Develop</h4>
-                                    <div id="developText" class="phaseText">
-                                        <p>Acquisitively test ideas with clear metrics to garner key insights. Strategically iterate based on analysis.</p>
-                                    </div>
-                                </div>
-                            </div> 
-                            
-                            <!-- Phase 4: Deliver -->
-                            <div id="deliver" class="phase px-0 pl-sm-2 pl-lg-3 col-6 col-lg-3 justify-content-start pt-md-3 pt-lg-0 justify-content-lg-center">
-                                <div class="inner-square text-center">
-                                    <img class="phaseImage" src="images/deliverIcon2.svg" alt="placeholder pic for Discover phase">
-                                    <h4 class="phaseTitle">Deliver</h4>
-                                    <div id="deliverText" class="phaseText">
-                                        <p>Create an awesome solution from our validated methodology - making it testable and improvable.</p>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-
+                        </div>
+                    
                 </div>
-                <div id="portfolio"></div>
-    
+
+                <div class="row d-flex justify-content-sm-center pt-md-2 px-0">
+                    
+                        <!-- Phase 3: Develop -->
+                        <div id="develop" class="phase pr-1 pr-sm-2 pr-md-3 col-6 col-md-3 d-flex justify-content-end">
+                            <div class="inner-square text-center">
+                                <img class="phaseImage" src="images/developIcon2.svg" alt="placeholder pic for Discover phase">
+                                <h4 class="phaseTitle">Develop</h4>
+                                <div id="developText" class="phaseText">
+                                    <p>Acquisitively test ideas with clear metrics to garner key insights. Strategically iterate based on analysis.</p>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <!-- Phase 4: Deliver -->
+                        <div id="deliver" class="phase px-0 pl-sm-2 pl-md-3 col-6 col-md-3 justify-content-start">
+                            <div class="inner-square text-center">
+                                <img class="phaseImage" src="images/deliverIcon2.svg" alt="placeholder pic for Discover phase">
+                                <h4 class="phaseTitle">Deliver</h4>
+                                <div id="deliverText" class="phaseText">
+                                    <p>Create an awesome solution from our validated methodology - making it testable and improvable.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                </div>
+
+            </div>
             </div>
         
                 <!-- <div class="container showcaseText">
@@ -204,7 +203,8 @@
             
 
             
-            
+
+    
             <!-- ------------------- -->
             <!-- PORTFOLIO - SECTION -->
             <!-- ------------------- -->
@@ -213,7 +213,7 @@
     
                 <div class="container-fluid portfolioBackground sectionBottomPortfolio">
                     <div class="container">
-                            <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400">Portfolio</h2>
+                            <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400"id="portfolio">Portfolio</h2>
                     </div>
                     <div class="container">
                         <div class="row ">
@@ -358,17 +358,17 @@
             <!-- Quote - SECTION -->
             <!-- --------------- -->
             <section class="quoteSection">
-                <div class="containter-fluid quote-block">
-                    <div class="row mx-auto">
+                <div class="containter-fluid">
+                    <div class="row  quoteBlock mx-auto">
                         <!-- <h2 class="showcaseQuote mx-auto col-12">Challenges are<br>opportunities<br>in disguise.</h2> -->
-                        <div class="col-12 aboutQuote" > 
+                        <div class=" col-12 aboutQuote " > 
                             <img  src="images/about-quote.svg" alt="Quote Challenges are opportunities in disguise">
                         </div>
+                        
                     </div>
-                    <div id="aboutMe"></div>  
                 </div>
             </section>
-         
+
            
             <!-- ------------------ -->
             <!-- ABOUT ME - SECTION -->
@@ -376,7 +376,7 @@
             
             <div class="container-fluid sectionBottomAbout">
                 <div class="container aboutSection">
-                    <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400">About Me</h2>
+                    <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400" id="aboutMe">About Me</h2>
                 </div>
 
                 <div class="container aboutSection">
@@ -392,13 +392,13 @@
                         </div>
                     
                         <div id="synergyColumn" class="col-12 col-sm-6 d-flex justify-content-center justify-content-start">
-                            <div class="synergyBlock pl-md-5 "> 
+                            <div class="synergyBlock pl-sm-5"> 
                                 <img src="images/synergyDesignBlock.svg" alt="synergy block" class="biohero-xs">
                                 <img src="images/synergyDesignBlock-sm.svg" alt="synergy block" class="biohero-sm">
                                 <img src="images/synergyDesignBlock-lg.svg" alt="synergy block" class="biohero-lg">
                             </div>
                         </div>
- 
+
                     </div>
             
                     
