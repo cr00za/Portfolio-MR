@@ -54,10 +54,11 @@ html {scroll-behavior: smooth;}
 
 /* General Button Styling */
 .btn-primary{
-    background-color: #38C1F9 !important;
-    border-color: #38C1F9 !important;
-    color: #023246 !important;
+    background-color: #287094 !important;
+    border-color: #287094 !important;
+    color: #F6F6F6 !important;
 }
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #F6F6F6 !important;
     background-color: #023246 !important;
@@ -221,6 +222,7 @@ h3.darkHeadings {
 
 .area-persona {
     max-width: 992px;
+    padding-top: 60px;
 }
 
 /* ////////////////////////////     Responsive       ///////////////////////////// */

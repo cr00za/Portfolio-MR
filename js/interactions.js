@@ -9,12 +9,11 @@ $( '.links a' ).on( 'click', function(e){
 	
   // Define variable of the clicked »a« element (»this«) and get its href value.
   var href = $(this).attr( 'href' );
-  
+
   // Run a scroll animation to the position of the element which has the same id like the href value.
   $( 'html, body' ).animate({
-		scrollTop: $( href ).offset().top
+    scrollTop: $( href ).offset().top
   }, '800' );
-	
   // Prevent the browser from showing the attribute name of the clicked link in the address bar
   e.preventDefault();
 });
@@ -37,6 +36,8 @@ $('.navbar-collapse a').click(function (e) {
 $(document).scroll(function(){
     var scroll = $(window).scrollTop();
     
+   
+
     if(scroll>20) {
         $(".navbar-custom").css("background", "rgba(246, 246, 246, 1)");
         $(".navbar-light .navbar-nav .nav-link.active").css("color", "#023246");
@@ -54,8 +55,51 @@ $(document).scroll(function(){
         $("#logo").attr("src","images/Logo-light.svg");
         $("nav #navbarNavAltMarkup").removeClass("scroller").addClass("stroke");
     }
+
+
 });
 
+
+
+// $(document).ready(function () {
+//   $(document).on("scroll", onScroll);
+  
+//   //smoothscroll
+//   $('a[href^="#"]').on('click', function (e) {
+//       e.preventDefault();
+//       $(document).off("scroll");
+      
+//       $('a').each(function () {
+//           $(this).removeClass('active');
+//       })
+//       $(this).addClass('active');
+    
+//       var target = this.hash,
+//           menu = target;
+//       $target = $(target);
+//       $('html, body').stop().animate({
+//           'scrollTop': $target.offset().top+2
+//       }, 500, 'swing', function () {
+//           window.location.hash = target;
+//           $(document).on("scroll", onScroll);
+//       });
+//   });
+// });
+
+// function onScroll(event){
+//   var scrollPos = $(document).scrollTop();
+//   $('#menu-center a').each(function () {
+//       var currLink = $(this);
+//       var refElement = $(currLink.attr("href"));
+//       if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+//           $('#menu-center ul li a').removeClass("active");
+//           currLink.addClass("active");
+//       }
+//       else{
+//           currLink.removeClass("active");
+//       }
+//   });
+// }
 
 
 // $( '#topheader .navbar-nav a' ).on( 'click', function () {

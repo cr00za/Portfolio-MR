@@ -67,9 +67,9 @@ html {scroll-behavior: smooth;}
 
 /* General Button Styling */
 .btn-primary{
-    background-color: #38C1F9 !important;
-    border-color: #38C1F9 !important;
-    color: #023246 !important;
+    background-color: #287094  !important;
+    border-color: #287094  !important;
+    color: #F6F6F6 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #F6F6F6 !important;
@@ -77,7 +77,7 @@ html {scroll-behavior: smooth;}
     border-color: #023246  !important; 
 }
 
-.btn {border-radius: 0px !important; }
+.btn {border-radius: 0px !important; height: 38px !important;}
 
 /* Portfolio section buttons */
 .portfolioButton {
@@ -353,7 +353,10 @@ html {scroll-behavior: smooth;}
     z-index: 0;
     text-align: center;
 }
-
+.aboutQuote img {
+    width: 100%;
+    max-width: 280px;
+}
 /*----------------------------*/
 /***** ABOUT ME SECTION   *****/
 /*----------------------------*/
@@ -458,8 +461,9 @@ html {scroll-behavior: smooth;}
      
     }
     .myright-side {
-        height: 400px;
-        padding-top: 100px;
+        height: 500px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     
 
@@ -481,6 +485,10 @@ html {scroll-behavior: smooth;}
     margin-bottom: 40px;
 }
 
+.aboutQuote img {
+    width: 100%;
+    max-width: 380px;
+}
 /* ------------      Animation       ------------ */
 /* .socialIcons { filter: grayscale(100%);}
 .socialIcons:hover {filter: grayscale(0%);} */

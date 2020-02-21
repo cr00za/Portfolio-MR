@@ -18,5 +18,16 @@ $(document).ready(function(){
         $( '.glasses' ).attr("src","images/Portfolio Portrait-navy.svg");
     });
 
+    $('a.js-anchor-link').click(function(){
+        $('a.js-anchor-link').removeClass('active');
+        $(this).addClass('active');
+    });
 });
 
+
+
+// $(".qa-faq-title").click( function(){
+//     $(".qa-faq-title.active").removeClass("active");
+
+//     $(this).addClass("active");
+// });
