@@ -11,11 +11,11 @@ $(document).ready(function(){
     $( '.glasses' ).attr("src","images/Portfolio Portrait-sky.svg");
     });
 
-    $(".glassesAbout, .glassesProcess, .heroBlock").hover(function() {
+    $(".glassesAbout, .glassesProcess").hover(function() {
         $( '.glasses' ).attr("src","images/Portfolio Portrait-navy.svg");
     });
 
-    $(".glassesHome, .glasses, .heroImageBlock, .contactButton, .jumbotron").hover(function() {
+    $(".glassesHome, .glasses, myright-side .heroImageBlock, .contactButton, .jumbotron").hover(function() {
         $( '.glasses' ).attr("src","images/Portfolio Portrait-blue.svg");
     });
 });
