@@ -294,7 +294,7 @@ html {scroll-behavior: smooth;}
 .projectTitle {
     font-weight: 500;
     font-size: 16px;
-    color: #EEEEEE;
+    color: #F6F6F6;
 }
 .projectSubtitle {
     font-weight: 100;
@@ -567,7 +567,7 @@ html {scroll-behavior: smooth;}
     }
     /* styling portfolio title & subtitle text */
     .projectTitle {
-        font-weight: 400;
+        font-weight: 500;
         font-size: 22px;
     }
     .projectSubtitle {
