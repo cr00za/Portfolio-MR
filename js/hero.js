@@ -5,21 +5,22 @@
 
 // Change glasses color on hover of different elements
 $(document).ready(function(){
+    
+
     $(".glassesPortfolio, .portfolioButton").hover(function() {
     $( '.glasses' ).attr("src","images/Portfolio Portrait-sky.svg");
     });
 
-    $(".glassesHome, .myleft-side, .glasses, .heroImageBlock, .contactButton").hover(function() {
-        $( '.glasses' ).attr("src","images/Portfolio Portrait-blue.svg");
-        
-    });
-
-    $(".glassesAbout, .myright-side, .glassesProcess, .heroBlock").hover(function() {
+    $(".glassesAbout, .glassesProcess, .heroBlock").hover(function() {
         $( '.glasses' ).attr("src","images/Portfolio Portrait-navy.svg");
     });
 
-
+    $(".glassesHome, .glasses, .heroImageBlock, .contactButton, .jumbotron").hover(function() {
+        $( '.glasses' ).attr("src","images/Portfolio Portrait-blue.svg");
+    });
 });
+
+
 
     // switching active class when clicking on a navigation item
     $('a.js-anchor-link').click(function(){
