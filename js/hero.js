@@ -18,6 +18,7 @@ $(document).ready(function(){
         $( '.glasses' ).attr("src","images/Portfolio Portrait-navy.svg");
     });
 
+    // switching active class when clicking on a navigation item
     $('a.js-anchor-link').click(function(){
         $('a.js-anchor-link').removeClass('active');
         $(this).addClass('active');
