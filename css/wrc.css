@@ -17,9 +17,14 @@ body{
 /* initializing font sizes */
 h1 {font-weight: 600; font-size: 48px;}  
 h2 {font-size: 36px;}
-h1, h2, h3 {font-family: 'Lato', sans-serif}
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    /* padding: 0;
+    margin: 0; */
+}
 
-
+.light-text {color: #F6F6F6;}
+.blue-text {color: #287094;}
 /* COLORS */
 /* 
 
@@ -87,6 +92,7 @@ html {scroll-behavior: smooth;}
 /*-----------------------*/
 
 .jumbotron {
+    top: 0;
     margin-bottom: 0px !important;
     padding-top: 80px !important;
     background-color: #FFFFFF;
@@ -187,13 +193,13 @@ h2.phaseType {
 .phaseIcon {padding-left: 0px;}
 .sectionTitle { 
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 56px;
     margin-bottom: 0px;
 }
 h3.darkHeadings {
     color: #287094;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
 }
 .lightHeadings {
     color: #505050;
@@ -211,10 +217,13 @@ h3.darkHeadings {
 }
 
 /* vertical spacing between text areas within a section */
-.insect-top {padding-top: 30px;}
+.insect-top {padding-top: 40px;}
 
 /* vertical spacing for top part of each section */
-.sect-top {padding-top:70px}
+.sect-top {padding-top:44px}
+
+/* Top padding for the first section */
+.sect-top-first {padding-top: 70px;}
 
 /* sizing persona images */
 .persona img { width: 100%; max-width: 424px;}
@@ -226,7 +235,7 @@ h3.darkHeadings {
 }
 /* setting top padding of the research data */
 .research-data {
-    padding-top: 20px;
+    padding-top: 34px;
 }
 
 
@@ -242,12 +251,18 @@ box-shadow: 0px 44px 20px -30px rgba(196, 196, 196, 0.6);
     height: 100%;
     border-radius: 10px;
     padding: 10px;   
-    border-color: #EEE;
-    border-style: solid; 
+    /* border-color: #EEE; */
+    /* border-style: solid;  */
     border-width: 2px; 
 }
 .data-title {
     font-weight: 500;    
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+/* titles within artifacts i.e. competitive analysis */
+.data-title2 {
+    font-weight: 300;    
     font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
@@ -258,18 +273,68 @@ box-shadow: 0px 44px 20px -30px rgba(196, 196, 196, 0.6);
 
 /* sizing artifacts properly */
 .artifact {
-    width: 100%;
-    max-width: 640px;
+width: 420px;
+}
+
+/* bringing left column text closer to right column image */
+.left-text  {
+    padding-left: 20%;
+}
+
+/* background color for artifacts */
+.artifact-background {
+    background-color: #F6F6F6;
+}
+/* affinity diagram spacing */
+.affinity-spacing {
+    padding-bottom: 16px;
+}
+/* persona spacing */
+.persona-spacing {
+    padding-bottom: 16px;
+}
+
+/* Competitive Analysis */
+.competitive-data { 
+    background-color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 451px; 
+}
+.competition-block {
+    padding-top: 20px;
+}
+.competition-block img {
+    width: 110px;
+}
+.show-only-lg {
+    display: none !important;
 }
 
 /* ////////////////////////////     Responsive       ///////////////////////////// */
 
+/*-------------------------------*/
+/***** DEFINE   *****/
+/*-------------------------------*/
+
+#matrix-border {
+    /* border-style: dashed;
+    border-width: 1px;
+    border-color: #287094; */
+    background-color: #FFF;
+    padding: 45px 10px 25px;
+    border-radius: 4px;
+}
+
+
+.comp-title {max-height: 80px;}
 
 
 /*-------------------------------*/
 /***** MEDIA QUERY   576px   *****/
 /*-------------------------------*/
 @media screen and (min-width: 576px){
+
     .heroBlock {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -288,7 +353,8 @@ box-shadow: 0px 44px 20px -30px rgba(196, 196, 196, 0.6);
     font-size: 36px;
     }
 
-
+   
+    
 } 
 /* End of 576px media query */
 
@@ -339,7 +405,20 @@ box-shadow: 0px 44px 20px -30px rgba(196, 196, 196, 0.6);
 
 
       @media screen and (min-width: 992px){
+            /* sizing artifacts properly */
+            .artifact {
+            width: 451px;
+            }
 
+            .show-only-lg {
+                display: block !important;
+            }
+            /* adjusting bottom padding for competitive analysis block */
+            .competitive-data { 
+                padding-top: 60px;
+                padding-bottom: 50px;
+                width: 451px; 
+            }
         }
 
 
