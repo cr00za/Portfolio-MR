@@ -92,11 +92,6 @@ html {scroll-behavior: smooth;}
 /*-----------------------*/
 /***** HERO SECTION  *****/
 /*-----------------------*/
-#topheader {
-    /* width: 1280px !important; */
-    /* margin-left: 16px !important;
-    margin-right: 16px !important; */
-}
 .jumbotron {
     margin-bottom: 0px !important;
     /* padding-top: 80px !important; */
@@ -331,9 +326,32 @@ width: 420px;
     border-radius: 4px;
 }
 
-
+/* competitive analysis title TESTING*/
 .comp-title {max-height: 80px;}
 
+
+.footerBlock { 
+    /* height: 100px; */
+    /* padding-left: 0; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #F6F6F6;
+}
+
+.footerBlock p {  color: #023246;}
+.foot { 
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    max-width: 1080px;
+}
+
+
+#connect p {color: #023246;}
+
+.socialIcons {
+    width: 10%; 
+    padding-right: 15px;
+}
 
 /*-------------------------------*/
 /***** MEDIA QUERY   576px   *****/
