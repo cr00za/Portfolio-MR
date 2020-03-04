@@ -433,6 +433,107 @@ html {scroll-behavior: smooth;}
     padding-right: 15px;
 }
 
+/* ------------------------------------------------------ */
+/* ------------------- HERO ANIMATION ------------------- */
+/* ------------------------------------------------------ */
+
+  /* setting watermark for hero - to be covered by left and right side on load  */
+  .hero-watermark {
+    font-size: 120px;
+    color: rgba(196, 196, 196, 0.6);
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+    max-width: 310px;
+    top: 40%;
+}
+/* LEFT SIDE OF HERO  */
+.myleft-side {
+  -webkit-animation: slideIn 2s forwards;
+  -moz-animation: slideIn 2s forwards;
+  animation: slideIn 2s forwards;
+}
+@-webkit-keyframes slideIn {
+0% {
+  transform: translateY(-900px);
+}
+100% {
+  transform: translateY(0);
+}
+}
+@-moz-keyframes slideIn {
+0% {
+  transform: translateY(-900px);
+}
+100% {
+  transform: translateY(0);
+}
+}
+@keyframes slideIn {
+0% {
+  transform: translateY(-900px);
+}
+100% {
+  transform: translateY(0);
+}
+}
+
+/* RIGHT SIDE OF HERO */
+.myright-side {
+  -webkit-animation: slideInRight 2s forwards;
+  -moz-animation: slideInRight 2s forwards;
+  animation: slideInRight 2s forwards;
+}
+@-webkit-keyframes slideInRight {
+0% {
+  transform: translateY(900px);
+}
+100% {
+  transform: translateY(0);
+}
+}
+@-moz-keyframes slideInRight {
+0% {
+  transform: translateY(900px);
+}
+100% {
+  transform: translateY(0);
+}
+}
+@keyframes slideInRight {
+0% {
+  transform: translateY(900px);
+}
+100% {
+  transform: translateY(0);
+}
+}
+/* SIGNATURE FADE IN */
+#sig { 
+  animation-delay: 5s;
+  animation: fadeInAnimation 3.5s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  50% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+  } 
+} 
+
+/* ------------------------------------------------------ */
+/* ------------------- END HERO ANIMATION --------------- */
+/* ------------------------------------------------------ */
+
 
 /* ////////////////////////////     Responsive       ///////////////////////////// */
 
@@ -489,10 +590,8 @@ html {scroll-behavior: smooth;}
     width: 100%;
     max-width: 380px;
 }
-/* ------------      Animation       ------------ */
-/* .socialIcons { filter: grayscale(100%);}
-.socialIcons:hover {filter: grayscale(0%);} */
-
+/* ------------      HERO Animation       ------------ */
+/* --------------------------------------------------- */
 
 
 } 
@@ -635,6 +734,106 @@ html {scroll-behavior: smooth;}
     .biohero-sm {
         left: -8%;
     }
+/* ------------------------------------------------------ */
+/* ------------------- HERO ANIMATION ------------------- */
+/* ------------------------------------------------------ */
+
+  /* setting watermark for hero - to be covered by left and right side on load  */
+  .hero-watermark {
+    font-size: 200px;
+    color: rgba(196, 196, 196, 0.6);
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+    max-width: 506px;
+    top: 20%;
+}
+/* LEFT SIDE OF HERO  */
+.myleft-side {
+  -webkit-animation: slideIn 2s forwards;
+  -moz-animation: slideIn 2s forwards;
+  animation: slideIn 2s forwards;
+}
+@-webkit-keyframes slideIn {
+0% {
+  transform: translateX(-900px);
+}
+100% {
+  transform: translateX(0);
+}
+}
+@-moz-keyframes slideIn {
+0% {
+  transform: translateX(-900px);
+}
+100% {
+  transform: translateX(0);
+}
+}
+@keyframes slideIn {
+0% {
+  transform: translateX(-900px);
+}
+100% {
+  transform: translateX(0);
+}
+}
+
+/* RIGHT SIDE OF HERO */
+.myright-side {
+  -webkit-animation: slideInRight 2s forwards;
+  -moz-animation: slideInRight 2s forwards;
+  animation: slideInRight 2s forwards;
+}
+@-webkit-keyframes slideInRight {
+0% {
+  transform: translateX(900px);
+}
+100% {
+  transform: translateX(0);
+}
+}
+@-moz-keyframes slideInRight {
+0% {
+  transform: translateX(900px);
+}
+100% {
+  transform: translateX(0);
+}
+}
+@keyframes slideInRight {
+0% {
+  transform: translateX(900px);
+}
+100% {
+  transform: translateX(0);
+}
+}
+/* SIGNATURE FADE IN */
+#sig { 
+  animation-delay: 5s;
+  animation: fadeInAnimation 3.5s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  50% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+  } 
+} 
+
+/* ------------------------------------------------------ */
+/* ------------------- END HERO ANIMATION --------------- */
+/* ------------------------------------------------------ */
 
 
 }/* END Media Query */
@@ -751,7 +950,4 @@ html {scroll-behavior: smooth;}
     opacity: 1;
   }
   
-
-
-
-
+ 
