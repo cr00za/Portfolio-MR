@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="815" height="509" viewBox="0 0 815 509">
+  <defs>
+    <filter id="Rectangle_17" x="-9" y="281" width="833" height="85.395" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_17-2" x="-9" y="357" width="173" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_224" x="156" y="357" width="173" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_17-3" x="321" y="358" width="173" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_225" x="486" y="358" width="173" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_17-4" x="651" y="358" width="173" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-case-TA-journeymap">
+      <rect width="815" height="509"/>
+    </clipPath>
+  </defs>
+  <g id="case-TA-journeymap" clip-path="url(#clip-case-TA-journeymap)">
+    <g id="Scenario" transform="translate(-112 -176)">
+      <g id="Group_336" data-name="Group 336">
+        <g id="user_persona" data-name="user persona" transform="translate(112 225)" fill="#2e578c" stroke="#707070" stroke-width="1">
+          <rect width="265" height="228" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="264" height="227" rx="3.5" fill="none"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 112, 176)" filter="url(#Rectangle_17)">
+          <rect id="Rectangle_17-5" data-name="Rectangle 17" width="815" height="67.395" rx="4" transform="translate(0 287)" fill="#fafafa"/>
+        </g>
+      </g>
+      <g id="Group_524" data-name="Group 524">
+        <g transform="matrix(1, 0, 0, 1, 112, 176)" filter="url(#Rectangle_17-2)">
+          <rect id="Rectangle_17-6" data-name="Rectangle 17" width="155" height="132" rx="4" transform="translate(0 363)" fill="#04c6f2"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 112, 176)" filter="url(#Rectangle_224)">
+          <rect id="Rectangle_224-2" data-name="Rectangle 224" width="155" height="132" rx="4" transform="translate(165 363)" fill="#04c6f2"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 112, 176)" filter="url(#Rectangle_17-3)">
+          <rect id="Rectangle_17-7" data-name="Rectangle 17" width="155" height="132" rx="4" transform="translate(330 364)" fill="#04c6f2"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 112, 176)" filter="url(#Rectangle_225)">
+          <rect id="Rectangle_225-2" data-name="Rectangle 225" width="155" height="132" rx="4" transform="translate(495 364)" fill="#04c6f2"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 112, 176)" filter="url(#Rectangle_17-4)">
+          <rect id="Rectangle_17-8" data-name="Rectangle 17" width="155" height="132" rx="4" transform="translate(660 364)" fill="#04c6f2"/>
+        </g>
+        <text id="Say" transform="translate(789 539)" fill="#040505" font-size="14" font-family="Lato-Light, Lato" font-weight="300"><tspan x="0" y="14"></tspan><tspan x="0" y="29"></tspan><tspan font-size="12"><tspan x="0" y="44">Access app during trip</tspan><tspan x="0" y="59">making it enjoyable</tspan><tspan x="0" y="74">Returns home happy </tspan><tspan x="0" y="89">Since they managed </tspan><tspan x="0" y="104" xml:space="preserve">everything well.  </tspan></tspan></text>
+        <text id="Say-2" data-name="Say" transform="translate(789 547)" fill="#040505" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="14">Phase 5</tspan></text>
+        <g id="Group_525" data-name="Group 525" transform="translate(12)">
+          <text id="Say-3" data-name="Say" transform="translate(612 539)" fill="#040505" font-size="14" font-family="Lato-Light, Lato" font-weight="300"><tspan x="0" y="14"></tspan><tspan x="0" y="29"></tspan><tspan font-size="12"><tspan x="0" y="44">Reminders for Visa, </tspan><tspan x="0" y="59">link</tspan><tspan y="59" fill="#23271e">s to best transport </tspan></tspan><tspan fill="#23271e" font-size="12"><tspan x="0" y="74">App to navigate </tspan><tspan x="0" y="89">Sydney, Australia</tspan></tspan></text>
+          <text id="Say-4" data-name="Say" transform="translate(612 563)" fill="#040505" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Phase 4</tspan></text>
+        </g>
+        <g id="Group_526" data-name="Group 526" transform="translate(12)">
+          <text id="Say-5" data-name="Say" transform="translate(447 539)" fill="#040505" font-size="14" font-family="Lato-Light, Lato" font-weight="300"><tspan x="0" y="14"></tspan><tspan x="0" y="29"></tspan><tspan font-size="12"><tspan x="0" y="44">Preparation and </tspan><tspan x="0" y="59">On-boarding for </tspan><tspan x="0" y="74">Sydney</tspan></tspan></text>
+          <text id="Say-6" data-name="Say" transform="translate(447 563)" fill="#040505" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Phase 3</tspan></text>
+        </g>
+        <g id="Group_527" data-name="Group 527" transform="translate(11)">
+          <text id="Say-7" data-name="Say" transform="translate(283 539)" fill="#040505" font-size="14" font-family="Lato-Light, Lato" font-weight="300"><tspan x="0" y="14"></tspan><tspan x="0" y="29"></tspan><tspan font-size="12"><tspan x="0" y="44">Transfer info to Travel </tspan><tspan x="0" y="59">Flow Ap</tspan><tspan y="59" fill="#23271e">p</tspan></tspan></text>
+          <text id="Say-8" data-name="Say" transform="translate(283 563)" fill="#040505" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Phase 2</tspan></text>
+        </g>
+        <g id="Group_528" data-name="Group 528" transform="translate(12)">
+          <text id="Say-9" data-name="Say" transform="translate(117 539)" fill="#040505" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="14"></tspan><tspan x="0" y="29"></tspan><tspan font-size="12" font-family="Lato-Light, Lato" font-weight="300"><tspan x="0" y="44">Flights, hotel rooms, </tspan><tspan x="0" y="59">and car rental are </tspan><tspan x="0" y="74">book</tspan><tspan y="74" fill="#23271e">ed</tspan></tspan></text>
+          <text id="Say-10" data-name="Say" transform="translate(117 563)" fill="#040505" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Phase 1</tspan></text>
+        </g>
+      </g>
+      <g id="Group_340" data-name="Group 340">
+        <text id="Say-11" data-name="Say" transform="translate(129 466)" fill="#040505" font-size="14" font-family="Avenir-Book, Avenir"><tspan x="0" y="14"></tspan><tspan x="0" y="33"></tspan><tspan font-size="12" font-family="Lato-Light, Lato" font-weight="300"><tspan x="0" y="50">Anxiety from managing so many details and everyone else’s. Missing reservations because of time, visa, passport, or forgetfulness.</tspan></tspan></text>
+        <text id="Say-12" data-name="Say" transform="translate(129 474)" fill="#040505" font-size="14" font-family="Lato-Black, Lato" font-weight="800"><tspan x="0" y="14">4.</tspan><tspan y="14" xml:space="preserve" font-family="Lato-Regular, Lato" font-weight="400"> Risks and Emotions</tspan><tspan font-family="Lato-Regular, Lato" font-weight="400"><tspan x="0" y="31"></tspan></tspan></text>
+      </g>
+      <g id="Group_533" data-name="Group 533">
+        <g id="goals" transform="translate(662 225)" fill="#2e578c" stroke="#707070" stroke-width="1">
+          <rect width="265" height="228" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="264" height="227" rx="3.5" fill="none"/>
+        </g>
+        <g id="Group_339" data-name="Group 339" transform="translate(7 19)">
+          <g id="Group_531" data-name="Group 531">
+            <g id="Group_532" data-name="Group 532">
+              <text id="Say-13" data-name="Say" transform="translate(672 217)" fill="#fafafa" font-size="14" font-family="Avenir-Book, Avenir"><tspan x="0" y="14"> </tspan><tspan x="0" y="29"></tspan><tspan font-size="12" font-family="Lato-Light, Lato" font-weight="300"><tspan x="0" y="44">1. Itineraries:</tspan><tspan x="0" y="59" xml:space="preserve">    • organize</tspan><tspan x="0" y="74" xml:space="preserve">    • Synchronize with party</tspan><tspan x="0" y="89" xml:space="preserve">    • View individual’s and other’s </tspan><tspan x="0" y="104" xml:space="preserve">       in the travel group</tspan><tspan x="0" y="119">2. Know what to pack</tspan><tspan x="0" y="134">3. Reminders for passports, visa</tspan><tspan x="0" y="149">4. Reminders for Medical req.</tspan><tspan x="0" y="164">5. Offline access</tspan><tspan x="0" y="179">6. Recommendations</tspan></tspan></text>
+              <text id="Say-14" data-name="Say" transform="translate(672 225)" fill="#fafafa" font-size="14" font-family="Lato-Black, Lato" font-weight="800"><tspan x="0" y="14">3.</tspan><tspan y="14" xml:space="preserve" font-family="Lato-Regular, Lato" font-weight="400"> Goals </tspan><tspan font-family="Lato-Regular, Lato" font-weight="400"><tspan x="0" y="31"></tspan><tspan x="0" y="48"></tspan></tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_530" data-name="Group 530">
+        <g id="scenaraio" transform="translate(387 225)" fill="#2e578c" stroke="#707070" stroke-width="1">
+          <rect width="265" height="228" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="264" height="227" rx="3.5" fill="none"/>
+        </g>
+        <g id="Group_529" data-name="Group 529" transform="translate(7 20)">
+          <text id="Say-15" data-name="Say" transform="translate(397 217)" fill="#fafafa" font-size="14" font-family="Avenir-Book, Avenir"><tspan x="0" y="14"></tspan><tspan x="0" y="29"></tspan><tspan font-size="12" font-family="Lato-Light, Lato" font-weight="300"><tspan x="0" y="44">Planning a vacation trip for her family </tspan><tspan x="0" y="59">to Australia. It’s her Grandma’s first </tspan><tspan x="0" y="74">time traveling internationally so she </tspan><tspan x="0" y="89">was her to have a great time. The </tspan><tspan x="0" y="104">ages of the traveler range from 16 to </tspan><tspan x="0" y="119">71.</tspan></tspan></text>
+          <text id="Say-16" data-name="Say" transform="translate(397 241)" fill="#fafafa" font-size="14" font-family="Lato-Black, Lato" font-weight="800"><tspan x="0" y="0">2.</tspan><tspan y="0" xml:space="preserve" font-family="Lato-Regular, Lato" font-weight="400"> User Scenario</tspan><tspan font-family="Lato-Regular, Lato" font-weight="400"><tspan x="0" y="17"></tspan><tspan x="0" y="34"></tspan></tspan></text>
+        </g>
+      </g>
+      <g id="Group_337" data-name="Group 337" transform="translate(7 20)">
+        <text id="Say-17" data-name="Say" transform="translate(122 217)" fill="#fafafa" font-size="14" font-family="Avenir-Book, Avenir"><tspan x="0" y="14"></tspan><tspan x="0" y="29"></tspan><tspan font-size="12" font-family="Lato-Light, Lato" font-weight="300"><tspan x="0" y="44">Zayah - “The planner in the family.”</tspan><tspan x="0" y="59"></tspan><tspan x="0" y="74">• 26</tspan><tspan x="0" y="89">• Engaged</tspan><tspan x="0" y="104">• Wants to be organized and help </tspan><tspan x="0" y="119" xml:space="preserve">   everyone else so they can have a </tspan><tspan x="0" y="134" xml:space="preserve">   great trip.</tspan></tspan></text>
+        <text id="Say-18" data-name="Say" transform="translate(122 241)" fill="#fafafa" font-size="14" font-family="Lato-Black, Lato" font-weight="800"><tspan x="0" y="0">1.</tspan><tspan y="0" xml:space="preserve" font-family="Lato-Regular, Lato" font-weight="400"> User Persona</tspan></text>
+      </g>
+    </g>
+    <text id="JOURNEY_MAP" data-name="JOURNEY MAP" transform="translate(343)" fill="#040505" font-size="18" font-family="Lato-Regular, Lato"><tspan x="0" y="18">JOURNEY MAP</tspan></text>
+  </g>
+</svg>

@@ -6,6 +6,9 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     alwaysShowClose: true
   });
 });
+// Bootstrap Carousel 
+ 
+
 /*-------------------------------*/
 /***** SMOOTH SCROLL         *****/
 /*-------------------------------*/
