@@ -331,7 +331,7 @@ width: 420px;
     border-width: 1px;
     border-color: #287094; */
     background-color: #FFF;
-    padding: 45px 10px 25px;
+    padding: 16px 10px 25px;
     border-radius: 4px;
 }
 
@@ -489,6 +489,9 @@ width: 420px;
                 padding-top: 60px;
                 padding-bottom: 50px;
                 width: 451px; 
+            }
+            #matrix-border {
+                padding: 45px 10px 25px;
             }
         }
 
