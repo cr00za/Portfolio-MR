@@ -401,6 +401,29 @@ width: 420px;
     /* margin-bottom: 35% !important; */
 }
 
+/*-----------------------------*/
+/***** MID-FI SECTION      *****/
+/*-----------------------------*/
+.mid-fi-block { 
+    /* color: #F6F6F6; */
+    /* padding-top: 70px;
+    padding-bottom: 70px; */
+    /* width: 30%; */
+    height:720px;
+  }
+  .mid-fi-section {
+      height:80%vh;
+      width: 100%vh;
+      background: url("../images/case-TA-midfi@2x.jpg") no-repeat center center fixed;
+      background-size:cover;
+      z-index: 0;
+      text-align: center;
+  }
+  /* .mid-fi img {
+      width: 100%;
+      max-width: 280px;
+  } */
+
 /*-------------------------------*/
 /***** MEDIA QUERY   576px   *****/
 /*-------------------------------*/
