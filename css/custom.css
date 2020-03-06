@@ -148,7 +148,7 @@ html {scroll-behavior: smooth;}
 
 
 #my-drawing{
-   max-width: 270px;
+   max-width: 175px;
    text-align: center;
 }
 
@@ -543,6 +543,10 @@ html {scroll-behavior: smooth;}
 /***** MEDIA QUERY   576px   *****/
 /*-------------------------------*/
 @media screen and (min-width: 576px){
+    #my-drawing{
+        max-width: 270px;
+     }
+
     .phase {
         width: 100%;
         width: 290px;
