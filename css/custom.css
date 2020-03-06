@@ -25,9 +25,10 @@ body{
 
 /* initializing font sizes */
 h1 {font-weight: 600; font-size: 48px;}  
-h2 {font-size: 36px;}
-h1, h3 {font-family: 'Barlow Condensed', sans-serif;}
+h3 {font-family: 'Lato', sans-serif;}
+/* font-family: 'Barlow Condensed', sans-serif; */
 h2, h4, h5 {font-family: 'Lato', sans-serif; }
+h2 {font-size: 36px;}
 
 /* COLORS */
 /* 
@@ -116,8 +117,8 @@ html {scroll-behavior: smooth;}
     color: #F6F6F6;
 }
 #heroSubtitle { 
-    font-weight: 100;
-    font-size: 24px;
+    font-weight: 300;
+    font-size: 20px;
     color: #38C1F9;
 } 
 
