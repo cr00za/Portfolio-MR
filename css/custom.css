@@ -348,7 +348,7 @@ html {scroll-behavior: smooth;}
 }
 .quoteSection {
     height:40%;
-    background: url("../images/about-background.jpg") no-repeat center center fixed;
+    background: url("../images/about-background-small.jpg") no-repeat center center fixed;
     background-size:cover;
     z-index: 0;
     text-align: center;
@@ -543,6 +543,14 @@ html {scroll-behavior: smooth;}
 /***** MEDIA QUERY   576px   *****/
 /*-------------------------------*/
 @media screen and (min-width: 576px){
+
+    .quoteSection {
+        height:40%;
+        background: url("../images/about-background.jpg") no-repeat center center fixed;
+        background-size:cover;
+        z-index: 0;
+        text-align: center;
+    }
     #my-drawing{
         max-width: 270px;
      }
