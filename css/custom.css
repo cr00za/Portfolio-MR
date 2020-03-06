@@ -348,7 +348,7 @@ html {scroll-behavior: smooth;}
 }
 .quoteSection {
     height:40%;
-    background: url("../images/about-background.jpg") no-repeat center center fixed;
+    background-image: url("../images/about-background.jpg") no-repeat center center fixed;
     background-size:cover;
     z-index: 0;
     text-align: center;
