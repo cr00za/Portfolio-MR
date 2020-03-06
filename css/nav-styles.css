@@ -2,13 +2,9 @@
 .navbar-light .navbar-nav .active>.nav-link, 
 .navbar-light .navbar-nav .nav-link.active, 
 .navbar-light .navbar-nav .nav-link.show, 
-.navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(2, 50, 70, .9) !important;
-}
+.navbar-light .navbar-nav .show>.nav-link {color: rgba(2, 50, 70, .9) !important;}
 /* set up the navigation non-active state color */
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(2, 50, 70, .6) !important;
-}
+.navbar-light .navbar-nav .nav-link {color: rgba(2, 50, 70, .6) !important;}
 
 /* navbar toggler */
 
@@ -19,9 +15,7 @@
 }
 
 /* Set navbar text weight to thin when not active */
-.navbar {
-    font-weight: 300;
-}
+.navbar {font-weight: 300;}
 
 #logo {width: 50%;}
 
@@ -39,18 +33,10 @@
      /* stroke effect setup*/
      .scroller a,
      .scroller a:after,
-     .scroller a:before {
-     transition: all .5s;
-     }
-     .scroller a:hover {
-     color: #F6F6F6;
-     /* font-weight: 400; */
- 
-     }
+     .scroller a:before {transition: all .5s;}
+     .scroller a:hover {color: #F6F6F6;}
      /* stroke effect */
-     .scroller a{
-     position: relative;
-     }
+     .scroller a{position: relative;}
      .scroller a:after{
      position: absolute;
      bottom: 0px;
@@ -63,28 +49,19 @@
      background: #38C1F9;
      height: 2px;
      }
-     .scroller a:hover:after {
-     width: 82%;
-     }
+     .scroller a:hover:after {width: 82%;}
 
 
-     .stroke .active { width: 100%;}
+    .stroke .active { width: 100%;}
 
     .stroke a,
     .stroke a:after,
     .stroke a:before {
     transition: all .5s;
     }
-    .stroke a:hover {
-    color: #023246;
-    /* color: #287094; */
-    /* font-weight: 400; */
-
-    }
+    .stroke a:hover {color: #023246;}
     /* stroke effect */
-    .stroke a{
-    position: relative;
-    }
+    .stroke a{position: relative;}
     .stroke a:after{
     position: absolute;
     bottom: 0px;
@@ -97,9 +74,5 @@
     background: #38C1F9;
     height: 2px;
     }
-    .stroke a:hover:after {
-    width: 82%;
-    }
-
-
+    .stroke a:hover:after {width: 82%;}
 }
