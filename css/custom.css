@@ -12,6 +12,7 @@
 }
 /* Test classes End */
 
+.hide-on-mobile { display: none;}
 
 .container {
     max-width: 1080px !important;
@@ -639,6 +640,42 @@ html {scroll-behavior: smooth;}
     .biohero-sm {
         left: -8%;
     }
+
+
+}/* END Media Query */
+
+
+
+/* ------------------------ Fade Animation ---------------------- */
+    /***** Fade Animation   *****/ 
+    [aos="fade"] {
+        opacity: 0;
+        transition-property: opacity;
+      }
+      
+      [aos="fade"].aos-animate {
+        opacity: 1;
+      }
+
+/*  */
+
+
+      @media screen and (min-width: 992px){
+        .hide-on-mobile { display: block;}
+
+        .biohero-xs {display: none;}
+        .biohero-sm {display: none;}
+        .biohero-lg {
+            display: block; 
+            z-index: -1; 
+            top: 0%; 
+            position: absolute;
+            left: -2%;
+            width: 100%;
+        }
+        #bioImage {width: 100%; max-width: 220px;}  
+        /* set cover image size */
+.cover img { max-width: 100%;}
 /* ------------------------------------------------------ */
 /* ------------------- HERO ANIMATION ------------------- */
 /* ------------------------------------------------------ */
@@ -723,52 +760,8 @@ html {scroll-behavior: smooth;}
 /* ------------------- END HERO ANIMATION --------------- */
 /* ------------------------------------------------------ */
 
-
-}/* END Media Query */
-
-
-
-/* ------------------------ Fade Animation ---------------------- */
-    /***** Fade Animation   *****/ 
-    [aos="fade"] {
-        opacity: 0;
-        transition-property: opacity;
-      }
-      
-      [aos="fade"].aos-animate {
-        opacity: 1;
-      }
-
-/*  */
-
-
-      @media screen and (min-width: 992px){
-/* Setting cover image size to stay consistent when with md and lg size screens */
-/* set cover image size */
-/* .cover img {max-width: 100%;} */
-
-
-        /* process padding adjustment */
-        /* .processSection {    
-            padding-left: 35px !important;
-            padding-right: 35px !important;
-        } */
-
-        .biohero-xs {display: none;}
-        .biohero-sm {display: none;}
-        .biohero-lg {
-            display: block; 
-            z-index: -1; 
-            top: 0%; 
-            position: absolute;
-            left: -2%;
-            width: 100%;
-        }
-        #bioImage {width: 100%; max-width: 220px;}  
-        /* set cover image size */
-.cover img { max-width: 100%;}
-
-        }
+} 
+/* END 992 Media Query */
 
 
 
