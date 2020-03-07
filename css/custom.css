@@ -661,7 +661,7 @@ html {scroll-behavior: smooth;}
 
 
       @media screen and (min-width: 992px){
-        .hide-on-mobile { display: block;}
+        /* .hide-on-mobile { display: block;} */
 
         .biohero-xs {display: none;}
         .biohero-sm {display: none;}
@@ -681,7 +681,7 @@ html {scroll-behavior: smooth;}
 /* ------------------------------------------------------ */
 
   /* setting watermark for hero - to be covered by left and right side on load  */
-  .hero-watermark {
+  /* .hero-watermark {
     font-size: 200px;
     color: rgba(196, 196, 196, 0.6);
     position: absolute;
@@ -692,9 +692,9 @@ html {scroll-behavior: smooth;}
     width: 100%;
     max-width: 506px;
     top: 20%;
-}
+} */
 /* LEFT SIDE OF HERO  */
-.myleft-side {
+/* .myleft-side {
   -webkit-animation: slideIn 2s forwards;
   -moz-animation: slideIn 2s forwards;
   animation: slideIn 2s forwards;
@@ -722,10 +722,10 @@ html {scroll-behavior: smooth;}
 100% {
   transform: translateX(0);
 }
-}
+} */
 
 /* RIGHT SIDE OF HERO */
-.myright-side {
+/* .myright-side {
   -webkit-animation: slideInRight 2s forwards;
   -moz-animation: slideInRight 2s forwards;
   animation: slideInRight 2s forwards;
@@ -753,7 +753,7 @@ html {scroll-behavior: smooth;}
 100% {
   transform: translateX(0);
 }
-}
+} */
 
 
 /* ------------------------------------------------------ */
