@@ -36,7 +36,7 @@ h1, h2, h3 {
 .light-text {color: #F6F6F6;}
 .charcoal-text {color: #333333;}
 .blue-text {color: #287094 !important;}
-.shade-text {color: rgba(2, 50, 70, .9) !important;}
+.shade-text {color: #023246 !important;}
 /* COLORS */
 /* 
 
@@ -57,7 +57,7 @@ p {
     padding-top: 60px;
     padding-bottom: 30px;
     margin-bottom: 0px;
-    color: #287094;
+    color: #023246;
 }
 
 .mysection-bottom-margin { margin-bottom: 16px !important;}
@@ -73,30 +73,30 @@ html {scroll-behavior: smooth;}
 
 /* General Button Styling */
 .btn-primary{
-    background-color: #287094 !important;
-    border-color: #287094 !important;
-    color: #F6F6F6 !important;
+    background-color: #023246 !important;
+    border-color: #023246 !important;
+    color: #FAFAFA !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #F6F6F6 !important;
-    background-color: #023246 !important;
-    border-color: #023246  !important; 
+    color: #FAFAFA !important;
+    background-color: #045B7F !important;
+    border-color: #045B7F !important; 
 }
 
 .btn {border-radius: 0px !important; }
 
 /* Portfolio section buttons */
 .portfolioButton {
-    background-color: #F6F6F6 !important;
-    border-color: #F6F6F6 !important;
+    background-color: #FAFAFA !important;
+    border-color: #FAFAFA !important;
     color: #023246 !important;
     font-size: 16px;
 }
 .portfolioButton:hover, .portfolioButton:focus, .portfolioButton:active, .portfolioButton.active {
-    color: #F6F6F6!important;
-    background-color: #023246 !important;
-    border-color: #023246  !important; 
+    color: #FAFAFA!important;
+    background-color: #045B7F !important;
+    border-color: #045B7F  !important; 
 }
 
 .mysection-top-pad {padding-top: 40px;}
@@ -120,7 +120,7 @@ html {scroll-behavior: smooth;}
 #heroSubtitle { 
     font-weight: 300;
     font-size: 24px;
-    color: rgba(2, 50, 70, .6) !important;
+    color: #023246 !important;
 } 
 
 /* set up the shadow for the hero block */
@@ -185,14 +185,14 @@ html {scroll-behavior: smooth;}
 /*-------------------------------*/
 /* main phase heading number */
 h1.phaseNumber {
-    color: #287094;
+    color: #023246;
     font-weight: 500;
     font-size: 20px;
 }
 
 /* main phase heading type */
 h2.phaseType {
-    color: #287094;
+    color: #023246;
     font-weight: 900;
     font-size: 24px;
     max-width: 240px;
@@ -209,7 +209,7 @@ h2.phaseType {
     margin-bottom: 0px;
 }
 h3.darkHeadings {
-    color: #287094;
+    color: #023246;
     font-weight: 500;
     font-size: 22px;
 }
@@ -379,7 +379,7 @@ width: 420px;
     max-width: 80%;
 }
 .carousel-indicators .active {
-    background-color: #287094;
+    background-color: #023246;
 }
 .carousel-indicators li {
     background-color: rgba(2, 50, 70, .6) !important;
@@ -473,8 +473,8 @@ width: 420px;
         /* height: 400px;  */
     }
     .myright-side {
-        padding-top: 0px;
-        padding-bottom: 0px;
+        /* padding-top: 0px;
+        padding-bottom: 0px; */
         /* max-width: 485px; */
     }
     

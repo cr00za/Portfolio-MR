@@ -50,7 +50,7 @@ p {
     padding-top: 60px;
     padding-bottom: 30px;
     margin-bottom: 0px;
-    color: #287094;
+    color: #023246;
 }
 
 .showcaseQuote { width: 100%;} 
@@ -68,29 +68,29 @@ html {scroll-behavior: smooth;}
 
 /* General Button Styling */
 .btn-primary{
-    background-color: #287094  !important;
-    border-color: #287094  !important;
-    color: #F6F6F6 !important;
+    background-color: #023246  !important;
+    border-color: #023246  !important;
+    color: #FAFAFA !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #F6F6F6 !important;
-    background-color: #023246 !important;
-    border-color: #023246  !important; 
+    color: #FAFAFA !important;
+    background-color: #287094 !important;
+    border-color: #287094  !important; 
 }
 
 .btn {border-radius: 0px !important; height: 38px !important;}
 
 /* Portfolio section buttons */
 .portfolioButton {
-    background-color: #F6F6F6 !important;
-    border-color: #F6F6F6 !important;
+    background-color: #FAFAFA !important;
+    border-color: #FAFAFA !important;
     color: #023246 !important;
     font-size: 16px;
 }
 .portfolioButton:hover, .portfolioButton:focus, .portfolioButton:active, .portfolioButton.active {
-    color: #F6F6F6!important;
-    background-color: #023246 !important;
-    border-color: #023246  !important; 
+    color: #FAFAFA!important;
+    background-color: #045B7F !important;
+    border-color: #045B7F  !important; 
 }
 
 .mysection-top-pad
@@ -117,7 +117,7 @@ html {scroll-behavior: smooth;}
     color: #F6F6F6;
 }
 #heroSubtitle { 
-    font-weight: 300;
+    font-weight: 100;
     font-size: 20px;
     color: #38C1F9;
 } 
@@ -133,7 +133,7 @@ html {scroll-behavior: smooth;}
 .myleft-side {
     width: 100%;
     height: 400px;
-    background-color: #287094;
+    background-color: #023246;
      /* offset-x | offset-y | blur-radius | spread-radius | color */
      /* box-shadow: 0px 44px 20px -30px rgba(196, 196, 196, 0.6); */
  
@@ -239,7 +239,7 @@ html {scroll-behavior: smooth;}
 }
 
 .portfolioBackground {
-    background-color: #287094;
+    background-color: #023246;
 }
 /* subtitle - style bar for Portfolio subtitle */
 #bar {
@@ -285,7 +285,7 @@ html {scroll-behavior: smooth;}
 /* making the covers pop off the page with a drop shadow */
 .cover img{
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 0px 44px 20px -30px rgba(2, 50, 70, 0.6);
+    box-shadow: 0px 44px 20px -30px rgba(0, 0, 0, 0.6);
 
 }
 
@@ -314,7 +314,7 @@ html {scroll-behavior: smooth;}
 }
 .toolsText {
     display: inline-block;
-    color: #287094;
+    color: #023246;
     font-weight: 900;
     font-size: 40px;
     margin-bottom: 20px;
@@ -693,7 +693,7 @@ html {scroll-behavior: smooth;}
 
 
     /***** About   *****/   
-    .aboutSubtitle {color: #287094;}
+    .aboutSubtitle {color: #023246;}
     .aboutText {font-size: 16px; max-width: 80%;}
     
     #bioImage {
