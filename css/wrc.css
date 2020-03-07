@@ -59,6 +59,8 @@ p {
     margin-bottom: 0px;
     color: #287094;
 }
+
+.mysection-bottom-margin { margin-bottom: 16px !important;}
 /* setting a global class for column width */
 .mycolumn-width {  
     width: 100%;
