@@ -219,7 +219,8 @@ h3.darkHeadings {
     font-size: 16px;
 }
 /* area subtext*/
-.listItems ul li {
+.listItems ul li,
+.listItems ol li {
     font-family: 'Lato', sans-serif; 
     color: #757575;
     width: 100%;
@@ -425,6 +426,10 @@ width: 420px;
       width: 100%;
       max-width: 280px;
   } */
+/* --------------------------- */
+/* -------- ANIMATION -------- */
+/* --------------------------- */
+
 
 /*-------------------------------*/
 /***** MEDIA QUERY   576px   *****/
