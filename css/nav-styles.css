@@ -9,7 +9,7 @@
 /* navbar toggler */
 
 .navbar-toggler {
-    color: #287094;
+    color: #023246;
     /* rgba(2, 50, 70, 1); */
     border-color: rgba(2,50,70,.1);
 }
@@ -46,7 +46,7 @@
      width: 0%;
      content: '.';
      color: transparent;
-     background: #38C1F9;
+     background: #023246;
      height: 2px;
      }
      .scroller a:hover:after {width: 82%;}
@@ -71,7 +71,7 @@
     width: 0%;
     content: '.';
     color: transparent;
-    background: #38C1F9;
+    background: #023246;
     height: 2px;
     }
     .stroke a:hover:after {width: 82%;}
