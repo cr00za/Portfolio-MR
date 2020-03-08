@@ -2,18 +2,7 @@
 /*-----------------------*/
 /***** GLOBAL STYLES *****/
 /*-----------------------*/
-.svg path {
-    stroke-dashoffset: 210;
-    stroke-dasharray: 210;
-    animation: draw 10s forwards;
-}
-@keyframes draw {
-    to {
-        stroke-dashoffset: 0;
-    }
-}
-
-.hide-on-mobile { display: none;}
+.hero-watermark {display: none;}
 
 .container {
     max-width: 1080px !important;
@@ -632,67 +621,28 @@ html {scroll-behavior: smooth;}
         left: -8%;
     }
 
-
-}/* END Media Query */
-
-
-
-/* ------------------------ Fade Animation ---------------------- */
-    /***** Fade Animation   *****/ 
-    [aos="fade"] {
-        opacity: 0;
-        transition-property: opacity;
-      }
-      
-      [aos="fade"].aos-animate {
-        opacity: 1;
-      }
-
-/*  */
-
-
-      @media screen and (min-width: 992px){
-        /* .hide-on-mobile { display: block;} */
-
-        .biohero-xs {display: none;}
-        .biohero-sm {display: none;}
-        .biohero-lg {
-            display: block; 
-            z-index: -1; 
-            top: 0%; 
-            position: absolute;
-            left: -2%;
-            width: 100%;
-        }
-        #bioImage {width: 100%; max-width: 220px;}  
-        /* set cover image size */
-.cover img { max-width: 100%;}
-
-/* setting background image for quote section (fixed isn't supported on mobile and tablet */
-.quoteSection {
-    background: url("../images/about-background.jpg") no-repeat center center fixed;
-}
-
-
 /* ------------------------------------------------------ */
 /* ------------------- HERO ANIMATION ------------------- */
 /* ------------------------------------------------------ */
 
   /* setting watermark for hero - to be covered by left and right side on load  */
-  /* .hero-watermark {
-    font-size: 200px;
+  .hero-watermark {
+    font-size: 150px;
     color: rgba(196, 196, 196, 0.6);
     position: absolute;
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
+    /* padding-left: 50%;
+    padding-right: 50%; */
     width: 100%;
     max-width: 506px;
     top: 20%;
-} */
+    display: block;
+}
 /* LEFT SIDE OF HERO  */
-/* .myleft-side {
+.myleft-side {
   -webkit-animation: slideIn 2s forwards;
   -moz-animation: slideIn 2s forwards;
   animation: slideIn 2s forwards;
@@ -720,10 +670,10 @@ html {scroll-behavior: smooth;}
 100% {
   transform: translateX(0);
 }
-} */
+}
 
 /* RIGHT SIDE OF HERO */
-/* .myright-side {
+.myright-side {
   -webkit-animation: slideInRight 2s forwards;
   -moz-animation: slideInRight 2s forwards;
   animation: slideInRight 2s forwards;
@@ -751,12 +701,54 @@ html {scroll-behavior: smooth;}
 100% {
   transform: translateX(0);
 }
-} */
+}
 
 
 /* ------------------------------------------------------ */
 /* ------------------- END HERO ANIMATION --------------- */
 /* ------------------------------------------------------ */
+
+}/* END Media Query */
+
+
+
+/* ------------------------ Fade Animation ---------------------- */
+    /***** Fade Animation   *****/ 
+    [aos="fade"] {
+        opacity: 0;
+        transition-property: opacity;
+      }
+      
+      [aos="fade"].aos-animate {
+        opacity: 1;
+      }
+
+/*  */
+
+
+      @media screen and (min-width: 992px){
+        .hide-on-mobile { display: inline-block; }
+
+        .biohero-xs {display: none;}
+        .biohero-sm {display: none;}
+        .biohero-lg {
+            display: block; 
+            z-index: -1; 
+            top: 0%; 
+            position: absolute;
+            left: -2%;
+            width: 100%;
+        }
+        #bioImage {width: 100%; max-width: 220px;}  
+        /* set cover image size */
+.cover img { max-width: 100%;}
+
+/* setting background image for quote section (fixed isn't supported on mobile and tablet */
+.quoteSection {
+    background: url("../images/about-background.jpg") no-repeat center center fixed;
+}
+
+
 
 } 
 /* END 992 Media Query */
