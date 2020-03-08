@@ -428,10 +428,11 @@ width: 420px;
 /***** Prototype Video Section     *****/
 /*-------------------------------------*/
 .prototype-bgnd-inner{
-    height: 600px;
+    /* height: 600px; */
 }
   .prototype-bgnd-outer {
-
+    padding-top: 60px;
+    padding-bottom: 60px;
     /* background-color: #287094; */
     background-image: url("../images/background-bluegradient@2x.jpg");
     background-size:cover;
