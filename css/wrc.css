@@ -33,7 +33,9 @@ h1, h2, h3 {
     margin: 0; */
 }
 
-.light-text {color: #F6F6F6;}
+.light-text {color: #F6F6F6 !important;}
+.prototype-font-color {color: #F6F6F6 !important;}
+.prototype-font-color li {color: #F6F6F6 !important;}
 .charcoal-text {color: #333333;}
 .blue-text {color: #287094 !important;}
 .shade-text {color: #023246 !important;}
@@ -408,10 +410,6 @@ width: 420px;
 /***** MID-FI SECTION      *****/
 /*-----------------------------*/
 .mid-fi-block { 
-    /* color: #F6F6F6; */
-    /* padding-top: 70px;
-    padding-bottom: 70px; */
-    /* width: 30%; */
     height:400px;
   }
   .mid-fi-section {
@@ -426,6 +424,19 @@ width: 420px;
       width: 100%;
       max-width: 280px;
   } */
+/*-------------------------------------*/
+/***** Prototype Video Section     *****/
+/*-------------------------------------*/
+.prototype-bgnd-inner{
+    height: 600px;
+}
+  .prototype-bgnd-outer {
+
+    /* background-color: #287094; */
+    background-image: url("../images/background-bluegradient@2x.jpg");
+    background-size:cover;
+    z-index: 0;
+} 
 /* --------------------------- */
 /* -------- ANIMATION -------- */
 /* --------------------------- */
