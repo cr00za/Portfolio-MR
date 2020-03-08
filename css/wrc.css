@@ -417,7 +417,7 @@ width: 420px;
   .mid-fi-section {
       height:80%vh;
       width: 100%vh;
-      background: url("../images/case-TA-midfi@2x.jpg") no-repeat center center fixed;
+      background: url("../images/case-TA-midfi@2x.jpg") no-repeat center center;
       background-size:cover;
       z-index: 0;
       text-align: center;
@@ -531,6 +531,10 @@ width: 420px;
             }
             #matrix-border {
                 padding: 45px 10px 25px;
+            }
+            /* setting prototype mid-fi background - note mobile and tablet don't support fixed */
+            .mid-fi-section {
+                background: url("../images/case-TA-midfi@2x.jpg") no-repeat center center fixed;
             }
         }
 
