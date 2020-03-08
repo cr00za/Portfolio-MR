@@ -220,6 +220,7 @@ h3.darkHeadings {
     font-weight: 500;
     font-size: 16px;
 }
+.listItems {max-width: 450px;}
 /* area subtext*/
 .listItems ul li,
 .listItems ol li {
@@ -263,6 +264,7 @@ box-shadow: 0px 44px 20px -30px rgba(196, 196, 196, 0.6);
 }
 .data-block {
     width: 100%;
+    max-width: 330px;
     height: 100%;
     border-radius: 10px;
     padding: 10px;   
