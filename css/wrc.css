@@ -416,8 +416,8 @@ width: 420px;
   }
   .mid-fi-section {
       height:80%vh;
-      width: 100%vh;
-      background: url("../images/case-TA-midfi@2x.jpg") no-repeat center center;
+      width: 100%vw;
+      background: url("../images/case-TA-midfi-small.jpg") no-repeat center center;
       background-size:cover;
       z-index: 0;
       text-align: center;
@@ -534,7 +534,12 @@ width: 420px;
             }
             /* setting prototype mid-fi background - note mobile and tablet don't support fixed */
             .mid-fi-section {
+                height:80%vh;
+                width: 100%vw;
                 background: url("../images/case-TA-midfi@2x.jpg") no-repeat center center fixed;
+                background-size:cover;
+                z-index: 0;
+                text-align: center;
             }
         }
 
