@@ -340,7 +340,7 @@ html {scroll-behavior: smooth;}
 }
 .quoteSection {
     height:40%;
-    background: url("../images/about-background.jpg") no-repeat center center fixed;
+    background: url("../images/about-background.jpg") no-repeat center center;
     background-size:cover;
     z-index: 0;
     text-align: center;
@@ -667,6 +667,13 @@ html {scroll-behavior: smooth;}
         #bioImage {width: 100%; max-width: 220px;}  
         /* set cover image size */
 .cover img { max-width: 100%;}
+
+/* setting background image for quote section (fixed isn't supported on mobile and tablet */
+.quoteSection {
+    background: url("../images/about-background.jpg") no-repeat center center fixed;
+}
+
+
 /* ------------------------------------------------------ */
 /* ------------------- HERO ANIMATION ------------------- */
 /* ------------------------------------------------------ */
