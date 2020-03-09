@@ -12,39 +12,30 @@
         </script>
         <!-- End of Google Analytics tracking code -->
 
-        <!-- Hotjar Tracking Code for brains.com -->
-        <!-- Hotjar Tracking Code for https://cr00za.github.io/Portfolio-MR -->
-            <script>
-                (function(h,o,t,j,a,r){
-                    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                    h._hjSettings={hjid:869363,hjsv:6};
-                    a=o.getElementsByTagName('head')[0];
-                    r=o.createElement('script');r.async=1;
-                    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                    a.appendChild(r);
-                })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-            </script>
-        <!-- End of Hotjar Tracking Code  -->
+
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Women's Resource Center Case Study</title>
+        <title>Travel App Case Study</title>
         <meta property="og:site_name" content="Miguel's Portfolio Site"/>
         <meta property="og:title" content="Home"/>
         <meta property="og:description" content="I create opportunities through human-centric design, bringing life to concepts, ideas, and dreams to connect and impact the world."/>
-        <meta property="og:image" content="../images/Logo-dark.svg">
+        <!-- <meta property="og:image" content="../images/Logo-dark.svg"> -->
+        <link rel="icon" type="image/svg" href="../images/Logo-dark-favicon.svg" />
         <meta property="og:url" content="https://cr00za.github.io/Portfolio-MR/">
         <meta property="og:type" content="Portfolio"/>
 
         <!-- Font styles -->
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,600,700&display=swap" rel="stylesheet">
+   
        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <!-- Lightbox -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
         <!-- Custom -->
         <link rel="stylesheet" href="css/nav-styles.css">
         <link rel="stylesheet" href="css/wrc.css">
-
     
         
         <!-- <link href="css/slider.css" rel="stylesheet"> -->
@@ -66,207 +57,451 @@
         <header>
             <!-- <div class="safezone">IPHONE X SAFE ZONE</div> -->
 
+            
+                <nav id="topheader" class=" navbar navbar-expand-md navbar-custom fixed-top navbar-light marginLeft-sm marginRight-sm " id="nav">
+                    <div class="container container-nav">
+                        <div class="navSpacer">
+                            <a class="navbar-brand" href="index.html#"><img id="logo" src="images/Logo-light.svg" alt="Logo"></a>
+                        </div>   
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "></span>
+                            </button>
+                        
+                        <div class="collapse navbar-collapse w-100 stroke justify-content-end" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <a class="nav-item nav-link active glassesHome" href="index.html#">Home <span class="sr-only"></span></a>
+                            <a class="nav-item nav-link js-anchor-link glassesProcess" href="index.html#myProcess-anchor">Process</a>
+                            <a class="nav-item nav-link js-anchor-link glassesPortfolio" href="index.html#portfolio-anchor">Portfolio</a>
+                            <a class="nav-item nav-link js-anchor-link glassesAbout" href="index.html#aboutMe-anchor">About</a>
+                            <a class="nav-item nav-link js-anchor-link toggle" onClick="parent.location='mailto:miguel.uxd@gmail.com?subject=Hi&'" href="#contactMe" >Contact</a>
+                          </div>
+                        </div>
+                    </div>
 
-              <nav id="topheader" class=" navbar navbar-expand-md navbar-custom fixed-top navbar-light marginLeft-sm marginRight-sm" id="nav">
-                <div class="navSpacer">
-                    <a class="navbar-brand" href="#"><img id="logo" src="images/Logo-dark.svg" alt="Logo"></a>
-                </div>   
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                    </button>
-                
-                <div class="collapse navbar-collapse w-100 stroke justify-content-end" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active glassesHome" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link js-anchor-link glassesProcess" href="#myProcess">Process</a>
-                    <a class="nav-item nav-link js-anchor-link glassesPortfolio" href="#portfolio">Portfolio</a>
-                    <a class="nav-item nav-link js-anchor-link glassesAbout" href="#aboutMe">About</a>
-                    <a class="nav-item nav-link js-anchor-link toggle" onClick="parent.location='mailto:miguel.uxd@gmail.com?subject=Hi&'" href="#contactMe" >Contact</a>
-                  </div>
-                </div>
-              </nav>
+                  </nav>
+          
+
         </header>
     
         <main>
             <!-- --------- -->
             <!-- JUMBOTRON -->
             <!-- --------- -->
-            
-  
+         <div class="container container-hero">
             <div class="jumbotron px-0 mx-0 mt-0 pt-0">
-                
-                <div class="row no-gutters heroBlock mt-0">
-                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
-                        <div class="d-flex justify-content-center flex-column align-content-middle myleft-side pr-md-3">
-                            <img id="hero-pic" class="" src="images/case-WRC-hero.jpg" alt="women's resource center for domestic violence">
-                        </div>
+                <div class="row no-gutters  heroBlock mt-0 pt-0">
+                    <!-- background picture used for div -->
+                    <div class="col-12 myleft-side-wrc  col-md-6 d-flex justify-content-center pr-md-3">
                     </div>
 
                     <!-- setting up columns for larger devices / center button only on md or > devices -->
-                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center align-items-md-top">
-                        <div class="myright-side text-center text-md-left flex-column pl-md-3 pr-md-4">
-                            <h2 id="heroTitle" class="display-4">Women's Resource Center</h2>
+                    <div class="col-12 col-md-6 myright-side d-flex justify-content-center align-self-center flex-column">
+                        <div class="case-TA-hero-text pl-md-3 pr-md-4 mycolumn-width">
+                            <h2 id="heroTitle" class="display-4 blue-text">Women's Resource Center</h2>
                             <h3 id="heroSubtitle" class="lead">Non-Profit Website Redesign</h3>
-                            <p id="heroText" class="mycolumn-width">My team, <i>The Justice League Designers</i>, helped WRCDV in its mission to end Domestic Violence by revamping their website and  strategically broading their reach.</p>
+                            <p id="heroText" class="mycolumn-width shade-text">My team, <i>The Justice League Designers</i>, helped WRCDV in its mission to end Domestic Violence by revamping their website and strategically broading their reach.</p>
                         </div>
                     </div>
-                </div>
-   
-        </div>
+                </div> 
+            </div>
+         </div>
 
-      
 
-            <!-- -------------------- -->
-            <!--  DISCOVERY - SECTION -->
-            <!-- -------------------- -->
+        <!-- -------------------- -->
+        <!--  DISCOVER - SECTION  -->
+        <!-- -------------------- -->
 
-            <div class="container-fluid sectionBottomProcess">
-                              
-                <div class="container discovery">
+        <div class="container-fluid sectionBottomProcess">
+                            
+            <div class="container container-mywidth discovery">
+                <!-- Title / phase / Icon -->
+                <div class="row sectionTitle">
                     <!-- Title / phase / Icon -->
-                    <div class="row sectionTitle">
-                        <!-- Title / phase / Icon -->
+                    <div class="col-12 d-flex flex-row mycolumn-width">
                         <div class="">
                             <h1 class="phaseNumber">Phase I</h1>
-                            <h2 class="phaseType">DISCOVERY</h2>
+                            <h2 class="phaseType">DISCOVER</h2>
                         </div>
                         <div class="pl-4 phaseIcon">
                             <img src="images/discoverIcon2.svg" alt="discover phase icon">
                         </div>
                     </div>
+                </div>
 
+                <!-- Role / Team / Timeline -->
+                <div class="row">
                     <!-- Role / Team / Timeline -->
-                    <div class="row">
-                        <!-- Role / Team / Timeline -->
-                        <div class="col-12 col-sm-6 ">
-                            <div class="row width-sm px-0">
-                                <div class="col-6 leftSideLeft listItems">
-                                    <h3 class="lightHeadings">My Role</h3>
-                                    <ul>
-                                        <li>UX Researcher</li>
-                                        <li>UX/UI Designer</li>
-                                        <li>Interviewer</li>
-                                    </ul>
+                    <div class="col-12 col-sm-6 d-flex justify-content-lg-start ">
+                        
+                            <div class="listItems">
+                                <div>
+                                    <!-- ROLE -->
+                                    <div>
+                                        <h3 class="lightHeadings">My Role</h3>
+                                        <ul>
+                                            <li>UX Researcher</li>
+                                            <li>UX/UI Designer</li>
+                                            <li>Interviewer</li>
+                                        </ul>
+                                    </div>
+                                    <!-- TIMELINE -->
+                                    <div>
+                                        <h3 class="lightHeadings">Timeline</h3>
+                                        <ul>
+                                            <li>Two weeks</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="col-6 leftSideRight listItems">
-                                    <h3 class="lightHeadings">Team</h3>
-                                    <ul>
-                                        <li>Chandra Thomas</li>
-                                        <li>Elijah Segarra</li>
-                                        <li>Miguel Ruddock</li>
-                                        <li>Victory Fejokwu</li>
-                                    </ul>
-                                </div>
-                                <div class="col-6 leftSideLeft2 listItems">
-                                    <h3 class="lightHeadings">Timeline</h3>
-                                    <ul>
-                                        <li>Two weeks</li>
-                                    </ul>
-                                </div>      
+                               
                             </div>
-                        </div>
-                        <!-- WHAT (Business) -->
-                        <div class="col-12 col-sm-6 rightSideRight">
-                            <div class="row">
-                                <div class="col-12 d-flex justify-content-center flex-column">
-                                    <h3 class="darkHeadings ">What is Women’s Resource Center?</h3>
-                                    <P class="mycolumn-width">Women’s Resource Center to End Domestic Violence has been helping women and their families escape DV for over 20 years. They are a local non-profit who’s had a big impact on the community. They provide safety, legal, and lifestyle help to families to transition into healthy, safe environments.</P>
-                                </div>
+
+                            <div class="col-6 leftSideRight listItems">
+                                <h3 class="lightHeadings">Team</h3>
+                                <ul>
+                                    <li>Chandra Thomas</li>
+                                    <li>Elijah Segarra</li>
+                                    <li>Victory Fejokwu</li>
+                                    <li>Miguel Ruddock</li>
+                                </ul>
+                            </div>  
+                      
+                    </div>
+                    <!-- WHAT (Business) -->
+                    <div class="col-12 col-sm-6 rightSideRight d-flex justify-content-center justify-content-lg-start">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="darkHeadings">What is Women’s Resource Center?</h3>
+                                <P class="mycolumn-width">Women’s Resource Center to End Domestic Violence has been helping women and their families escape DV for over 20 years. They are a local non-profit who’s had a big impact on the community. They provide safety, legal, and lifestyle help to families to transition into healthy, safe environments.</P>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- WHO (User) and WHAT (Challenge) -->
-                <div class="container insect-top">
-                    <div class="row">
-                        <div class="col-12 col-sm-6">
-                            <h3 class="darkHeadings">Who are we trying to impact?</h3>
-                            <P class="blurbs mycolumn-width">Our persona Sabrina, represents their audience. A 26 year old, college educated - go-getter with a passion for helping people. Helping her roommate get out of a recent domestic violence situation sparked her curiousity in how she might be able to have more of an impact locally and politically. </P>
-                        </div>
-
-                        <div class="col-12 col-sm-6">
-                            <h3 class="darkHeadings">What was the business challenge?</h3>
-                            <P class="blurbs mycolumn-width">WRCDV’s intention was to broaden their reach to millenials, and redesign their website to make it more engaging and user friendly.</P>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-        
 
-        <!-- -------------------------------- -->
-        <!--    Prototype - VIDEO  SECTION    -->
-        <!-- -------------------------------- -->
-        <div class="container-fluid prototype-bgnd-outer mt-5">
-            <div class="container prototype-bgnd-inner" >
-                <div class="row sect-top">
-                    <div  class="col-12 ">
-                        <div id="prototype-gif">
-                            <img src="images/case-TA-prototypevideo.gif" style="height: 433px; width: 200px;" alt="iphone-x shell">
+            <!-- WHO (User) and WHAT (Challenge) -->
+            <div class="container container-mywidth insect-top">
+                <div class="row">
+                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-lg-start">
+                        <div>
+                            <h3 class="darkHeadings mycolumn-width">Who are we trying to impact?</h3>
+                            <P class="mycolumn-width">Our persona Sabrina, represents their audience. A 26 year old, college educated - go-getter with a passion for helping people. Helping her roommate get out of a recent domestic violence situation sparked her curiousity in how she might be able to have more of an impact locally and politically.</P>   
                         </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-lg-start">
+                        <div>
+                            <h3 class="darkHeadings mycolumn-width">What was the business challenge?</h3>
+                            <P class="mycolumn-width">WRCDV’s intention was to broaden their reach to millenials, and redesign their website to make it more engaging and user friendly.</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>  
+
+            <!-- ------------------------------- -->
+            <!--  Research Highlights - SECTION  -->
+            <!-- ------------------------------- -->
+        <div class="container-fluid">
+            <div class="container container-mywidth">                   
+                <div class="row research-data ">
+                
+                    <div class="col-12 col-sm-4 order-1 mb-5 mb-lg-2 d-flex justify-content-center">
+                        <div class="data-block listItems"> 
+                                <img  class="text-center" src="images/define-branding.png" alt="painter paletter to signify branding">
+                                <h2 class="data-title">Branding - Color/image treatment</h2>
+                                <p class="data-text pt-4">Current logo and brand colors could not be changed per the stakeholder’s request.<br>
+                                    <ul class="">
+                                        <li><strong>Con</strong> - Images on the site were low quality and weren’t consistent with the polished brand look & feel. <br></li>
+                                        <li><strong>Pro</strong> - We can measure image & color treament through interviews, and usability testing.<br></li>
+                                        <li><strong>Pro</strong> - Colors were carefully chosen to project empowerment, transformation, and self-value.</p></li>
+                                    </ul>
+
+                                    
+                                    
+                        </div>
+                    </div>      
+
+                    <div class="col-12 col-sm-4 order-2 mb-5 mb-lg-2 d-flex justify-content-center">
+                        <div class="data-block">
+                            <img class="text-center" src="images/define-vision.png" alt="woman with a telescope to signify long-term vision">
+                            <h2 class="data-title">Long-term vision & initiative</h2>
+                            <p class="data-text pt-4">WRCDV wishes to broaden their reach to engage with millenials & Gen Z’s.<br>
+                                Based on the vision we can create strategies to increase communication to the target audience through their respective mediums - Facebook, Instagram, twitter, etc.<br>Focusing on this target group will allow us to recruit them as key resources (Business Model Canvas).</p>
+                        </div>
+                    </div>    
+
+                    <div class="col-12 col-sm-4 order-3 mb-5 mb-lg-2 d-flex justify-content-center">  
+                        <div class="data-block listItems">
+                            <img class="text-center" src="images/define-graph.png" alt="bar graph to signify site traffic">
+                            <h2 class="data-title">Current Site Traffic</h2>
+                            <p class="data-text pt-4">We found that Donors have a hard time finding the info they are looking for. This could be a potential opportunity to help WRC increase their revenue stream.</p>
+                                <ul class="listItems ">
+                                    <li><strong>30%</strong> of their traffic is a result of donors visiting the site</li>
+                                    <li><strong>75%</strong> of which are women between the ages of 40 and 60</li>
+                                    <li><strong>50%</strong> of the site’s content is geared towards donors</li>
+                                </ul>
+                                
+                        </div>
+                    </div>
+                </div>  
+            </div>    
+        </div>
+
+        <!-- ----------------------- -->
+        <!-- Stakeholder Interviews  -->
+        <!-- ----------------------- -->        
+        <div class="container-fluid">
+            <div class="container container-mywidth sect-top">
+                
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
+                        <div class="">
+                            <h3 class="darkHeadings mx-auto mx-lg-0 mycolumn-width">Insights from the stakeholders</h3>
+                            <P class="mycolumn-width">We conducted stakeholder interviews with the Director of Development, <i>Amber Harris</i>, and the Director of Operations, <i>Markesha Dunham</i>. My team and I quickly debriefed after each session. Our goal was to better understand why millennials & gen z users were not engaging with the WRCDV website. The following pain points were highlighted from these two interviews:</P>            
+                            
+                            <div class="listItems">
+                                <ul>
+                                    <li>Lack of mobile responsiveness</li>
+                                    <li>Very little content to draw in potential volunteer interaction</li>
+                                    <li>Site organization was creating headaches for visitors trying to donate money or goods to the center</li>
+                                    <li>A desire to update the site with more gender inclusive language.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start order-2 order-lg-1 pt-2 pt-lg-0">
+                        <div id="">
+                            <h3 class="data-title text-center">Stakeholders</h3>
+                                <img class="artifact img-fluid" src="images/case-wrc-interviews.png" alt="stakeholders interviewed">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------- -->
+        <!-- Persona Diagram  -->
+        <!-- ---------------- -->
+        <div class="container-fluid">
+            <div class="container container-mywidth sect-top persona-spacing">
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start order-2 order-lg-1">
+
+                            <!-- lightbox for artifact -->
+                            <a href="images/case-TA-persona.jpg" data-title="Travel Flow Persona: Zayah" class="popup-background"  data-toggle="lightbox">
+                              <img class="artifact img-fluid" src="images/case-wrcdv-persona.jpg" class="img-fluid">
+                            </a>
+
+                        <!-- <img class="artifact" data-toggle="lightbox" src="images/case-TA-persona.jpg" alt="persona"> -->
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start order-1 order-lg-2">
+                        <div>
+                            <h3 class="data-title">Persona</h3>
+                            <P class="mycolumn-width">We identified two personas, <i>the volunteer</i>, and <i>the patron</i>. With the interest of time and aligning with the business goal of expanding their reach to millennials we chose to build on the volunteer persona. The current site currently has very little information tailored to volunteers. In developing the persona we took into account that the site's visitors, employees, donors, and volunteers are overwhelmingly female.</P> 
+                            <img class="arrow show-only-lg"  src="images/left-arrow.svg" alt="arrow pointing from description to artifact">   
+                        </div>   
+                          
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+            <!-- ------------------ -->
+            <!-- Phase II - SECTION -->
+            <!-- ------------------ -->
+            <div class="container-fluid">
+                <div class="container container-mywidth sect-top">
+                        <!-- Title / phase / Icon -->
+                        <div class="row sectionTitle">
+                            <!-- Title / phase / Icon -->
+                            <div class="col-12 d-flex justify-content-center justify-content-lg-start">
+                                <div class="mycolumn-width d-flex flex-row">
+                                    <div class="">
+                                        <h1 class="phaseNumber">Phase II</h1>
+                                        <h2 class="phaseType">DEFINITION</h2>
+                                    </div>
+                                    <div class="pl-4 phaseIcon d-inline">
+                                        <img src="images/defineIcon2.svg" alt="define phase icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        <!-- ---------------- -->
+        <!--  Brainstorming   -->
+        <!-- ---------------- -->
+        <div class="container-fluid">
+            <div class="container container-mywidth insect-top affinity-spacing">
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
+                        <div class="">
+                            <h3 class="data-title">Brainstorming</h3>
+                            <P class="mycolumn-width">We used the I like, I wish, What if method to brainstorm ideas to acheive the business and user goals. We then used the feature prioritization matrix, shown below, to narrow in on the most feasible and sensible features.</P>         
+                            <img class="arrow show-only-lg float-right d-inline"  src="images/right-arrow.svg" alt="arrow pointing from description to artifact">
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
+                        <a href="images/case-TA-affinity.webp" data-title="Brainstorming - I like, I wish, What if" class="popup-background"  data-toggle="lightbox">
+                            <img class="artifact img-fluid" src="images/case-wrc-brainstorm.jpg" class="img-fluid" alt="Brainstorming method - I like, I wish, what if">
+                          </a>
                     </div>
                 </div>
             </div>
         </div>
-            <!-- ------------------- -->
-            <!--  PERSONA - SECTION  -->
-            <!-- ------------------- -->
-            <div class="container-fluid">
-         
-                <div class="container area-persona">
-                    <div class="row ">
-                        <!-- col-sm-8 col-md-8 col-lg-6 -->
-                        <div class="col-12 text-center">
-                            <!-- <div id="bar" class=""></div> -->
-                            <h3 class="">Persona</h3>
+   
+            <!-- ----------------------- -->
+            <!-- Feature Prioritization  -->
+            <!-- ----------------------- -->
+            <div class="container container-mywidth sect-top">
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start order-2 order-lg-1">
+                        <div id="matrix-border">
+                            <h3 class="data-title text-center">Feature Prioritization</h3>
+                            <!-- Lightbox for artifact -->
+                            <a href="images/develop-feature.jpg" data-title="WRCDV Feature Prioritization Matrix" class="popup-background"  data-toggle="lightbox">
+                                <img class="artifact img-fluid" src="images/case-wrc-feature.jpg" alt="feature prioritization matrix" class="img-fluid">
+                              </a>
                         </div>
-            
                     </div>
 
-                    <div class="row justify-content-sm-center">
-                        <div id="" class="persona card-body col-12 col-md-6 d-flex justify-content-center">
-                            <div class="d-flex justify-content-center flex-column">
-                                <img class="" src="images/discover-personaA.png" alt="description of persona">
-                            </div>
-                        </div>
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start order-1 order-lg-2">
 
-                    
-                        <!-- setting order for columns with  order-2 order-md-8 -->
-                        <div id="" class="persona card-body col-12 col-md-6 order-2 order-md-8 d-flex justify-content-center justify-content-md-start align-items-center">
-                            <div class="">
-                                <img class="" src="images/discover-personaB.png" alt="persona picture">
+                        <div>
+                            <h3 class="darkHeadings">Using User Insight to define the problem</h3>
+                            <P class="mycolumn-width">New volunteers need to be able to see, respond to, and sign up for events via the website because they prefer direct access at their fingertips.<br><br><i class="blue-text">How might we redesign the WRC website in a way that encourages volunteers and donors to interact directly through the site in order to appeal to a younger demographic?</i></P> 
+                            <h3 class="data-title pt-1">Prioritizing features based on need and feasibility</h3>
+                            <P class="mycolumn-width">We decided to focus on the following features based on insights from our 2 stakeholder interviews:
+                            </P>
+                            <div class="listItems">
+                                <ul>
+                                    <li>Search feature</li>
+                                    <li>Safety - Escape button to quickly close the site</li>
+                                    <li>Volunteer Call-Action-Newsfeed</li>
+                                    <li>Make the donation process more user friendly</li>
+                                </ul>
                             </div>
-                        </div>
-    
+                        </div>    
                     </div>
                 </div>
+            </div>
+            <!-- ------------------------ -->
+            <!-- Storyboard - Journey Map -->
+            <!-- ------------------------ -->
+            <div class="container-fluid">
+                <div class="container container-mywidth sect-top">
+                    <!-- THE STORY - STORYBOARDING / JOURNEY MAPPING -->
+                    <div class="row">
+                        <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
+                            <div>
+                                <h3 class="darkHeadings">Crafting a story to gain empathy and insight</h3>
+                                <P class="mycolumn-width">Our persona, Sabrina, experiences domestic violence close to home when her roommate. This inspires her to seek to make more of a difference than simply consoling and encouruaging. An online search lead her to the Women's Resource Center. We use the onboarding process to expose potential hindrances.</P>   
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
+                            <div>
+                                <h3 class="data-title pt-1">Storyboarding - Journey mapping</h3>
+                                <P class="mycolumn-width">Each helped me to view the phases of traveling to Australia from a slightly different angle. In the future I'd look to analyze and layout a story using a combination of all three of these methods. Most of the insight was gained from Journey Mapping, then Scenario, and finally Storyboarding.</P>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center pt-2 pt-lg-4"> 
+                        <div class="col-12">
+                            <h3 class="data-title pt-1 text-center">Storyboard - Journey Map</h3>
+                            <!-- Slider carousel for artifacts -->
+                            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="3500">
+                                <ol class="carousel-indicators mb-0">
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner text-center">
+                                  <div class="carousel-item active">
+                                        <!-- larger lightbox image -->
+                                        <a href="images/case-wrc-storyboard.jpg" data-title="Storyboard" class="popup-background"  data-toggle="lightbox">
+                                            <!-- smaller image -->
+                                            <img id="story-1" class="d-block mx-auto img-fluid" src="images/Case-wrc-storyboard.jpg" alt="First slide - storyboard">
+                                        </a>
+                                  </div>                                  
+                                  <div class="carousel-item">
+                                        <!-- larger lightbox image -->
+                                        <a href="images/case-wrc-journeymap.jpg" data-title="Scenario" class="popup-background"  data-toggle="lightbox">
+                                            <!-- smaller image -->
+                                            <img id="story-3" class="d-block mx-auto img-fluid" src="images/case-wrc-journeymap.jpg" alt="Third slide - journey map">
+                                        </a>
+                                  </div>
+                                  <a class="carousel-control-prev d-flex justify-content-start" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="carousel-control-next d-flex justify-content-end" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                            </div>
+                            <!-- END Slider carousel for artifacts -->
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            </div>    
- 
+            <!-- ------------------- -->
+            <!-- Phase III - SECTION -->
+            <!-- ------------------- -->
+            <div class="container-fluid">
+                <div class="container container-mywidth sect-top">
+                        <!-- Title / phase / Icon -->
+                        <div class="row sectionTitle">
+                            <!-- Title / phase / Icon -->
+                            <div class="col-12 d-flex justify-content-center justify-content-lg-start">
+                                <div class="mycolumn-width d-flex flex-row">
+                                    <div class="">
+                                        <h1 class="phaseNumber">Phase III</h1>
+                                        <h2 class="phaseType">DEVELOP</h2>
+                                    </div>
+                                    <div class="pl-4 phaseIcon d-inline">
+                                        <img src="images/developIcon2.svg" alt="develop phase icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
- 
-    
-            <!-- --------------- -->
-            <!-- TOOLS - SECTION -->
-            <!-- --------------- -->
-    
-
-      
-            <!-- --------------- -->
-            <!-- Quote - SECTION -->
-            <!-- --------------- -->
- 
-
-           
+                </div>
+            </div>
             <!-- ------------------ -->
-            <!-- ABOUT ME - SECTION -->
+            <!-- Phase IV - SECTION -->
             <!-- ------------------ -->
-            
+            <div class="container-fluid">
+                <div class="container container-mywidth sect-top">
+                        <!-- Title / phase / Icon -->
+                        <div class="row sectionTitle">
+                            <!-- Title / phase / Icon -->
+                            <div class="col-12 d-flex justify-content-center justify-content-lg-start">
+                                <div class="mycolumn-width d-flex flex-row">
+                                    <div class="">
+                                        <h1 class="phaseNumber">Phase IV</h1>
+                                        <h2 class="phaseType">DELIVER</h2>
+                                    </div>
+                                    <div class="pl-4 phaseIcon d-inline">
+                                        <img src="images/deliverIcon2.svg" alt="deliver phase icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            
-       
-
+                </div>
+            </div>
         </main>
 
         <!-- ---------------- -->
@@ -306,7 +541,7 @@
     
 
     
-    <!-- Optional JavaScript -->
+      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -316,6 +551,7 @@
     <script src="js/slider.js"></script>
     <script src="js/hero.js"></script>
     <script src="js/modalContact.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
     <!-- Animate on Scroll -->
     <script>   
         AOS.init({  
