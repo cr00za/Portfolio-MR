@@ -1,15 +1,13 @@
 
-// Lightbox
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-  event.preventDefault();
-  $(this).ekkoLightbox({
-    alwaysShowClose: true
-  });
-});
-// Bootstrap Carousel 
+
+// Navbar expansion color change
+// $(document).ready(function(){
+//   $('navbar-dark > button').on('click', function(){
+//       $('navbardark').toggleClass('color-changed');
+//   });
+//   });
  
 
-/*-------------------------------*/
 /***** SMOOTH SCROLL         *****/
 /*-------------------------------*/
 // Smooth Scroll
@@ -28,11 +26,6 @@ $( '.links a' ).on( 'click', function(e){
 });
   
 
-$('.navbar-collapse a').click(function (e) {
-    $('.show').collapse('toggle');
-  });
-
-  $(".navbar-custom").css("background", "rgba(255, 255, 255, 0)");
 // The scroll() method triggers the scroll event, or attaches a function to run when a scroll event occurs.
 // scrollTop returns the scroll position
 //when window scrolls do this function
@@ -84,16 +77,16 @@ $(document).ready(function(){
   });
 });
 
-
-
   // switching active class when clicking on a navigation item
   $('a.js-anchor-link').click(function(){
       $('a.js-anchor-link').removeClass('active');
       $(this).addClass('active');
   });
 
-// $(".qa-faq-title").click( function(){
-//     $(".qa-faq-title.active").removeClass("active");
-
-//     $(this).addClass("active");
-// });
+// Lightbox
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox({
+    alwaysShowClose: true
+  });
+});

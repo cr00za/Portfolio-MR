@@ -19,7 +19,13 @@
 
 #logo {width: 50%;}
 
-
+/* NAVBAR COLOR CHANGE */
+nav.bglight.color-changed{
+    background-color:gray!important;
+    }
+    nav.bg-light {
+        background-color: red !important;
+    }
 /*-------------------------------*/
 /***** MEDIA QUERY   768px   *****/
 /*-------------------------------*/
