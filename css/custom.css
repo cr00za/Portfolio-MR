@@ -268,10 +268,11 @@ html {scroll-behavior: smooth;}
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #287094;
+    /* #008CBA the background color previous to #287094 */
   }
   .hover-box:hover .overlay {
-    opacity: .7;
+    opacity: .8;
   }
   
   .text {
