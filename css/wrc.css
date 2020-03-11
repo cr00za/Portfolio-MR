@@ -148,14 +148,14 @@ html {scroll-behavior: smooth;}
     width: 100%;
     height: 400px;
      /* overlay with 10% #287094; */
-    background: url("../images/case-TA-hero2.jpg") center center no-repeat;
+    background: url("/images/case-TA-hero2.jpg") center center no-repeat;
 }
 /* for women's resource center case study hero image */
 .myleft-side-wrc {
     width: 100%;
     height: 400px;
     /* overlay with 20% #287094; */
-    background: url("../images/case-wrc-hero2.jpg") center center no-repeat;
+    background: url("/images/case-wrc-hero2.jpg") center center no-repeat;
 }
 .myright-side {
     width: 100%;
