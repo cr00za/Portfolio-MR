@@ -19,6 +19,10 @@
 
 #logo {width: 50%;}
 
+/* GENERAL */
+/* Hide element until I'm ready to show it */
+.hide-it {display: none;}
+
 
 /*-------------------------------*/
 /***** MEDIA QUERY   768px   *****/
