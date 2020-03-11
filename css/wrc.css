@@ -147,14 +147,14 @@ html {scroll-behavior: smooth;}
 .myleft-side-ta {
     width: 100%;
     height: 400px;
-    /* background-color: #287094; */
+     /* overlay with 10% #287094; */
     background: url("/images/case-TA-hero2.jpg") center center no-repeat;
 }
 /* for women's resource center case study hero image */
 .myleft-side-wrc {
     width: 100%;
     height: 400px;
-    /* background-color: #287094; */
+    /* overlay with 20% #287094; */
     background: url("/images/case-wrc-hero.jpg") center center no-repeat;
 }
 .myright-side {
