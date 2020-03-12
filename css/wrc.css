@@ -161,9 +161,14 @@ html {scroll-behavior: smooth;}
     width: 100%;
     height: 400px;
     background-color: #F6F6F6;
-    align-content: center;
+    
 }
-
+.case-TA-hero-text {
+    width: 345px;
+}
+.case-wrc-hero-text {
+    width: 345px;
+}
 #hero-pic{
    width: 100%;
    max-width: 640px;
