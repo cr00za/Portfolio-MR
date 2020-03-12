@@ -459,7 +459,9 @@ html {scroll-behavior: smooth;}
 }
 
 
-#connect p {color: #023246;}
+#connect p {
+    color: #023246;
+}
 
 .socialIcons {
     width: 10%; 
