@@ -61,7 +61,11 @@ html {scroll-behavior: smooth;}
     border-color: #287094  !important; 
 }
 
-.btn {border-radius: 0px !important; height: 38px !important;}
+.btn {
+    border-radius: 0px !important; 
+    height: 38px !important;
+    padding: 5px 25px !important;
+}
 
 /* Portfolio section buttons */
 .portfolioButton {
