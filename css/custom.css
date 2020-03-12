@@ -508,7 +508,13 @@ html {scroll-behavior: smooth;}
     }
     
 
-.phaseTitle {font-weight: 500; color: #023246; font-size: 20px;}
+.phaseTitle {
+    font-weight: 500; 
+    color: #023246; 
+    font-size: 20px;
+    margin-top: 16px;
+
+}
 /* .heroBlock {padding-left: 0px;} */
     #bioImage { max-width: 140%; }
 /* setting how the about illustration should display on sm screens */
@@ -591,7 +597,7 @@ html {scroll-behavior: smooth;}
     .inner-square {
         width: 200px;
         min-height: 290px;
-        padding: 10px;
+        padding: 16px;
         border-color: #E6E6E6;
         border-style: solid;
         border-width: 1px;
