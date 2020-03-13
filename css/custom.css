@@ -172,9 +172,8 @@ html {scroll-behavior: smooth;}
 }
 
 /* restricting container size for hero elements to keep alignment */
-#left-hero {
-    max-width: 700px;
-}
+
+
 /*----------------------------*/
 /***** MY PROCESS SECTION *****/
 /*----------------------------*/
