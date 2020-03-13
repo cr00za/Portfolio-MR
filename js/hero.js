@@ -8,7 +8,7 @@ $(document).ready(function(){
     
 
     $(".glassesPortfolio, .portfolioButton").hover(function() {
-    $( '.glasses' ).attr("src","images/Portfolio Portrait-sky.svg");
+        $( '.glasses' ).attr("src","images/Portfolio Portrait-sky.svg");
     });
 
     $(".glassesAbout, .glassesProcess").hover(function() {

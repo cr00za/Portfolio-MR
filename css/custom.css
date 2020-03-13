@@ -169,7 +169,11 @@ html {scroll-behavior: smooth;}
     font-size: 16px;
     color: #E6E6E6;
     width: 345px;
+}
 
+/* restricting container size for hero elements to keep alignment */
+#left-hero {
+    max-width: 700px;
 }
 /*----------------------------*/
 /***** MY PROCESS SECTION *****/
