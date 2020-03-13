@@ -55,6 +55,12 @@ $(document).scroll(function(){
 
 });
 
+// Show tooltip immediately on hover
+$(document).tooltip({show: null});
+$( function() {
+  $( document ).tooltip();
+} );
+
 /*-------------------------------*/
 /***** HERO ANIMATION        *****/
 /*-------------------------------*/
