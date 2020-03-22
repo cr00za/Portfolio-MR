@@ -52,7 +52,7 @@ p {
     font-size: 16px;
     padding: 0px;
 }
-
+.my-text-color  { color: #287094; }
 .sectionTitle { 
     font-weight: 900; 
     font-size: 40px;
@@ -118,12 +118,10 @@ html {scroll-behavior: smooth;}
     font-family: 'Lato', sans-serif; 
     font-weight: 600;
     font-size: 42px;
-    color: rgba(2, 50, 70, .9) !important;
 }
 #heroSubtitle { 
     font-weight: 300;
-    font-size: 24px;
-    color: #023246 !important;
+    font-size: 24px;;
 } 
 
 /* set up the shadow for the hero block */
@@ -200,14 +198,12 @@ html {scroll-behavior: smooth;}
 /*-------------------------------*/
 /* main phase heading number */
 h1.phaseNumber {
-    color: #023246;
     font-weight: 500;
     font-size: 20px;
 }
 
 /* main phase heading type */
 h2.phaseType {
-    color: #023246;
     font-weight: 900;
     font-size: 24px;
     max-width: 240px;
@@ -223,10 +219,19 @@ h2.phaseType {
     padding-bottom: 56px;
     margin-bottom: 0px;
 }
-h3.darkHeadings {
-    color: #023246;
+h3.my-highlight-title {
     font-weight: 500;
     font-size: 22px;
+}
+.my-highlight-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: #757575;
+}
+h3.darkHeadings {
+    font-weight: 500;
+    font-size: 22px;
+    color: #757575;
 }
 .lightHeadings {
     color: #505050;
@@ -285,19 +290,24 @@ box-shadow: 0px 44px 20px -30px rgba(196, 196, 196, 0.6);
     /* border-style: solid;  */
     border-width: 2px; 
 }
-.data-title {
-    font-weight: 400;    
+.my-data-title {
+    font-weight: 300;    
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     color: #757575;
 }
 /* titles within artifacts i.e. competitive analysis */
-.data-title2 {
+.my-data-title2 {
     font-weight: 300;    
     font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
-.data-text {
+.my-subtitle {
+    font-weight: 300;    
+    font-size: 18px;
+    color: #505050;    
+}
+.my-data-text {
     font-size: 16px;
     font-weight: 300;
 }
