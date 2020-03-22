@@ -156,6 +156,13 @@ html {scroll-behavior: smooth;}
     /* overlay with 20% #287094; */
     background: url("/images/case-wrc-hero2.png") center center no-repeat;
 }
+/* for women's resource center case study hero image */
+.myleft-side-rm {
+    width: 100%;
+    height: 400px;
+    /* overlay with 20% #287094; */
+    background: url("/images/case-RM-hero.jpg") center center no-repeat;
+}
 .myright-side {
     width: 100%;
     height: 400px;

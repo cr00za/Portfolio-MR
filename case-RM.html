@@ -29,31 +29,33 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Recycle Matters Case Study</title>
-        <meta property="og:site_name" content="Miguel's Portfolio Site"/>
-        <meta property="og:title" content="Home"/>
+        <meta property="og:site_name" content="Recycle Matters Case Study"/>
+        <meta property="og:title" content="Recycle Matters Case Study"/>
         <meta property="og:description" content="I create opportunities through human-centric design, bringing life to concepts, ideas, and dreams to connect and impact the world."/>
         <meta property="og:image" content="../images/Logo-dark.svg">
         <meta property="og:url" content="https://cr00za.github.io/Portfolio-MR/">
         <meta property="og:type" content="Portfolio"/>
 
+        <link rel="icon" type="image/svg" href="../images/Logo-dark-favicon.svg" />
+        <meta property="og:url" content="https://miguelruddock.com/case-RM.html">
+        <meta property="og:type" content="Portfolio"/>
+
         <!-- Font styles -->
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,600,700&display=swap" rel="stylesheet">
+   
        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <!-- Lightbox -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+        
         <!-- Custom -->
         <link rel="stylesheet" href="css/nav-styles.css">
         <link rel="stylesheet" href="css/wrc.css">
 
-    
-        
-        <!-- <link href="css/slider.css" rel="stylesheet"> -->
-        
-
         <!-- AOS CDN Library -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
-
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -62,111 +64,132 @@
     <body class="">
          
    
-
         <header>
             <!-- <div class="safezone">IPHONE X SAFE ZONE</div> -->
 
+            
+                <nav id="topheader" class=" navbar navbar-expand-md navbar-custom fixed-top navbar-light marginLeft-sm marginRight-sm " id="nav">
+                    <div class="container container-nav container-mywidth px-5">
+                        <div class="navSpacer">
+                            <a class="navbar-brand" href="index.html#"><img id="logo" src="images/Logo-light.svg" alt="Logo"></a>
+                        </div>   
+                            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "></span>
+                            </button>
+                        
+                        <div class="collapse navbar-collapse w-100 stroke justify-content-end" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <a class="nav-item nav-link active glassesHome" href="index.html#">Home <span class="sr-only"></span></a>
+                            <a class="nav-item nav-link js-anchor-link glassesProcess" href="index.html#myProcess-anchor">Process</a>
+                            <a class="nav-item nav-link js-anchor-link glassesPortfolio" href="index.html#portfolio-anchor">Portfolio</a>
 
-              <nav id="topheader" class=" navbar navbar-expand-md navbar-custom fixed-top navbar-light marginLeft-sm marginRight-sm" id="nav">
-                <div class="navSpacer">
-                    <a class="navbar-brand" href="#"><img id="logo" src="images/Logo-dark.svg" alt="Logo"></a>
-                </div>   
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                    </button>
-                
-                <div class="collapse navbar-collapse w-100 stroke justify-content-end" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active glassesHome" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link js-anchor-link glassesProcess" href="#myProcess">Process</a>
-                    <a class="nav-item nav-link js-anchor-link glassesPortfolio" href="#portfolio">Portfolio</a>
-                    <a class="nav-item nav-link js-anchor-link glassesAbout" href="#aboutMe">About</a>
-                    <a class="nav-item nav-link js-anchor-link toggle" onClick="parent.location='mailto:miguel.uxd@gmail.com?subject=Hi&'" href="#contactMe" >Contact</a>
-                  </div>
-                </div>
-              </nav>
+
+                            <a class="nav-item nav-link js-anchor-link glassesAbout" href="index.html#aboutMe-anchor">About</a>
+                            <a class="nav-item nav-link js-anchor-link toggle" onClick="parent.location='mailto:miguel.uxd@gmail.com?subject=Hi&'" href="#contactMe" >Contact</a>
+                          </div>
+                        </div>
+                    </div>
+
+                  </nav>
+          
+
         </header>
     
         <main>
             <!-- --------- -->
             <!-- JUMBOTRON -->
             <!-- --------- -->
-            
-  
-            <div class="jumbotron px-0 mx-0 mt-0 pt-0">
-                
-                <div class="row no-gutters heroBlock mt-0 pt-0">
-                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
-                        <div class="d-flex justify-content-center flex-column align-content-middle myleft-side pr-md-3">
-                            <img id="hero-pic" class="" src="images/case-RM-hero.jpg" alt="women's resource center for domestic violence">
+            <div class="container container-hero">
+                <div class="jumbotron px-0 mx-0 mt-0 pt-0">
+                    <div class="row no-gutters heroBlock mt-0 pt-0 ">
+                        <!-- background picture used for div -->
+                        <div class="col-12 col-md-6 px-0 ">
+                            <div class="myleft-side-rm d-flex justify-content-center">
+    
+                            </div>
                         </div>
-                    </div>
-
-                    <!-- setting up columns for larger devices / center button only on md or > devices -->
-                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center">
-                        <div class="myright-side align-content-middle text-center text-md-left flex-column pl-md-3 pr-md-4">
-                            <h2 id="heroTitle" class="display-4">Recycle Matters</h2>
-                            <h3 id="heroSubtitle" class="lead">Website design for a cause</h3>
-                            <p id="heroText" class="mycolumn-width">the online recycling tool built to help Americans find recycling locations 
-                                                    for specific items and info on how to recycle them correclty.</p>
+    
+                        <!-- setting up columns for larger devices / center button only on md or > devices -->
+                        <div class="col-12 col-md-6 myright-side d-flex justify-content-center pl-md-3">
+                            <div class="case-wrc-hero-text my-auto">
+                                <h2 id="heroTitle" class="display-4 my-text-color">Recycle Matters</h2>
+                                <h3 id="heroSubtitle" class="lead my-text-color">Website design for a cause</h3>
+                                <p id="heroText" class="mycolumn-width shade-text">The online recycling tool built to help Americans find recycling locations for specific items and info on how to recycle them correclty.</p>
+                            </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
-   
-        </div>
-
+             </div>
+    
         
         <!-- -------------------- -->
-        <!--  DISCOVERY - SECTION -->
+        <!-- PHASE I - DISCOVERY  -->
         <!-- -------------------- -->
 
-        <div class="container-fluid sectionBottomProcess">
+        <div class="csectionBottomProcess">
                             
-            <div class="container discovery">
+            <div class="container container-mywidth discovery px-5">
                 <!-- Title / phase / Icon -->
                 <div class="row sectionTitle">
                     <!-- Title / phase / Icon -->
-                    <div class="col-xs-6 ">
-                        <h1 class="phaseNumber">Phase I</h1>
-                        <h2 class="phaseType">DISCOVERY</h2>
-                    </div>
-                    <div class="col-xs-6 phaseIcon">
-                        <img src="images/discoverIcon2.svg" alt="discover phase icon">
+                    <div class="col-12 d-flex justify-content-center justify-content-lg-start">
+                        <div class="d-flex flex-row mycolumn-width ">
+                            <div class="">
+                                <h1 class="phaseNumber my-text-color">Phase I</h1>
+                                <h2 class="phaseType my-text-color">DISCOVER</h2>
+                            </div>
+                            <div class="pl-4 phaseIcon">
+                                <img src="images/discoverIcon2.svg" alt="discover phase icon">
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Role / Team / Timeline -->
                 <div class="row">
                     <!-- Role / Team / Timeline -->
-                    <div class="col-12 col-sm-6 ">
-                        <div class="row width-sm">
-                            <div class="col-6 leftSideLeft listItems">
-                                <h3 class="lightHeadings">My Role</h3>
-                                <ul>
-                                    <li>UX Researcher</li>
-                                    <li>UX/UI Designer</li>
-                                    <li>Interviewer</li>
-                                </ul>
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start ">
+                        <div class=" mycolumn-width">
+                            <div class="listItems ">
+                                <div class="d-flex ">
+                                    <!-- ROLE -->
+                                    <div>
+                                        <h3 class="lightHeadings">My Role</h3>
+                                        <ul>
+                                            <li>UX Researcher</li>
+                                            <li>UX/UI Designer</li>
+                                            <li>Interviewer</li>
+                                        </ul>
+                                    </div>
+                                    <!-- TIMELINE -->
+                                    <div class="pl-5">
+                                        <h3 class="lightHeadings">Timeline</h3>
+                                        <ul>
+                                            <li>Two weeks</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                               
                             </div>
+
                             <div class="col-6 leftSideRight listItems">
                                 <h3 class="lightHeadings">Team</h3>
                                 <ul>
+                                    <li>Brandon Pennington</li>
+                                    <li>Jesus Garcia</li>
                                     <li>Miguel Ruddock</li>
+                                    <li>Owen Smith</li>
                                 </ul>
-                            </div>
-                            <div class="col-6 leftSideLeft2 listItems">
-                                <h3 class="lightHeadings">Timeline</h3>
-                                <ul>
-                                    <li>Two weeks</li>
-                                </ul>
-                            </div>      
+                            </div>  
                         </div>
+                           
+                      
                     </div>
                     <!-- WHAT (Business) -->
-                    <div class="col-12 col-sm-6 rightSideRight">
+                    <div class="col-12 col-lg-6 rightSideRight d-flex justify-content-center justify-content-lg-start pt-5 pt-lg-0">
                         <div class="row">
                             <div class="col-12">
-                                <h3 class="darkHeadings">The Problem</h3>
+                                <h3 class="darkHeadings my-text-color">The Problem</h3>
                                 <P class="mycolumn-width">Recycling is intended to reduce pollution and provide a sustainable
                                     method for disposing of waste. We have observed that the current
                                     systems and services are not informing people on how to recycle
@@ -178,240 +201,43 @@
                     </div>
                 </div>
             </div>
-        </div>  
 
-            
         
-
-
-
-            
-
-            
-
-    
-            <!-- ------------------- -->
-            <!-- PORTFOLIO - SECTION -->
-            <!-- ------------------- -->
-            
-
-    
-                <div class="container-fluid portfolioBackground sectionBottomPortfolio">
-                    <div class="container">
-                            <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400"id="portfolio">Portfolio</h2>
-                    </div>
-                    <div class="container">
-                        <div class="row ">
-                            <!-- col-sm-8 col-md-8 col-lg-6 -->
-                            <div class="portfolioSubtitleBlock col-12  text-center">
-                                <!-- <div id="bar" class=""></div> -->
-                                <h3 class="portfolioSubtitleText">View samples of individual and group projects I’ve completed
-                                        below in my portfolio. They span from responsive web to mobile app design.</h3>
-                            </div>
-                
-                        </div>
-
-                        <div class="row justify-content-sm-center">
-                            <div id="travelCover" class="cover card-body col-12 col-sm-12 col-md-6 d-flex justify-content-center">
-                                <div class="port-cover d-flex justify-content-center flex-column">
-                                    <img class="coverImage" src="images/travelAppCover.jpg" alt="cover for travel project">
-                                    
-                                    <div id="travelChoice" class="projectChoiceBlock">
-                                        <div id="projectChoiceOne" class="projectChoiceTitle">
-                                            <h4 class="projectTitle">Travel Flow App</h4>
-                                            <h5 class="projectSubtitle">Mobile App Design</h5>
-                                        </div>
-                                        <a class="btn btn-primary btn-sm portfolioButton" target="_blank" href="//docs.google.com/presentation/d/1qT-N6msyJT0qMtQHgEsXVUe_Nx0uMtI3SYdojnPvLYw/edit?usp=sharing" role="button">See more</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        
-                            <!-- setting order for columns with  order-2 order-md-8 -->
-                            <div id="goodEatsCover" class="cover card-body col-12 col-sm-12 col-md-6 order-2 order-md-8 d-flex justify-content-center">
-                                <div class="port-cover">
-                                    <img class="coverImage" src="images/goodEatsCover.jpg" alt="cover for Good Eats project">
-                                    <div id="goodEatsChoice" class="projectChoiceBlock">
-                                        <div id="projectChoiceTwo" class="projectChoiceTitle">
-                                            <h4 class="projectTitle">Good Eats App</h4>
-                                            <h5 class="projectSubtitle">Medical Mobile App</h5>
-                                        </div>
-                                        <a class="btn btn-primary btn-sm portfolioButton" target="_blank" href="//docs.google.com/document/d/1UUEhMuEip8s86ba3jUCqPBUZQ3dj95SnNpWfBLyYXPM/edit?usp=sharing" role="button">See more</a>
-                                    </div>
-                                </div>
-                                
-                            </div>
-        
-                        </div>
-                        <div class="row">
-                            <div id="wrcdvCover" class="cover card-body col-12 col-sm-12 col-md-6 d-flex justify-content-center">
-                                <div class="port-cover">
-                                    <img class="coverImage" src="images/wrcdvCover.jpg" alt="cover for WRCDV project">
-                            
-                                    <div id="wrcdvChoice" class="projectChoiceBlock">
-                                        <div id="projectChoiceThree" class="projectChoiceTitle">
-                                            <h4 class="projectTitle">Women's Resource Center</h4>
-                                            <h5 class="projectSubtitle">Non-profit site redesign</h5>
-                                        </div>
-                                        <a class="btn btn-primary btn-sm portfolioButton" target="_blank" href="wrc-case-study.html" role="button">See more</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="cover card-body col-12 col-sm-12 col-md-6 d-flex justify-content-center">
-                                <div class="port-cover">
-                                    <img class="coverImage" src="images/recycleMattersCover.jpg" alt="cover for Recycle Matters">
-                                    
-                                    <div id="recycleChoice" class="projectChoiceBlock">
-                                        <div id="projectChoicefour" class="projectChoiceTitle">
-                                            <h4 class="projectTitle">Recycle Matters</h4>
-                                            <h5 class="projectSubtitle">Website Design</h5>
-                                        </div>
-                                        <a class="btn btn-primary btn-sm portfolioButton" target="_blank" href="https://drive.google.com/open?id=1563V6Megs85sPIjbWRgPITIrKNkVv4r3" role="button">See more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-    
-            <!-- --------------- -->
-            <!-- TOOLS - SECTION -->
-            <!-- --------------- -->
-            <div class="container-fluid toolsSection ">
-                
+            <!-- WHO (User) and WHAT (Challenge) -->
+            <div class="container container-mywidth pt-lg-5 px-5">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center">
-                        <h2 class="toolsText">My Toolbox</h2>
-                    </div>
-                </div>
-                
-                <div class="row align-items-end" >
-                    <div class="col-12 mx-auto " id="tools1">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
                         <div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolFigma.svg" alt="Figma tool icon">
-                                <p>Figma</p></div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolAdobeXD.svg" alt="Adobe XD tool icon">
-                                <p>AdobeXD</p></div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolSketch.svg" alt="Sketch tool icon">
-                                <p>Sketch</p></div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolInvision.svg" alt="Invision App tool icon">
-                                <p>InVision</p></div>
-                           
-                        </div>
-
-                        <div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolAdobePhotoshop.svg" alt="Adobe Photoshop tool icon">
-                                <p>Photoshop</p></div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolAdobeIllustrator.svg" alt="Adobe Illustrator tool icon">
-                                <p>Illustrator</p></div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolMiro.svg" alt="Miro tool icon">
-                                <p>Miro</p></div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolFlowmapp.svg" alt="Flowmapp tool icon">
-                                <p>Flowmapp</p></div>
+                            <h3 class="darkHeadings mycolumn-width my-text-color">Who are we trying to impact?</h3>
+                            <P class="mycolumn-width">Text</P>   
                         </div>
                     </div>
-                </div>
-                <div class="row align-items-end " >
-                    <div class="col-12 mx-auto" id="tools2">
-                        <div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolJQuery.svg" alt="JQuery tool icon">
-                                <p>jQuery</p></div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolJavascript.svg" alt="Javascript tool icon">
-                                <p>Javascript</p></div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolhtml5.svg" alt="HTML5 tool icon">
-                                <p>HTML5</p></div>
-                            <div class="toolIconblock"><img class="toolIcon mr-0 pr-0" src="images/toolCSS.svg" alt="CSS tool icon">
-                                <p>CSS</p></div>
-                        </div>
 
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
                         <div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolBootstrap.svg" alt="Bootstrap tool icon">
-                                <p>Bootstrap</p></div>
-                            <div class="toolIconblock"><img class="toolIcon" src="images/toolGithub.svg" alt="Github tool icon">
-                                <p>GitHub</p></div>
-                            <div class="toolIconblock"><img class="toolIcon mr-0 pr-0" src="images/toolWebAim.svg" alt="WebAim tool icon">
-                                <p>WebAim</p></div>
+                            <h3 class="darkHeadings my-text-color mycolumn-width">What was the business challenge?</h3>
+                            <P class="mycolumn-width">Text</P>
                         </div>
                     </div>
                 </div>
             </div>
 
-      
-            <!-- --------------- -->
-            <!-- Quote - SECTION -->
-            <!-- --------------- -->
-            <section class="quoteSection">
-                <div class="containter-fluid">
-                    <div class="row  quoteBlock mx-auto">
-                        <!-- <h2 class="showcaseQuote mx-auto col-12">Challenges are<br>opportunities<br>in disguise.</h2> -->
-                        <div class=" col-12 aboutQuote " > 
-                            <img  src="images/about-quote.svg" alt="Quote Challenges are opportunities in disguise">
-                        </div>
-                        
+        </div>      
+        
+
+        <div class="">
+            <div class="container px-5">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img class="artifact img-fluid" src="images/coding-in-progress.png" alt="">
                     </div>
-                </div>
-            </section>
-
-           
-            <!-- ------------------ -->
-            <!-- ABOUT ME - SECTION -->
-            <!-- ------------------ -->
-            
-            <div class="container-fluid sectionBottomAbout">
-                <div class="container aboutSection">
-                    <h2 class="sectionTitle text-center" data-aos="fade-in" data-aos-delay="400" id="aboutMe">About Me</h2>
-                </div>
-
-                <div class="container aboutSection">
-            
-                    <div class="row bioImageRow d-flex justify-content-center">
-                
-                        <div id="bioColumn" class="col-12 col-sm-5 order-0 ">
-                            <div class="bioBlock text-center d-flex justify-content-center justify-content-sm-end pr-sm-0">
-                                <img id="bioImage" class="bio-abtest" src="images/Portfolio Portrait-navy.svg" alt="portfolio portrait">
-                            
-                            </div> 
-                    
-                        </div>
-                    
-                        <div id="synergyColumn" class="col-12 col-sm-6 d-flex justify-content-center justify-content-start">
-                            <div class="synergyBlock pl-sm-5"> 
-                                <img src="images/synergyDesignBlock.svg" alt="synergy block" class="biohero-xs">
-                                <img src="images/synergyDesignBlock-sm.svg" alt="synergy block" class="biohero-sm">
-                                <img src="images/synergyDesignBlock-lg.svg" alt="synergy block" class="biohero-lg">
-                            </div>
-                        </div>
-
-                    </div>
-            
-                    
-                    <div class="row aboutVerbiage">
-                        
-                        <div class="col-12 col-sm-4 order-xs-1">
-                            <div id="mantra" class="abBlocks">                              
-                                    <h2 class="aboutSubtitle">My personal mantra:</h2>
-                                    <p class="aboutText">Design conversations and solutions that appeal to the heart of people and keep them engaged in a way that compliments the brand.</p>
-                            </div>
-                        </div>      
-
-                        <div class="col-12 col-sm-4 order-xs-2">
-                            <div id="whyux" class="abBlocks">                                
-                                <h2 class="aboutSubtitle">Why UX/UI?</h2>
-                                <p class="aboutText">I began my career as a UX/UI designer after several  years as an electrical engineering consultant. UX/UI gave me a way to build on my skills in project management, collaboration, and meticulousness with detail to learn how to design creatively.</p>
-                            </div>
-                        </div>    
-
-                        <div class="col-12 col-sm-4 order-xs-3">  
-                            <div id="influence" class="abBlocks">      
-                            <h2 class="aboutSubtitle">What has influenced me?</h2>
-                            <p class="aboutText">I’ve lived in and traveled to 15 countries including Japan, Austria, and Australia. But no matter where I go I always make new friends and create space in what began as unfamiliar.  <br><br>In my spare time I enjoy silversmithing, guitar, Anime, sculpting running marathons, and working with my nonprofit, Heal Georgia.</p>
-                        </div>
-                    </div>  
-                        
                 </div>
             </div>
+        </div>   
+
+            
+
+            
 
             
        
@@ -421,11 +247,11 @@
         <!-- ---------------- -->
         <!-- FOOTER - SECTION -->
         <!-- ---------------- -->
-        <footer class="container-fluid footerBlock">
-            <div class="container foot">  
+        <footer class="footerBlock">
+            <div class="container foot px-5">  
 
                 <div class="row">
-                    <div id="connect" class="col-6 col-sm-4">
+                    <div id="connect" class="col-6 col-sm-4 text-left">
                         <p class="email">Miguel.uxd@gmail.com</p>
                         <div class=""> 
                             <!-- <a class="btn btn-primary btn-sm toggle" href="#" role="button">Contact me</a> -->
@@ -435,7 +261,7 @@
                         </div>
                     </div>
                     
-                   <div class="col-6 col-sm-4">
+                   <div class="col-6 col-sm-4 text-center">
                         <p>Connect on Social Media</p>   
                         <div class="socialBlocks">
                             <a class="socialIcons " href="https://www.linkedin.com/in/miguelruddock/" target="_blank">
@@ -443,7 +269,7 @@
                         </div> 
                    </div>
 
-                    <div class="col-12 col-sm-4 pt-5 pt-sm-0">
+                    <div class="col-12 col-sm-4 pt-5 pt-sm-0 text-center">
                         <p>© Miguel Ruddock 2020</p>
                     </div>
 
@@ -451,6 +277,7 @@
 
             </div>
         </footer>
+
 
     
 
@@ -462,9 +289,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/interactions.js"></script>
-    <script src="js/slider.js"></script>
     <script src="js/hero.js"></script>
-    <script src="js/modalContact.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
     <!-- Animate on Scroll -->
     <script>   
         AOS.init({  

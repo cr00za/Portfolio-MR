@@ -20,8 +20,9 @@
 #logo {width: 50%;}
 
 /* GENERAL */
-/* Hide element until I'm ready to show it */
-.hide-it {display: none;}
+/* Hide element until I'm ready to show it - but keep the spacing that the element takes up */
+.hide-it {visibility: hidden;}
+
 
 
 /*-------------------------------*/
