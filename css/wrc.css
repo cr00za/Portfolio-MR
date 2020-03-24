@@ -1,3 +1,14 @@
+/* <!-- ------------------------ -->
+<!-- Mid-Fi Digital Prototype -->
+<!-- ------------------------ --> */
+.paralax-pic {
+    height:400px;
+    width:420px;
+    background: url("../images/case-rm-feature2.jpg") no-repeat left center fixed;
+    background-size: inherit;
+    z-index: 0;
+    text-align: left;
+}
 
 /*-----------------------*/
 /***** GLOBAL STYLES *****/
